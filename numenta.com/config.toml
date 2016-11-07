@@ -32,7 +32,7 @@ description = 'Leading the New Era of Machine Intelligence'
     # htm community
     license = 'http://numenta.org/licenses/'
     org = 'http://numenta.org'
-    papers = '/papers/'
+    papers = 'http://numenta.org/papers/'
     patents = 'http://patft.uspto.gov/netacgi/nph-Parser?Sect1=PTO2&Sect2=HITOFF&p=1&u=%2Fnetahtml%2FPTO%2Fsearch-bool.html&r=0&f=S&l=50&TERM1=Numenta&FIELD1=ASNM&co1=AND&TERM2=&FIELD2=&d=PTXT'
     trial = 'http://numenta.org/licenses/trial/'
     # social
