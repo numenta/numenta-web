@@ -88,7 +88,7 @@ const SectionBusiness = (props, {config}) => {
             <TextLink to={links.out.org}>{links.out.org}.</TextLink> {' '}
             We post all of our application and algorithm code in NuPIC as
             well as our research updates as they occur. We {' '}
-            <TextLink to={links.in.papers}>publish our work</TextLink> {' '}
+            <TextLink to={links.out.papers}>publish our work</TextLink> {' '}
             in peer-reviewed journals and submit pre-publication manuscripts
             to arXiv. We also speak at a variety of forums, such as machine
             learning, data science, neuroscience, and application-specific
@@ -296,7 +296,7 @@ const SectionBusiness = (props, {config}) => {
                 non-commercial use including publications, teaching, and
                 experimentation. We do ask that you provide appropriate
                 citations of our work. Make sure to visit our current repository
-                of <TextLink to={links.in.papers}>research papers.</TextLink>
+                of <TextLink to={links.out.papers}>research papers.</TextLink>
                 {' '} If you are a corporate researcher who is applying this
                 technology to commercial use, then you will need to evaluate the
                 Numenta patent portfolio to see if our patents cover your work.

@@ -67,7 +67,7 @@ const SectionNeuroscience = (props, {config}) => {
           </Paragraph>
           <Paragraph>
             We document our research in several ways, including {' '}
-            <TextLink to={links.in.papers}>
+            <TextLink to={links.out.papers}>
               peer-reviewed journal papers,
             </TextLink> {' '}
             conference proceedings, research reports, {' '}
