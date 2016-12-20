@@ -1,0 +1,128 @@
+NUMENTA, INC.
+
+NUMENTA TRIAL LICENSE AGREEMENT
+
+(VERSION 1.0 DATED AUGUST 03, 2015)
+
+This Numenta Trial License Agreement (the "Agreement") governs your use of NuPIC
+(as defined below).  Numenta is willing to license NuPIC to you only upon the
+condition that you accept all of the terms contained in this Agreement.  By
+electronically signing this Agreement, you indicate that you have read and
+understand this Agreement and accept all of its terms.  If you agree to these
+terms on behalf of a business, government agency, or other entity, you warrant
+that you have authority to bind that business, agency, or other entity to this
+Agreement, and your agreement to these terms will be treated as the agreement of
+that business, agency, or other entity.  In that event, "you" and "your" refer
+herein to that business, agency, or other entity.
+
+PREAMBLE
+
+The purpose of this Preamble is to give a plain English description of our
+license.  Please read the license itself carefully for detailed terms and
+conditions.
+
+Numenta welcomes individuals, businesses, and other entities to explore and
+advance HTM technology.  This license allows you to explore HTM ideas using
+NuPIC in whole or in part, at no charge, as long as your work is for research
+and experimentation purposes only.  You may not sell or distribute NuPIC or your
+work product for commercial or production use unless you take an appropriate
+commercial license from us.
+
+1. Definitions.
+
+"HTM" means the Hierarchical Temporal Memory theory.
+
+"NuPIC" means the Numenta Platform for Intelligent Computing, consisting of all
+AGPL codebases made available through the "numenta" GitHub organization at
+http://github.com/numenta. Any technology that does not exist at
+http://github.com/numenta with an AGPL license is not included in this License.
+
+2. License, Permitted Uses, Restrictions, and Ownership.
+
+(a)  License.  Numenta hereby grants you a non-exclusive, non-transferable,
+royalty-free license during the term of this Agreement to install and use NuPIC
+for the permitted uses detailed in section 2(b) subject to the restrictions
+detailed in section 2(c).
+
+(b) Permitted Uses.  You may use NuPIC to conduct research and analysis. You may
+use NuPIC for evaluation and for validation of its applicability to specific
+problems. You may use NuPIC for instruction and training.  You may use NuPIC to
+create applications that endeavor to solve problems, to train the application
+with data, and to test and debug the application. You may publish information
+regarding the results of your research as long as you include an appropriate
+citation. You may modify and create derivative works of NuPIC.
+
+(c) Restrictions.  You may not offer for sale, distribute, or permit others to
+use any technology that includes the NuPIC software or intellectual property,
+either free or for a fee, unless you have entered into an appropriate Numenta
+commercial license agreement.
+
+(d) Ownership of Intellectual Property.  You agree that Numenta owns all right,
+title and interest, including but not limited to copyright, patent, trade secret
+and all other intellectual property rights, in and to NuPIC, and any changes,
+modifications, or corrections thereto.  You hereby grant to Numenta a perpetual,
+irrevocable, world-wide, royalty-free, non-exclusive, license to use any
+feedback, suggestions, or ideas that you provide directly to Numenta regarding
+NuPIC.
+
+3. No Support.  You acknowledge and agree that Numenta undertakes no obligation
+to provide any support, error corrections, or upgrades for NuPIC, and that you
+assume all risk arising from your use of NuPIC.
+
+4. Termination.  You may terminate this Agreement at any time upon written
+notice to Numenta.  Either party may terminate this Agreement immediately upon
+written notice to the other party:  (i)?in the event of the insolvency,
+bankruptcy or voluntary dissolution of the other party; or (ii)?if the other
+party defaults in the performance of any provision hereunder, and if such
+default continues and is not cured within thirty (30) days after written notice
+thereof to the defaulting party.  Upon any termination of this Agreement, you
+agree to immediately cease using NuPIC.
+
+5. No Warranties; Limitation of Liability.
+
+(a)  No Warranty. NuPIC is provided ?as is? without warranty of any kind
+including without limitation, any warranty of merchantability, fitness for a
+particular purpose, or non-infringement.  Further, Numenta does not warranty
+results of use or that NuPIC is bug free or that its use will be uninterrupted.
+The parties agree and acknowledge that NuPIC is an early-stage technology and
+there can be no assurance that NuPIC will be further developed or improved by
+Numenta into a commercially viable product.  No advice or information, whether
+oral or written, obtained from Numenta or elsewhere will create any warranty not
+expressly stated in this Agreement.
+
+(b)  Limitation of Liability.  Numenta will have no liability to you under this
+Agreement.  In no event will either party be liable for costs of procurement of
+substitute goods, loss of profits, or for any special, indirect, consequential
+or incidental damages, however caused, whether for breach of warranty, breach of
+contract, repudiation of contract, negligence or otherwise.
+
+6. General.  Once executed, this Agreement takes precedence over the standard
+open source licenses provided at www.numenta.org and http://github.com/numenta.
+The terms of this Agreement may only be modified by a written agreement signed
+by both parties.  You may not assign this Agreement without the prior written
+consent of Numenta.  This Agreement will be governed by the laws of the state of
+California and the United States of America.  No failure of either party to
+enforce any of its rights under this Agreement will act as a waiver of such
+rights or of any other rights hereunder.
+
+Full Name: ___________________________________________________________
+
+Address: _____________________________________________________________
+
+	____________________________________________________________________
+
+Country: _____________________________________________________________
+
+Telephone: ___________________________________________________________
+
+Email: _______________________________________________________________
+
+Application Name: ____________________________________________________
+
+Application Description:
+
+	____________________________________________________________________
+
+	____________________________________________________________________
+
+Signature: ___________________________________________________________

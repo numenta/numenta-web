@@ -1,0 +1,13 @@
+/**
+ * Numenta Web Platform and Sites source code
+ * MIT License (see LICENSE.txt)
+ * Copyright © 2005—2017 Numenta <http://numenta.com>
+ */
+
+.events {
+  /* */
+}
+.events h2 {
+  border-bottom: 0;
+  padding-bottom: 0;
+}

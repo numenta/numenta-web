@@ -1,0 +1,301 @@
+exports[`Implementations Page React component Renders correctly 1`] = `
+<article>
+  <section
+    className="section"
+    id={undefined}>
+    <h1
+      className="headline">
+      Implementations
+    </h1>
+    <div
+      className="article">
+      <div
+        className="columns">
+        <div
+          className="aside">
+          <div
+            className="logomark">
+            <img
+              alt="Numenta Logo Mark"
+              className="image"
+              onClick={undefined}
+              src="filename.ext"
+              title="Numenta" />
+          </div>
+        </div>
+        <div
+          className="content">
+          <p
+            className="paragraph lead">
+            <a
+              className="textlink"
+              href={undefined}
+              onClick={[Function]}
+              style={Object {}}
+              target={undefined}>
+              Hierarchical Temporal Memory (HTM)
+            </a>
+             
+             
+            is a theory of intelligence that can be implemented in most computer programming languages. Below are descriptions of several HTM implementations currently active within our community. For detailed descriptions of HTM algorithms, see our living text,
+             
+            <a
+              className="textlink"
+              href="http://numenta.com/biological-and-machine-intelligence/"
+              onClick={[Function]}
+              target={undefined}>
+              Biological and Machine Intelligence.
+            </a>
+             
+             
+            It contains pseudocode for both the 
+             
+            <a
+              className="textlink"
+              href="http://numenta.com/assets/pdf/biological-and-machine-intelligence/0.4/BaMI-Spatial-Pooler.pdf"
+              onClick={[Function]}
+              target={undefined}>
+              spatial pooling
+            </a>
+             and 
+             
+            <a
+              className="textlink"
+              href="http://numenta.com/assets/pdf/biological-and-machine-intelligence/0.4/BaMI-Temporal-Memory.pdf"
+              onClick={[Function]}
+              target={undefined}>
+              temporal memory
+            </a>
+             algorithms (PDFs).
+          </p>
+          <p
+            className="paragraph">
+            <strong
+              className="strong">
+              NuPIC
+            </strong>
+            , or the 
+             
+            <strong
+              className="strong">
+              Numenta Platform for Intelligent Computing,
+            </strong>
+             
+             
+            is an HTM implementation created by Numenta and open-sourced in June 2013. This codebase is the original HTM codebase, and is architected in a way that allows algorithmic experimentation in Python, but more performant versions of HTM algorithms in C++.
+          </p>
+        </div>
+      </div>
+      <div
+        className="columns">
+        <div
+          className="aside">
+          <img
+            alt="C++ Logo"
+            className="image mw"
+            onClick={undefined}
+            src="filename.ext"
+            title={undefined} />
+        </div>
+        <div
+          className="content">
+          <span
+            className="anchor"
+            id="nupic-core" />
+          <h2
+            className="h2">
+            NuPIC Core (C++)
+          </h2>
+          <p
+            className="paragraph">
+            Our C++ codebase contains all HTM algorithms written in C++, and SWiG language bindings to Python. Language bindings to other environments should be added here.
+          </p>
+          <p
+            className="paragraph">
+            This codebase exposes the 
+             
+            <a
+              className="textlink"
+              href="https://github.com/numenta/nupic/wiki/Network-API"
+              onClick={[Function]}
+              target={undefined}>
+              Network API,
+            </a>
+             
+             
+            which is the primary low-level interface for creating HTM systems.
+          </p>
+          <div
+            className="promote">
+            <a
+              className="textlink"
+              href="http://github.com/numenta/nupic.core"
+              onClick={[Function]}
+              target={undefined}>
+              http://github.com/numenta/nupic.core
+            </a>
+          </div>
+        </div>
+      </div>
+      <div
+        className="columns">
+        <div
+          className="aside">
+          <img
+            alt="Python Logo"
+            className="image mw"
+            onClick={undefined}
+            src="filename.ext"
+            title={undefined} />
+        </div>
+        <div
+          className="content">
+          <span
+            className="anchor"
+            id="nupic-py" />
+          <h2
+            className="h2">
+            NuPIC (Python)
+          </h2>
+          <p
+            className="paragraph">
+            The NuPIC Python codebase contains Python code implementations of HTM. Through this interface, uses may specify whether their code runs Python algorithms or the faster C++ algorithms using the Python bindings provided in 
+            <strong
+              className="strong">
+              nupic.core
+            </strong>
+            .
+          </p>
+          <p
+            className="paragraph">
+            In addition to providing Python bindings to the 
+             
+            <strong
+              className="strong">
+              nupic.core
+            </strong>
+             
+             
+            <a
+              className="textlink"
+              href="https://github.com/numenta/nupic/wiki/Network-API"
+              onClick={[Function]}
+              target={undefined}>
+              Network API,
+            </a>
+             
+             
+            this codebase also includes a higher-level client API called the Online Prediction Framework (OPF), which is tuned towards experimentation with predictions, anomaly detection, and 
+             
+            <a
+              className="textlink"
+              href="https://github.com/numenta/nupic/wiki/Running-Swarms"
+              onClick={[Function]}
+              target={undefined}>
+              identifying optimal model parameters (swarming).
+            </a>
+          </p>
+          <div
+            className="promote">
+            <a
+              className="textlink"
+              href="http://github.com/numenta/nupic"
+              onClick={[Function]}
+              target={undefined}>
+              http://github.com/numenta/nupic
+            </a>
+          </div>
+        </div>
+      </div>
+      <div
+        className="columns">
+        <div
+          className="aside">
+          <img
+            alt="Java Logo"
+            className="image mw"
+            onClick={undefined}
+            src="filename.ext"
+            title={undefined} />
+        </div>
+        <div
+          className="content">
+          <span
+            className="anchor"
+            id="htm-java" />
+          <h2
+            className="h2">
+            HTM.Java
+          </h2>
+          <p
+            className="paragraph">
+            While the copyright to 
+            <strong
+              className="strong">
+              HTM.Java
+            </strong>
+             was generously donated to Numenta by it\'s 
+             
+            <a
+              className="textlink"
+              href="https://discourse.numenta.org/users/cogmission"
+              onClick={[Function]}
+              target={undefined}>
+              author,
+            </a>
+             
+             
+            it is a community-created and maintained port of NuPIC algorithms into Java. This JVM runtime provides a similar experience to the NuPIC Network API, and has algorithmic parity with NuPIC.
+          </p>
+          <div
+            className="promote">
+            <a
+              className="textlink"
+              href="http://github.com/numenta/htm.java"
+              onClick={[Function]}
+              target={undefined}>
+              http://github.com/numenta/htm.java
+            </a>
+          </div>
+        </div>
+      </div>
+      <div
+        className="columns">
+        <div
+          className="aside">
+          <img
+            alt="Clojure Logo"
+            className="image mw"
+            onClick={undefined}
+            src="filename.ext"
+            title={undefined} />
+        </div>
+        <div
+          className="content">
+          <span
+            className="anchor"
+            id="comportex" />
+          <h2
+            className="h2">
+            Comportex (Clojure)
+          </h2>
+          <p
+            className="paragraph">
+            Comportex is an implementation of HTM as a Clojure library. It is not a port of NuPIC, it is a separate implementation based initially on the Numenta \"CLA white paper\" but significantly evolved.
+          </p>
+          <div
+            className="promote">
+            <a
+              className="textlink"
+              href="https://github.com/htm-community/comportex"
+              onClick={[Function]}
+              target={undefined}>
+              https://github.com/htm-community/comportex
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</article>
+`;

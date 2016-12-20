@@ -1,0 +1,36 @@
+/**
+ * Numenta Web Platform and Sites source code
+ * MIT License (see LICENSE.txt)
+ * Copyright © 2005—2017 Numenta <http://numenta.com>
+ */
+
+._focus:focus {
+  border: 2px solid #1aa0db;
+  color: #000;
+  outline: 0;
+}
+
+.large {
+  /* */
+}
+.medium {
+  max-width: 20rem;
+}
+.small {
+  max-width: 12rem;
+}
+
+.formInput {
+  composes: ba from 'tachyons';
+  composes: b--black-20 from 'tachyons';
+  composes: br2 from 'tachyons';
+  composes: f5 from 'tachyons';
+  composes: flex-auto from 'tachyons';
+  composes: fw3 from 'tachyons';
+  composes: input-reset from 'tachyons';
+  composes: pb1 from 'tachyons';
+  composes: ph2 from 'tachyons';
+  composes: pt2 from 'tachyons';
+  composes: silver from 'tachyons';
+  composes: _focus;
+}

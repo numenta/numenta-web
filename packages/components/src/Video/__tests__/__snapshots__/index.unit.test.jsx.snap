@@ -1,0 +1,17 @@
+exports[`Video React view component Renders correctly 1`] = `
+<div
+  className="video">
+  <img
+    alt="Video Title youtube video screenshot"
+    className="image border mw shadow"
+    onClick={[Function]}
+    src="filename.ext"
+    title={undefined} />
+  <div
+    className="caption">
+    Video: 
+    Video Title (02:23)
+  </div>
+  <noscript />
+</div>
+`;

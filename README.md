@@ -2,17 +2,57 @@
 
 Source code, generators, tooling, and content for Numenta websites and platform.
 
+
+# Monorepo
+
+This is a [monorepo](http://danluu.com/monorepo/), managed with
+[Lerna.js](https://github.com/lerna/lerna). This monorepo contains several child
+sub-repos (websites, shared components, utils) located in the `/packages`
+directory.
+
+We currently have sub-packages maintain their own unique version numbers (not
+forcing a global version sync across packages).
+
+## Filesystem
+
 ```shell
-.                   # https://github.com/numenta/numenta-web
-├── .eslintrc.json  # Shared JS ES6 lint rules, mostly AirBnB defaults + tweaks
-├── .stylelintrc    # Shared CSS style lint rules
-├── components/     # Shared React View Components for all sites
-├── LICENSE.txt     # Open Source MIT License information.
-├── numenta.com/    # Source for Numenta company site: http://numenta.com
-├── numenta.org/    # Source for Numenta HTM Community site: http://numenta.org
-├── package.json    # Shared npm packages to install for all sites
-├── README.md       # This file, welcome docs.
-└── utils/          # Shared helper utilities for all sites
+.                     # https://github.com/numenta/numenta-web/
+├── .eslintrc.json    # Shared JS ES6 lint rules, AirBnB defaults + tweaks.
+├── .stylelintrc      # Shared CSS style lint rules.
+├── LICENSE.txt       # Open Source MIT License information.
+├── README.md         # This file, welcome documentation.
+├── lerna.json        # Lerna.js monorepo tool config file.
+├── package.json      # Skeleton monorepo project config (not really used).
+└── packages/         # Child sub-repos of our Lerna monorepo, details below.
+    ├── components/   # Shared React View Components to be used amongst sites.
+    ├── numenta.com/  # http://numenta.com Numenta Company website source code.
+    ├── numenta.org/  # http://numenta.org HTM Community website source code.
+    └── utils/        # Shared helper utils to be used amongst sites.
+```
+
+## Setup
+
+These instructions assume latest Mac OS/X with [homebrew](http://brew.sh/)
+package manager installed. Other platforms should come up just as easily.
+
+```shell
+brew install git node
+npm install --global lerna@prerelease
+git clone git@github.com:numenta/numenta-web.git
+cd numenta-web/
+lerna bootstrap
+```
+
+You should now be ready to run any of the child repos, further details below.
+
+### Updating
+
+If you update the child repos, and need to re-sync everything back together
+again, just re-run Lerna's `bootstrap` command anytime:
+
+```shell
+cd numenta-web/
+lerna bootstrap
 ```
 
 
@@ -92,17 +132,17 @@ us accomplish all of this.
 
 ### Filesystem
 
-**The contents of each individual website source directory (`cd numenta.com/`)
-will look like the following:**
+***The contents of each individual website source directory
+(i.e. `cd packages/numenta.com/`) will look like the following:***
 
 ```shell
-.                       # Inside `numenta.com/` or `numenta.org/`
+.                       # Inside `packages/numenta.com/` or similar
 ├── .babelrc            # Babel ES6 transpiler configuration file
 ├── .eslintignore       # ES lint files and paths to ignore during run
 ├── .jestrc.json        # Jest testing framework config, assets under test/
 ├── .stylelintignore    # CSS style lint files to ignore
 ├── LICENSE.txt         # Open Source MIT License information.
-├── README.md           # This file, welcome docs.
+├── README.md           # Site-specific intro documentation.
 ├── __tests__/          # Shared and Site-specific Component Tests & Mocks, etc.
 ├── components/         # React view Components, Assets, and Tests (HTML/CSS/JS)
 ├── config.toml         # Configuration setings for Gatsby static site generator
@@ -158,16 +198,10 @@ page transitions, a full client-side text search system, etc.
 | **Win/7**   |        |         |        |      |       |   ✓   |         |
 | **Linux**   |    ✓   |    ✓    |        |      |       |       | &nbsp;  |
 
-## Setup
-
-Please see each site's individual `README.md` for specific setup instructions.
-
-**Each site needs to be setup before running scripts, tests, etc.**
-
 ## Scripts
 
-**Scripts should be run from inside each websites individual source
-directory (`cd numenta.com/`).**
+***Scripts should be run from inside each websites individual source
+directory (`cd packages/numenta.com/`).***
 
 | Function | `<command>` | Notes |
 | -------- | ----------- | ----- |
@@ -175,24 +209,22 @@ directory (`cd numenta.com/`).**
 | Clean | `npm run clean` | Clean build |
 | Clean Build | `npm run clean:build` | Clean Gatsby static output from `/public` |
 | Clean NPM | `npm run clean:npm` | Reset npm packaging |
-| Clean Test | `npm run clean:test` | Clean up after test runs (remove `/coverage` reports, etc) |
+| Clean Tests | `npm run clean:test` | Clean up after test runs (remove `/coverage` reports, etc) |
 | Deploy | `npm run deploy:gh-pages` | Deploy branch `public/` build to `origin:gh-pages` |
 | Develop | `npm run dev` | Develop site interactively on http://localhost:8000 |
 | Lint | `npm run lint` | Check code for meeting js/css/html linting conventions |
 | Serve | `npm run serve` | Builds, then Serves static output |
 | Test | `npm run test` | Runs all test suites: unit, integration, web, etc. |
-| Test Links Local | `npm run test:links:local` | Runs link checker against http://0.0.0.0:8000 |
-| Test Links Production | `npm run test:links:prod` | Runs link checker against Production site |
-| Test Links Staging | `npm run test:links:stage` | Runs link checker against Staging site |
+| Test Links | `npm run test:links` | Runs link checker |
 | Test Unit | `npm run test:unit` | Runs just Unit Tests |
-| Test Unit Coverage | `npm run test:unit:cover` | Runs unit tests, generate coverage report in `coverage/` directory, and open in browser |
+| Test Unit Coverage | `npm run test:unit:cover` | Runs unit tests, generate coverage report in `coverage/` directory |
 | Test Unit Update | `npm run test:unit:update` | Recreate out-of-date snapshots for Unit tests |
-| Test Unit Watch | `npm run test:unit:watch` | Constantly Re-Runs unit tests while watching for file changes |
+| Test Unit Watch | `npm run test:unit:watch` | Run unit tests while watching for files to change in realtime |
 
 ## Testing
 
-**Tests should be run from inside each websites individual source
-directory (`cd numenta.com/`).**
+***Tests should be run from inside each websites individual source
+directory (`cd packages/numenta.com/`).***
 
 Individual React `components/` (which may be shared between sites) each have
 their own `__tests__` subdirectory. All other tests (site-specific pages,
@@ -210,7 +242,15 @@ Run only unit tests:
 
 ```shell
 npm run test:unit
-npm run test:unit:watch  # auto re-run on changes to test files
+```
+
+Run unit tests while watching filesystem for changes in realtime (requires
+3rd-party [Watchman](https://facebook.github.io/watchman/) to be installed
+first):
+
+```
+brew install watchman
+npm run test:unit:watch
 ```
 
 Unit tests take and use snapshots in order to perform. Make sure new or updated
@@ -221,11 +261,13 @@ npm run test:unit:update
 ```
 
 Run the command below to generate a Unit Test Code Coverage report, which will
-be saved in your local `./coverage` directory. Your browser should automatically
-open this report when the testing is finished, and the report is generated.
+be saved in your local `./coverage` directory.
 
 ```shell
 npm run test:unit:coverage
+
+# open nice coverage report in browser (Mac OS/X)
+open ./coverage/lcov-report/index.html
 ```
 
 ### Hyperlinks
@@ -235,13 +277,17 @@ npm run test:unit:coverage
 #   You probably have `npm run serve` ready in another terminal window or
 #   background job process. Or, you could do `npm run build` and run an http
 #   server on the contents of `public/`.
-npm run test:links:local
+npm run test:links -- http://localhost:8000
 
-npm run test:links:stage  # test hyperlinks on Staging
-npm run test:links:prod   # test hyperlinks on Production
+# Test hyperlinks on staging or production
+npm run test:links -- http://staging.numenta.com
+npm run test:links -- http://numenta.com
 ```
 
 ## Build
+
+***Builds should be run from inside each websites individual source
+directory (`cd packages/numenta.com/`).***
 
 Average build wait times:
 
@@ -383,10 +429,11 @@ example, see the local file `.eslintrc.json`).
 * Include spaces manually around React Elements in JSX with: `{' '}`
 * Custom [React context](https://facebook.github.io/react/docs/context.html)
   which is available:
-  * `config` = Site config (see: `config.toml`)
+  * `config` = Site config (see: `config.toml`).
+  * `manifest` = Site `package.json` manifest vars like `repo` and 'version`
 * Make sure to use the `prefixLink()` helper function on all internal links.
   This should be handled auto-magically for you already, but if you have trouble
-  with links on staging, this may be the problem.
+  with links on staging, this may be the problem
 
 ### Content
 
@@ -482,12 +529,6 @@ example, see the local file `.eslintrc.json`).
   ```
 
 
-# Shared
-
-Code shared between websites (components, utils, etc.) is located in
-the `shared/` directory.
-
-
 # Contributing
 
 These projects are open source, and
@@ -509,7 +550,7 @@ the following scripts against your change branch:
 # License
 
 ```
-Numenta.com company website source code
+Numenta Web Platform and Sites source code
 MIT License (see LICENSE.txt)
-Copyright © 2005—2016 Numenta <http://numenta.com>
+Copyright © 2005—2017 Numenta <http://numenta.com>
 ```

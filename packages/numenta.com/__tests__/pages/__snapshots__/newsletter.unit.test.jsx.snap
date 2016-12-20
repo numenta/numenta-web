@@ -1,0 +1,68 @@
+exports[`Newsletter Page React component Renders correctly 1`] = `
+<article>
+  <div
+    className="signup">
+    <form
+      acceptCharset="UTF-8"
+      action="//numenta.us2.list-manage.com/subscribe/post?u=b838879da2baa539870afd320&id=23e65d3407"
+      autoComplete="off"
+      className="form"
+      encType="multipart/form-data"
+      id="mc-embedded-subscribe-form"
+      method="post"
+      name="mc-embedded-subscribe-form"
+      onSubmit={undefined}>
+      <div
+        className="formRow">
+        <div
+          className="field">
+          <label
+            className="formLabel"
+            htmlFor="EMAIL">
+            Newsletter Signup
+          </label>
+          <input
+            className="formInput large"
+            id="EMAIL"
+            name="EMAIL"
+            onChange={undefined}
+            placeholder="name@company.com"
+            type="email"
+            value={undefined} />
+          <button
+            className="button short"
+            disabled={false}
+            onClick={undefined}
+            type="submit">
+            Send
+          </button>
+        </div>
+      </div>
+      <input
+        className="formInput large"
+        id="b_b838879da2baa539870afd320_23e65d3407"
+        name="b_b838879da2baa539870afd320_23e65d3407"
+        onChange={undefined}
+        placeholder={undefined}
+        type="hidden"
+        value="" />
+    </form>
+  </div>
+  <div
+    className="newsletter">
+    <section
+      className="section"
+      id={undefined}>
+      <h1
+        className="headline">
+        Newsletter
+      </h1>
+      <div
+        className="article">
+        <ol
+          className="ol" />
+      </div>
+    </section>
+  </div>
+</article>
+`;

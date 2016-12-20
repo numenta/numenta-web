@@ -1,0 +1,17 @@
+/**
+ * Numenta Web Platform and Sites source code
+ * MIT License (see LICENSE.txt)
+ * Copyright © 2005—2017 Numenta <http://numenta.com>
+ */
+
+.border {
+  composes: br2 from 'tachyons';
+  composes: collapse from 'tachyons';
+}
+
+.table {
+  composes: db from 'tachyons';
+  composes: mb4 from 'tachyons';
+  composes: mr3 from 'tachyons';
+  composes: mr0-ns from 'tachyons';
+}

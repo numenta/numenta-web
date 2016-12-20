@@ -1,0 +1,11 @@
+/**
+ * Numenta Web Platform and Sites source code
+ * MIT License (see LICENSE.txt)
+ * Copyright © 2005—2017 Numenta <http://numenta.com>
+ */
+
+.checkbox {
+  composes: mr1 from 'tachyons';
+  composes: relative from 'tachyons';
+  top: -0.1rem;
+}

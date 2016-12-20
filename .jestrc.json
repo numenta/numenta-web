@@ -1,0 +1,22 @@
+{
+  "bail": true,
+  "moduleDirectories": [
+    ".",
+    "components",
+    "node_modules",
+    "pages",
+    "utils",
+    "wrappers"
+  ],
+  "moduleFileExtensions": ["js", "json", "jsx"],
+  "moduleNameMapper": {
+    "^config$": "<rootDir>/__tests__/__mocks__/configMock.js",
+    "^catch-links$": "<rootDir>/packages/components/node_modules/catch-links/index.js",
+    "^gatsby-helpers$": "<rootDir>/node_modules/gatsby/dist/isomorphic/gatsby-helpers.js",
+    "^.+\\.(css)$": "<rootDir>/__tests__/__mocks__/styleMock.js",
+    "^.+\\.(eot|gif|jpe?g|png|svg|ttf|woff2?)$": "<rootDir>/__tests__/__mocks__/fileMock.js",
+    "^.+\\.(md)$": "<rootDir>/__tests__/__mocks__/markdownMock.js"
+  },
+  "setupTestFrameworkScriptFile": "<rootDir>/__tests__/__setup.js",
+  "testRegex": ".*/__tests__/.*\\.test\\.(js|jsx)$"
+}

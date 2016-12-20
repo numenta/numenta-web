@@ -1,0 +1,37 @@
+/**
+ * Numenta Web Platform and Sites source code
+ * MIT License (see LICENSE.txt)
+ * Copyright © 2005—2017 Numenta <http://numenta.com>
+ */
+
+.open {
+  composes: b--black-40 from 'tachyons';
+  composes: bg-near-white from 'tachyons';
+  composes: hover-bg-light-gray from 'tachyons';
+}
+
+.title {
+  composes: b--black-20 from 'tachyons';
+  composes: bb from 'tachyons';
+  composes: dim from 'tachyons';
+  composes: hover-bg-near-white from 'tachyons';
+  composes: ma0 from 'tachyons';
+  composes: nowrap from 'tachyons';
+  composes: overflow-hidden from 'tachyons';
+  composes: pb1 from 'tachyons';
+  composes: pl1 from 'tachyons';
+  composes: pt2 from 'tachyons';
+  composes: pointer from 'tachyons';
+  composes: truncate from 'tachyons';
+}
+
+.toggle {
+  composes: f3 from 'tachyons';
+  composes: fl from 'tachyons';
+  composes: ma0 from 'tachyons';
+  composes: ph2 from 'tachyons';
+  composes: pointer from 'tachyons';
+  composes: relative from 'tachyons';
+  color: #0277bd;
+  top: 0.3rem;
+}

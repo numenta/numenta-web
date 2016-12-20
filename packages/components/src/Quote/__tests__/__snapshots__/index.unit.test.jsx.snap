@@ -1,0 +1,34 @@
+exports[`Quote React component Renders default correctly 1`] = `
+<blockquote
+  className="blockquote">
+  <p
+    className="paragraph">
+    “
+    Today was a good day.
+    ”
+  </p>
+</blockquote>
+`;
+
+exports[`Quote React component Renders with Citation correctly 1`] = `
+<blockquote
+  className="blockquote">
+  <p
+    className="paragraph">
+    “
+    Today was a good day.
+    ”
+  </p>
+  <footer
+    className="footer">
+    <span
+      className="dash">
+      ―
+    </span>
+    <cite
+      className="cite">
+      Ice Cube
+    </cite>
+  </footer>
+</blockquote>
+`;

@@ -1,0 +1,278 @@
+exports[`Sitemap Page React component Renders correctly 1`] = `
+<article>
+  <section
+    className="section"
+    id={undefined}>
+    <h1
+      className="headline">
+      Sitemap
+    </h1>
+    <div
+      className="article">
+      <div
+        className="columns">
+        <div
+          className="content">
+          <span
+            className="anchor"
+            id="main" />
+          <h2
+            className="h2">
+            Main
+          </h2>
+          <ol
+            className="ol">
+            <li
+              className="li copy markerDisc">
+              <a
+                className="textlink"
+                href={undefined}
+                onClick={[Function]}
+                style={Object {}}
+                target={undefined}>
+                Home
+              </a>
+            </li>
+            <li
+              className="li copy markerDisc">
+              <a
+                className="textlink"
+                href={undefined}
+                onClick={[Function]}
+                style={Object {}}
+                target={undefined}>
+                Research & Publications
+              </a>
+            </li>
+            <li
+              className="li copy markerDisc">
+              <a
+                className="textlink"
+                href={undefined}
+                onClick={[Function]}
+                style={Object {}}
+                target={undefined}>
+                Hierarchical Temporal Memory (HTM)
+              </a>
+            </li>
+            <li
+              className="li copy markerDisc">
+              <a
+                className="textlink"
+                href={undefined}
+                onClick={[Function]}
+                style={Object {}}
+                target={undefined}>
+                Community
+              </a>
+            </li>
+            <li
+              className="li copy markerDisc">
+              <a
+                className="textlink"
+                href={undefined}
+                onClick={[Function]}
+                style={Object {}}
+                target={undefined}>
+                Code
+              </a>
+            </li>
+          </ol>
+        </div>
+        <div
+          className="aside">
+          <span
+            className="anchor"
+            id="other" />
+          <h2
+            className="h2">
+            Other
+          </h2>
+          <ol
+            className="ol">
+            <li
+              className="li copy markerDisc">
+              <a
+                className="textlink"
+                href={undefined}
+                onClick={[Function]}
+                style={Object {}}
+                target={undefined}>
+                HTM History
+              </a>
+            </li>
+            <li
+              className="li copy markerDisc">
+              <a
+                className="textlink"
+                href={undefined}
+                onClick={[Function]}
+                style={Object {}}
+                target={undefined}>
+                HTM School
+              </a>
+            </li>
+            <li
+              className="li copy markerDisc">
+              <a
+                className="textlink"
+                href={undefined}
+                onClick={[Function]}
+                style={Object {}}
+                target={undefined}>
+                Implementations
+              </a>
+            </li>
+            <li
+              className="li copy markerDisc">
+              <a
+                className="textlink"
+                href={undefined}
+                onClick={[Function]}
+                style={Object {}}
+                target={undefined}>
+                Research Papers
+              </a>
+            </li>
+            <li
+              className="li copy markerDisc">
+              <a
+                className="textlink"
+                href={undefined}
+                onClick={[Function]}
+                style={Object {}}
+                target={undefined}>
+                Frequently Asked Questions (FAQ)
+              </a>
+            </li>
+            <li
+              className="li copy markerDisc">
+              <a
+                className="textlink"
+                href={undefined}
+                onClick={[Function]}
+                style={Object {}}
+                target={undefined}>
+                Privacy Policy
+              </a>
+            </li>
+            <li
+              className="li copy markerDisc">
+              <a
+                className="textlink"
+                href={undefined}
+                onClick={[Function]}
+                style={Object {}}
+                target={undefined}>
+                Terms of Service
+              </a>
+            </li>
+            <li
+              className="li copy markerDisc">
+              <a
+                className="textlink"
+                href={undefined}
+                onClick={[Function]}
+                style={Object {}}
+                target={undefined}>
+                Sitemap
+              </a>
+            </li>
+          </ol>
+        </div>
+      </div>
+      <div
+        className="columns">
+        <div
+          className="content">
+          <span
+            className="anchor"
+            id="blog" />
+          <h2
+            className="h2">
+            <a
+              className="textlink"
+              href={undefined}
+              onClick={[Function]}
+              style={Object {}}
+              target={undefined}>
+              Blog
+            </a>
+          </h2>
+          <ol
+            className="ol" />
+        </div>
+        <div
+          className="aside">
+          <span
+            className="anchor"
+            id="licenses" />
+          <h2
+            className="h2">
+            <a
+              className="textlink"
+              href={undefined}
+              onClick={[Function]}
+              style={Object {}}
+              target={undefined}>
+              Licenses
+            </a>
+          </h2>
+          <ol
+            className="ol">
+            <li
+              className="li copy markerDisc">
+              <a
+                className="textlink"
+                href={undefined}
+                onClick={[Function]}
+                style={Object {}}
+                target={undefined}>
+                Code of Conduct
+              </a>
+            </li>
+            <li
+              className="li copy markerDisc">
+              <a
+                className="textlink"
+                href={undefined}
+                onClick={[Function]}
+                style={Object {}}
+                target={undefined}>
+                Contributor License
+              </a>
+            </li>
+            <li
+              className="li copy markerDisc">
+              <a
+                className="textlink"
+                href={undefined}
+                onClick={[Function]}
+                style={Object {}}
+                target={undefined}>
+                Trial License
+              </a>
+            </li>
+          </ol>
+          <span
+            className="anchor"
+            id="papers" />
+          <h2
+            className="h2">
+            <a
+              className="textlink"
+              href={undefined}
+              onClick={[Function]}
+              style={Object {}}
+              target={undefined}>
+              Papers
+            </a>
+          </h2>
+          <ol
+            className="ol" />
+        </div>
+      </div>
+    </div>
+  </section>
+</article>
+`;

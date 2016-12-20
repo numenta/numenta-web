@@ -1,0 +1,473 @@
+exports[`HTM for Stocks Page React component Renders correctly 1`] = `
+<article>
+  <section
+    className="section"
+    id={undefined}>
+    <h1
+      className="headline">
+      HTM for Stocks
+    </h1>
+    <div
+      className="article">
+      <div
+        className="columns">
+        <div
+          className="aside">
+          <img
+            alt="Hand using mobile device"
+            className="image mw"
+            onClick={undefined}
+            src="filename.ext"
+            title={undefined} />
+        </div>
+        <div
+          className="content">
+          <h3
+            className="h3">
+            Find anomalies in publicly traded stocks using trading and Twitter data.
+          </h3>
+          <p
+            className="paragraph lead">
+            HTM for Stocks is an example HTM application that continually monitors hundreds of publicly traded companies and alerts you if something unusual is happening to any of them. HTM for Stocks uses
+             
+            <a
+              className="textlink"
+              href={undefined}
+              onClick={[Function]}
+              style={Object {}}
+              target={undefined}>
+              HTM machine intelligence algorithms
+            </a>
+             
+             
+            to model stock price, stock volume, and Twitter data related to 200 of the largest publicly traded companies. Companies monitored include Apple, Google, Amazon, and Starbucks. HTM for Stocks is a mobile application that runs on both iOS and Android-based phones.
+          </p>
+          <p
+            className="paragraph">
+            HTM for Stocks is an example application and is available for free. We invite you to 
+             
+            <a
+              className="textlink"
+              href={undefined}
+              onClick={[Function]}
+              style={Object {}}
+              target={undefined}>
+              register to give feedback
+            </a>
+             
+             
+            or 
+             
+            <a
+              className="textlink"
+              href="mailto:feedback@numenta.com"
+              onClick={[Function]}
+              target={undefined}>
+              send us an email.
+            </a>
+          </p>
+          <p
+            className="paragraph">
+            Numenta has made the source code for HTM for Stocks available alongside the 
+             
+            <a
+              className="textlink"
+              href="http://numenta.org"
+              onClick={[Function]}
+              target={undefined}>
+              NuPIC open source project
+            </a>
+             
+             
+            to encourage others to create new and derivative products. 
+             
+            <a
+              className="textlink"
+              href={undefined}
+              onClick={[Function]}
+              style={Object {}}
+              target={undefined}>
+              Contact us
+            </a>
+             
+             
+            with questions or interest. 
+             
+            <a
+              className="textlink"
+              href="https://github.com/numenta/numenta-apps"
+              onClick={[Function]}
+              target={undefined}>
+              Review the source code.
+            </a>
+          </p>
+        </div>
+      </div>
+      <span
+        className="anchor"
+        id="features" />
+      <h2
+        className="h2">
+        Features
+      </h2>
+      <div
+        className="columns">
+        <div
+          className="aside">
+          <img
+            alt="HTM for Stocks feature #1"
+            className="image border mw shadow"
+            onClick={undefined}
+            src="filename.ext"
+            title={undefined} />
+        </div>
+        <div
+          className="content">
+          <h3
+            className="h3">
+            Time-based Pattern Detection
+          </h3>
+          <p
+            className="paragraph">
+            Automatically analyzes time-based patterns on a company by company basis to identify anomalies. The HTM algorithm ensures that reported anomalies are rare (avoiding false positives), and that real anomalies can be detected, even if humans can’t see them (avoiding false negatives).
+          </p>
+          <h3
+            className="h3">
+            Most Anomalous Companies Highlighted
+          </h3>
+          <p
+            className="paragraph">
+            Companies are listed in order of most anomalous in the past 24 hours so everything the user wants to see is usually visible on one page.
+          </p>
+        </div>
+      </div>
+      <div
+        className="columns">
+        <div
+          className="aside">
+          <img
+            alt="HTM for Stocks feature #2"
+            className="image border mw shadow"
+            onClick={undefined}
+            src="filename.ext"
+            title={undefined} />
+        </div>
+        <div
+          className="content">
+          <h3
+            className="h3">
+            Continuous Learning
+          </h3>
+          <p
+            className="paragraph">
+            Learns with each data point and adapts to changes over time.
+          </p>
+          <h3
+            className="h3">
+            Root-cause analysis
+          </h3>
+          <p
+            className="paragraph">
+            Displays tweets around the same time as anomalies so you can easily see what people are saying and why something unusual is happening.
+          </p>
+        </div>
+      </div>
+      <div
+        className="columns">
+        <div
+          className="aside">
+          <img
+            alt="HTM for Stocks feature #3"
+            className="image border mw shadow"
+            onClick={undefined}
+            src="filename.ext"
+            title={undefined} />
+        </div>
+        <div
+          className="content">
+          <h3
+            className="h3">
+            Notifications
+          </h3>
+          <p
+            className="paragraph">
+            Sends alerts when anomalies occur on your favorite companies.
+          </p>
+          <h3
+            className="h3">
+            iOS and Android Mobile App
+          </h3>
+          <p
+            className="paragraph">
+            Presents output in a friendly, mobile user interface.
+          </p>
+        </div>
+      </div>
+      <span
+        className="anchor"
+        id="how" />
+      <h2
+        className="h2">
+        How Does It Work?
+      </h2>
+      <div
+        className="columns">
+        <div
+          className="aside">
+          <img
+            alt="HTM for Stocks app screenshot #1"
+            className="image border mw shadow"
+            onClick={undefined}
+            src="filename.ext"
+            title={undefined} />
+        </div>
+        <div
+          className="content">
+          <h3
+            className="h3">
+            Ingests real-time stock and Twitter data
+          </h3>
+          <p
+            className="paragraph">
+            For each monitored company, data is collected every five minutes for stock price, stock volume and Twitter volume.  Actual data charts can be viewed in the application.
+          </p>
+          <h3
+            className="h3">
+            Models build automatically
+          </h3>
+          <p
+            className="paragraph">
+            Models are automatically built and refined for each data stream. No data scientists are required!
+          </p>
+        </div>
+      </div>
+      <div
+        className="columns">
+        <div
+          className="aside">
+          <img
+            alt="HTM for Stocks app screenshot #2"
+            className="image border mw shadow"
+            onClick={undefined}
+            src="filename.ext"
+            title={undefined} />
+        </div>
+        <div
+          className="content">
+          <h3
+            className="h3">
+            Anomalies are based on deviation from recent performance
+          </h3>
+          <p
+            className="paragraph">
+            Each company is different. HTM models report anomalies when current behavior deviates from recent behavior.
+          </p>
+        </div>
+      </div>
+      <span
+        className="anchor"
+        id="uses" />
+      <h2
+        className="h2">
+        Sample Use Cases
+      </h2>
+      <div
+        className="columns pad">
+        <div
+          className="column">
+          <img
+            alt="HTM for Stocks use case #1"
+            className="image border w shadow"
+            onClick={undefined}
+            src="filename.ext"
+            title={undefined} />
+          <p
+            className="paragraph">
+            CEO wants to be alerted about unusual activity with competitors.
+          </p>
+        </div>
+        <div
+          className="column">
+          <img
+            alt="HTM for Stocks use case #2"
+            className="image border w shadow"
+            onClick={undefined}
+            src="filename.ext"
+            title={undefined} />
+          <p
+            className="paragraph">
+            Sales Rep monitors companies in her territory to harvest new information for sales calls.
+          </p>
+        </div>
+      </div>
+      <div
+        className="columns">
+        <div
+          className="column">
+          <img
+            alt="HTM for Stocks use case #3"
+            className="image border w shadow"
+            onClick={undefined}
+            src="filename.ext"
+            title={undefined} />
+          <p
+            className="paragraph">
+            Marketing Executive aims to understand product announcement chatter.
+          </p>
+        </div>
+        <div
+          className="column">
+          <img
+            alt="HTM for Stocks use case #4"
+            className="image border w shadow"
+            onClick={undefined}
+            src="filename.ext"
+            title={undefined} />
+          <p
+            className="paragraph">
+            Financial market followers track companies of interest, noting when anomalies occur.
+          </p>
+        </div>
+      </div>
+      <span
+        className="anchor"
+        id="get" />
+      <h2
+        className="h2">
+        Get App and Register
+      </h2>
+      <div
+        className="columns">
+        <div
+          className="aside">
+          <div
+            className="download">
+            <a
+              className="imagelink"
+              href="https://itunes.apple.com/us/app/htm-for-stocks/id1049429350?mt=8"
+              onClick={[Function]}
+              title={undefined}>
+              <img
+                alt="HTM for Stocks on Apple iOS App Store"
+                className="image center mw"
+                onClick={undefined}
+                src="filename.ext"
+                title={undefined} />
+            </a>
+            <div>
+              iOS (version 8.0 or higher)
+            </div>
+          </div>
+          <div
+            className="download">
+            <a
+              className="imagelink"
+              href="https://play.google.com/store/apps/details?id=com.numenta.taurus"
+              onClick={[Function]}
+              title={undefined}>
+              <img
+                alt="HTM for Stocks on Google Android Play Store"
+                className="image center mw"
+                onClick={undefined}
+                src="filename.ext"
+                title={undefined} />
+            </a>
+            <div>
+              Android phone (version 4.1 or higher)
+            </div>
+          </div>
+        </div>
+        <div
+          className="content">
+          <p
+            className="paragraph">
+            We value your participation and encourage you to register and provide feedback. This is optional registration so we can contact you for future discussion.
+          </p>
+          <form
+            acceptCharset="UTF-8"
+            action="https://numenta.wufoo.com/forms/z1v02iwe1pywsrf/#public"
+            autoComplete="off"
+            className="form"
+            encType="multipart/form-data"
+            id={undefined}
+            method="post"
+            name={undefined}
+            onSubmit={undefined}>
+            <div
+              className="formRow">
+              <label
+                className="formLabel"
+                htmlFor={undefined}>
+                Name
+              </label>
+              <input
+                className="formInput large"
+                id="Field5"
+                name="Field5"
+                onChange={undefined}
+                placeholder="First Lastname"
+                type="text"
+                value={undefined} />
+            </div>
+            <div
+              className="formRow">
+              <label
+                className="formLabel"
+                htmlFor={undefined}>
+                Email
+              </label>
+              <input
+                className="formInput medium"
+                id="Field6"
+                name="Field6"
+                onChange={undefined}
+                placeholder="name@company.com"
+                type="email"
+                value={undefined} />
+            </div>
+            <div
+              className="formRow">
+              <label
+                className="formLabel"
+                htmlFor={undefined}>
+                Phone
+              </label>
+              <input
+                className="formInput small"
+                id="Field7"
+                name="Field7"
+                onChange={undefined}
+                placeholder="123-456-7890"
+                type="tel"
+                value={undefined} />
+            </div>
+            <div
+              className="formRow">
+              <label
+                className="formLabel"
+                htmlFor={undefined}>
+                 
+              </label>
+              <button
+                className="button primary"
+                disabled={false}
+                onClick={undefined}
+                type="submit">
+                Submit
+              </button>
+            </div>
+            <input
+              className="formInput large"
+              id="idstamp"
+              name="idstamp"
+              onChange={undefined}
+              placeholder={undefined}
+              type="hidden"
+              value="QtcKYnectCUEIoQBldg0abE8A+/1vmIblmzSzfMUVTM=" />
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+</article>
+`;

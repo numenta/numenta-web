@@ -1,0 +1,13 @@
+/**
+ * Numenta Web Platform and Sites source code
+ * MIT License (see LICENSE.txt)
+ * Copyright © 2005—2017 Numenta <http://numenta.com>
+ */
+
+.anchor {
+  composes: clip from 'tachyons';  /* visibility: hidden; */
+  composes: db from 'tachyons';
+  composes: h3 from 'tachyons';
+  margin-top: -4rem;  /* (tachyons h3) */
+  z-index: -9999;
+}

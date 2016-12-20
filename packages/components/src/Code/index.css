@@ -1,0 +1,17 @@
+/**
+ * Numenta Web Platform and Sites source code
+ * MIT License (see LICENSE.txt)
+ * Copyright © 2005—2017 Numenta <http://numenta.com>
+ */
+
+.code {
+  composes: bg-light-gray from 'tachyons';
+  composes: db from 'tachyons';
+  composes: f6 from 'tachyons';
+  composes: lh-copy from 'tachyons';
+  composes: mb3 from 'tachyons';
+  composes: nowrap from 'tachyons';
+  composes: overflow-auto from 'tachyons';
+  composes: ph3 from 'tachyons';
+  composes: pv2 from 'tachyons';
+}

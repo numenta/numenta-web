@@ -1,0 +1,231 @@
+exports[`Bio and Machine Intelligence (BAMI) page React component Renders correctly 1`] = `
+<article>
+  <section
+    className="section"
+    id={undefined}>
+    <h1
+      className="headline">
+      Biological and Machine Intelligence (BAMI)
+    </h1>
+    <div
+      className="article">
+      <div
+        className="columns">
+        <div
+          className="aside">
+          <div
+            className="book">
+            <h3
+              className="h3">
+              Book Sections
+            </h3>
+            <ol
+              className="ol">
+              <li
+                className="li copy markerDisc">
+                <a
+                  className="textlink"
+                  href="/assets/pdf/biological-and-machine-intelligence/0.4/BaMI-Introduction.pdf"
+                  onClick={[Function]}
+                  target="_new">
+                  Introduction
+                </a>
+              </li>
+              <li
+                className="li copy markerDisc">
+                <a
+                  className="textlink"
+                  href="/assets/pdf/biological-and-machine-intelligence/0.4/BaMI-HTM-Overview.pdf"
+                  onClick={[Function]}
+                  target="_new">
+                  HTM Overview
+                </a>
+              </li>
+              <li
+                className="li copy markerDisc">
+                <a
+                  className="textlink"
+                  href="/assets/pdf/biological-and-machine-intelligence/0.4/BaMI-SDR.pdf"
+                  onClick={[Function]}
+                  target="_new">
+                  Sparse Distributed Representations
+                </a>
+              </li>
+              <li
+                className="li copy markerDisc">
+                <a
+                  className="textlink"
+                  href="/assets/pdf/biological-and-machine-intelligence/0.4/BaMI-Encoders.pdf"
+                  onClick={[Function]}
+                  target="_new">
+                  Encoders
+                </a>
+              </li>
+              <li
+                className="li copy markerDisc">
+                <a
+                  className="textlink"
+                  href="/assets/pdf/biological-and-machine-intelligence/0.4/BaMI-Other-Content.pdf"
+                  onClick={[Function]}
+                  target="_new">
+                  Content to be Incorporated
+                </a>
+              </li>
+              <li
+                className="li copy markerDisc">
+                <a
+                  className="textlink"
+                  href="/assets/pdf/biological-and-machine-intelligence/0.4/BaMI-Problem-Sets.pdf"
+                  onClick={[Function]}
+                  target="_new">
+                  Problem Sets
+                </a>
+              </li>
+              <li
+                className="li copy markerDisc">
+                <a
+                  className="textlink"
+                  href="/assets/pdf/biological-and-machine-intelligence/0.4/BaMI-Glossary.pdf"
+                  onClick={[Function]}
+                  target="_new">
+                  Glossary
+                </a>
+              </li>
+            </ol>
+          </div>
+        </div>
+        <div
+          className="content">
+          <p
+            className="paragraph lead">
+            <strong
+              className="strong">
+              Biological and Machine Intelligence (BAMI)
+            </strong>
+             is a living book authored by Numenta researchers and engineers. Its purpose is to document Hierarchical Temporal Memory, a theoretical framework for both biological and machine intelligence. While there’s a lot more work to be done on HTM theory, we have made good progress on several components of a comprehensive theory of the neocortex and how to apply that knowledge to practical applications.  We would like to share our work as we go.  We hope this book will become the standard reference for people who want to learn about HTM cortical theory and its applications for machine intelligence. Going forward we anticipate using two main forms of documentation of our research, one is published research papers and the other is additions to this book, Biological and Machine Intelligence.
+          </p>
+          <p
+            className="paragraph">
+            Just as we make all of our research and technology available in open source, we want to be transparent with this manuscript as well, even well-ahead of its completion. When it is finished, this book will cover all the fundamental concepts of HTM theory. For now, we are sharing the chapters that have been completed, each of which contains a revision history, so you can see what has changed in each chapter. Over time, we will add chapters to BAMI.
+          </p>
+          <p
+            className="paragraph">
+            The “Content to be Incorporated” section has place holders for new chapters. Importantly, it contains links to updated psuedocode for the current Spatial Pooler and Temporal Memory algorithms. It also has links to scientific papers and other material that cover topics we intend to make into chapters.
+          </p>
+          <p
+            className="paragraph">
+            We 
+             
+            <a
+              className="textlink"
+              href="https://numenta.wufoo.com/forms/biological-and-machine-intelligence-bami/"
+              onClick={[Function]}
+              target={undefined}>
+              welcome your feedback and comments.
+            </a>
+             
+             
+            We will make revisions available on an occasional basis. If you want to be notified about additions and revisions, please follow this Twitter feed: 
+             
+            <a
+              className="textlink"
+              href="https://twitter.com/NumentaBAMI"
+              onClick={[Function]}
+              target={undefined}>
+              @NumentaBAMI.
+            </a>
+          </p>
+        </div>
+      </div>
+      <span
+        className="anchor"
+        id="citation" />
+      <h2
+        className="h2">
+        Citing the Book
+      </h2>
+      <div
+        className="columns">
+        <div
+          className="aside">
+          <div
+            className="icon">
+            <svg
+              fill="currentColor"
+              height="1em"
+              preserveAspectRatio="xMidYMid meet"
+              style={
+                Object {
+                  "color": undefined,
+                  "verticalAlign": "middle",
+                }
+              }
+              viewBox="0 0 40 40"
+              width="1em">
+              <g>
+                <path
+                  d="m18.6 21.4v8.6q0 1.8-1.2 3t-3 1.3h-8.6q-1.8 0-3-1.3t-1.3-3v-15.7q0-2.3 0.9-4.4t2.4-3.7 3.7-2.4 4.4-0.9h1.5q0.5 0 1 0.4t0.4 1v2.8q0 0.6-0.4 1t-1 0.5h-1.5q-2.3 0-4 1.6t-1.7 4.1v0.7q0 0.9 0.6 1.5t1.6 0.6h5q1.7 0 3 1.3t1.2 3z m20 0v8.6q0 1.8-1.2 3t-3 1.3h-8.6q-1.8 0-3-1.3t-1.3-3v-15.7q0-2.3 0.9-4.4t2.4-3.7 3.7-2.4 4.4-0.9h1.5q0.5 0 1 0.4t0.4 1v2.8q0 0.6-0.4 1t-1 0.5h-1.5q-2.3 0-4 1.6t-1.7 4.1v0.7q0 0.9 0.6 1.5t1.6 0.6h5q1.7 0 3 1.3t1.2 3z" />
+              </g>
+            </svg>
+          </div>
+        </div>
+        <div
+          className="content">
+          <p
+            className="paragraph">
+            This release of Biological and Machine Intelligence is not close to being complete, so the book is not formally “published”. However, we encourage you to cite this book in your own work by using one of these formats:
+          </p>
+          <h3
+            className="h3">
+            End Reference
+          </h3>
+          <code
+            className="code">
+            Hawkins, J. et al. 2016. Biological and Machine Intelligence.
+            <br />
+               Release 0.4. Accessed at http://numenta.com
+            /biological-and-machine-intelligence/
+            .
+          </code>
+          <h3
+            className="h3">
+            Bibtex
+          </h3>
+          <code
+            className="code">
+            @unpublished{Hawkins-et-al-2016-Book,
+            <br />
+               title={Biological and Machine Intelligence (BAMI)},
+            <br />
+               author={Hawkins, J. and Ahmad, S. and Purdy, S. and Lavin, A.},
+            <br />
+               note={Initial online release 0.4},
+            <br />
+               url={http://numenta.com
+            /biological-and-machine-intelligence/
+            },
+            <br />
+               year={2016}
+            <br />
+            }
+          </code>
+          <p
+            className="paragraph">
+            Note that some of the material in BAMI has been formally published; you can look at these 
+             
+            <a
+              className="textlink"
+              href={undefined}
+              onClick={[Function]}
+              style={Object {}}
+              target={undefined}>
+              papers
+            </a>
+             to get the appropriate citations.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+</article>
+`;

@@ -1,0 +1,151 @@
+exports[`PostListItem React component Renders Evented Post (Event) correctly 1`] = `
+<div
+  className="item">
+  <div
+    className="date">
+    <time
+      className="time"
+      dateTime="2016-12-21T00:00:00-08:00">
+      Wed, Dec 21, 2016
+    </time>
+  </div>
+  <a
+    className="textlink"
+    href={undefined}
+    onClick={[Function]}
+    style={Object {}}
+    target={undefined}>
+    <span
+      className="title">
+      Calculus of the Nervous System
+    </span>
+  </a>
+  <p
+    className="paragraph">
+    Quick quip or intro to the full text.
+    ...
+  </p>
+  <div
+    className="author">
+    <span
+      className="subtle">
+      <span
+        className="avatar">
+        <img
+          alt="Ada Lovelace"
+          className="image border round"
+          onClick={undefined}
+          src="filename.ext"
+          title="Ada Lovelace" />
+      </span>
+      Ada Lovelace
+      <span
+        className="spacer">
+        •
+      </span>
+      Evangelist
+    </span>
+  </div>
+</div>
+`;
+
+exports[`PostListItem React component Renders Link stub (Press Link) correctly 1`] = `
+<div
+  className="item">
+  <div
+    className="date">
+    <time
+      className="time"
+      dateTime="2016-12-21T00:00:00-08:00">
+      Wed, Dec 21, 2016
+    </time>
+  </div>
+  <a
+    className="textlink"
+    href="http://numenta.com"
+    onClick={[Function]}
+    target={undefined}>
+    <span
+      className="title">
+      Calculus of the Nervous System
+    </span>
+  </a>
+  <p
+    className="paragraph">
+    Quick quip or intro to the full text.
+    ...
+  </p>
+  <div
+    className="author">
+    <span
+      className="subtle">
+      <span
+        className="avatar">
+        <img
+          alt="Ada Lovelace"
+          className="image border round"
+          onClick={undefined}
+          src="filename.ext"
+          title="Ada Lovelace" />
+      </span>
+      Ada Lovelace
+      <span
+        className="spacer">
+        •
+      </span>
+      Evangelist
+    </span>
+  </div>
+</div>
+`;
+
+exports[`PostListItem React component Renders Normal Post (Blog, Press Release, etc.) correctly 1`] = `
+<div
+  className="item">
+  <div
+    className="date">
+    <time
+      className="time"
+      dateTime="2016-12-21T00:00:00-08:00">
+      Wed, Dec 21, 2016
+    </time>
+  </div>
+  <a
+    className="textlink"
+    href={undefined}
+    onClick={[Function]}
+    style={Object {}}
+    target={undefined}>
+    <span
+      className="title">
+      Calculus of the Nervous System
+    </span>
+  </a>
+  <p
+    className="paragraph">
+    Quick quip or intro to the full text.
+    ...
+  </p>
+  <div
+    className="author">
+    <span
+      className="subtle">
+      <span
+        className="avatar">
+        <img
+          alt="Ada Lovelace"
+          className="image border round"
+          onClick={undefined}
+          src="filename.ext"
+          title="Ada Lovelace" />
+      </span>
+      Ada Lovelace
+      <span
+        className="spacer">
+        •
+      </span>
+      Evangelist
+    </span>
+  </div>
+</div>
+`;

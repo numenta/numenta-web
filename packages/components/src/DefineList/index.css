@@ -1,0 +1,23 @@
+/**
+ * Numenta Web Platform and Sites source code
+ * MIT License (see LICENSE.txt)
+ * Copyright © 2005—2017 Numenta <http://numenta.com>
+ */
+
+.horizontal {
+  composes: cf from 'tachyons';
+  composes: lh-title from 'tachyons';
+}
+
+.vertical {
+  composes: lh-copy from 'tachyons';
+  composes: mb3 from 'tachyons';
+  composes: measure from 'tachyons';
+  composes: measure-wide-l from 'tachyons';
+}
+
+
+.defineList {
+  composes: ma0 from 'tachyons';
+  composes: pa0 from 'tachyons';
+}

@@ -1,0 +1,123 @@
+---
+title: Numenta Open Source Repositories
+description: This is the one-stop location where details about all Numenta open
+  source repositories are kept. This file is expected to be consumed by any
+  services that need details about Numenta repos. No other lists of our
+  repositories should be kept anywhere else.
+---
+
+  repos:
+
+    # Primary NuPIC repositories
+    - slug: numenta/nupic
+      type: primary
+      travis: true
+      appveyor: 
+         badge: https://ci.appveyor.com/api/projects/status/4toemh0qtr21mk6b/branch/master?svg=true
+         url: https://ci.appveyor.com/project/numenta-ci/nupic/branch/master
+      coverage: true
+
+    - slug: numenta/nupic.core
+      type: primary
+      travis: true
+      appveyor: 
+         badge: https://ci.appveyor.com/api/projects/status/px32pcil23vunml0/branch/master?svg=true
+         url: https://ci.appveyor.com/project/numenta-ci/nupic-core/branch/master
+      coverage: true
+
+    - slug: numenta/nupic-linux64
+      type: primary
+
+    - slug: numenta/nupic-darwin64
+      type: primary
+
+    # Tooling repositories
+    - slug: numenta/nupic.tools
+      type: tooling
+      travis: true
+      coverage: true
+
+    - slug: numenta/nupic.wallboard
+      type: tooling
+
+    - slug: numenta/nupic.regression
+      type: tooling
+      travis: true
+
+    - slug: rhyolight/sprinter.js
+      type: tooling
+      travis: true
+      coverage: true
+      deploy: "https://www.npmjs.org/package/sprinter"
+      monitor: false
+
+    - slug: rhyolight/sprinter-dash
+      type: tooling
+      deploy: "https://www.npmjs.org/package/sprinter-dash"
+      monitor: false
+
+    - slug: "rhyolight/travis-foreman"
+      type: tooling
+      travis: true
+      coverage: true
+      deploy: "https://pypi.python.org/pypi/pycept/"
+      monitor: false
+
+    # Support projects
+    - slug: numenta/NAB
+      type: support
+      travis: true
+
+    - slug: numenta/numenta.org
+      type: support
+      travis: true
+      branch: "gh-pages"
+
+    - slug: numenta/nupic.research
+      type: support
+      travis: true
+
+    - slug: numenta/hypersearch
+      type: support
+
+    - slug: numenta/cortipy
+      type: support
+      travis: true
+      coverage: true
+
+    # NuPIC applications
+    - slug: numenta/numenta-apps
+      type: app
+      monitor: false
+    
+    - slug: numenta/nupic.geospatial
+      type: app
+      travis: true
+      coverage: true
+
+    - slug: nupic-community/nupic.studio
+      type: app
+      monitor: false
+
+    - slug: numenta/nupic.cerebro
+      type: app
+
+    - slug: numenta/nupic.cerebro2
+      type: app
+
+    - slug: numenta/nupic.cerebro2.server
+      type: app
+
+    - slug: numenta/nupic.nlp-examples
+      type: app
+
+    - slug: numenta/htm.java-examples
+      type: app
+      travis: true
+      coverage: true
+
+    # Ports of HTM to other environments
+    - slug: numenta/htm.java
+      type: port
+      travis: true
+      coverage: true

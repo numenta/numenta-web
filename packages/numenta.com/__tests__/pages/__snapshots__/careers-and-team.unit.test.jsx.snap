@@ -1,0 +1,3293 @@
+exports[`Careers and Team Page React component Renders correctly 1`] = `
+<div>
+  <div>
+    <section
+      className="section"
+      id="sectionHome">
+      <h1
+        className="headline">
+        Leading the New Era of Machine Intelligence
+      </h1>
+      <div
+        className="article">
+        <article
+          className="columns">
+          <div
+            className="aside">
+            <aside
+              className="glance">
+              <div>
+                <div
+                  className="glanceHead">
+                  <img
+                    alt="Numenta Logo"
+                    className="image"
+                    onClick={undefined}
+                    src="filename.ext"
+                    title="Numenta" />
+                </div>
+              </div>
+              <dl
+                className="defineList horizontal">
+                <dt
+                  className="defineTitle horizontal">
+                  About
+                </dt>
+                <dd
+                  className="defineItem horizontal">
+                  Developing a neocortical theory for biological and machine intelligence
+                </dd>
+                <dt
+                  className="defineTitle horizontal">
+                  Established
+                </dt>
+                <dd
+                  className="defineItem horizontal">
+                  Feb 4, 2005
+                  <span
+                    className="spacer">
+                    •
+                  </span>
+                  Redwood City, CA
+                </dd>
+                <dt
+                  className="defineTitle horizontal">
+                  Employees
+                </dt>
+                <dd
+                  className="defineItem horizontal">
+                  15 — 20
+                </dd>
+                <dt
+                  className="defineTitle horizontal">
+                  Business
+                </dt>
+                <dd
+                  className="defineItem horizontal">
+                  <a
+                    className="textlink"
+                    href="/assets/pdf/apps/licensing-guide.pdf"
+                    onClick={[Function]}
+                    target={undefined}>
+                    Licensing
+                  </a>
+                </dd>
+                <dt
+                  className="defineTitle horizontal">
+                  Content
+                </dt>
+                <dd
+                  className="defineItem horizontal">
+                  <a
+                    className="textlink"
+                    href={undefined}
+                    onClick={[Function]}
+                    style={Object {}}
+                    target={undefined}>
+                    Blog
+                  </a>
+                  <span
+                    className="spacer">
+                    •
+                  </span>
+                  <a
+                    className="textlink"
+                    href={undefined}
+                    onClick={[Function]}
+                    style={Object {}}
+                    target={undefined}>
+                    Newsletter
+                  </a>
+                </dd>
+                <dt
+                  className="defineTitle horizontal">
+                  Press
+                </dt>
+                <dd
+                  className="defineItem horizontal">
+                  <a
+                    className="textlink"
+                    href={undefined}
+                    onClick={[Function]}
+                    style={Object {}}
+                    target={undefined}>
+                    Releases
+                  </a>
+                  <span
+                    className="spacer">
+                    •
+                  </span>
+                  <a
+                    className="textlink"
+                    href={undefined}
+                    onClick={[Function]}
+                    style={Object {}}
+                    target={undefined}>
+                    Links
+                  </a>
+                </dd>
+                <dt
+                  className="defineTitle horizontal">
+                  Events
+                </dt>
+                <dd
+                  className="defineItem horizontal">
+                  <a
+                    className="textlink"
+                    href={undefined}
+                    onClick={[Function]}
+                    style={Object {}}
+                    target={undefined}>
+                    Events
+                  </a>
+                </dd>
+                <dt
+                  className="defineTitle horizontal">
+                  Latest
+                </dt>
+                <dd
+                  className="defineItem horizontal">
+                  <a
+                    className="textlink"
+                    href={undefined}
+                    onClick={[Function]}
+                    style={Object {}}
+                    target={undefined}>
+                    Why did we overhaul our web design? The story behind our new look.
+                     
+                     
+                    <span
+                      className="tag">
+                      New
+                    </span>
+                  </a>
+                </dd>
+              </dl>
+            </aside>
+          </div>
+          <div
+            className="content">
+            <p
+              className="paragraph lead">
+              <strong
+                className="strong">
+                Numenta
+              </strong>
+               is tackling one of the most important scientific challenges of all time: reverse engineering the neocortex. Studying how the brain works helps us understand the principles of intelligence and build machines that work on the same principles. We believe that understanding how the neocortex works is the fastest path to machine intelligence, and creating intelligent machines is important for the continued success of humankind.
+            </p>
+            <p
+              className="paragraph">
+              We are at the beginning of a thrilling new era of computing that will unfold over the coming decades, and we invite you to learn about how our approach is helping to advance the state of brain theory and machine intelligence.
+            </p>
+            <p
+              className="paragraph">
+              On this site, you’ll find information about our company. If you’re looking for technical resources, including details of our research, software implementations, and how to get started with our technology, visit our 
+               
+              <a
+                className="textlink"
+                href={undefined}
+                onClick={[Function]}
+                style={Object {}}
+                target={undefined}>
+                open source community
+              </a>
+               
+               
+              at 
+               
+              <a
+                className="textlink"
+                href="http://numenta.org"
+                onClick={[Function]}
+                target={undefined}>
+                http://numenta.org
+                .
+              </a>
+            </p>
+          </div>
+        </article>
+      </div>
+    </section>
+    <section
+      className="section"
+      id="sectionMission">
+      <nav
+        className="title"
+        onClick={[Function]}
+        title="Open Section: Mission & History">
+        <svg
+          className="toggle"
+          fill="currentColor"
+          height="1em"
+          preserveAspectRatio="xMidYMid meet"
+          style={
+            Object {
+              "color": undefined,
+              "verticalAlign": "middle",
+            }
+          }
+          viewBox="0 0 40 40"
+          width="1em">
+          <g>
+            <path
+              d="m31 16.4q0 0.3-0.2 0.5l-10.4 10.4q-0.3 0.3-0.5 0.3t-0.6-0.3l-10.4-10.4q-0.2-0.2-0.2-0.5t0.2-0.5l1.2-1.1q0.2-0.2 0.5-0.2t0.5 0.2l8.8 8.8 8.7-8.8q0.3-0.2 0.5-0.2t0.6 0.2l1.1 1.1q0.2 0.2 0.2 0.5z" />
+          </g>
+        </svg>
+        <h1
+          className="title">
+          Mission & History
+        </h1>
+      </nav>
+      <div
+        className="article closed">
+        <article>
+          <span
+            className="anchor"
+            id="mission" />
+          <h2
+            className="h2">
+            Mission
+          </h2>
+          <div
+            className="columns">
+            <div
+              className="aside">
+              <div
+                className="video">
+                <img
+                  alt="Our Story youtube video screenshot"
+                  className="image border mw shadow"
+                  onClick={[Function]}
+                  src="filename.ext"
+                  title={undefined} />
+                <div
+                  className="caption">
+                  Video: 
+                  Our Story (02:32)
+                </div>
+                <noscript />
+              </div>
+            </div>
+            <div
+              className="content">
+              <p
+                className="paragraph lead">
+                Numenta’s mission is to be a leader in the new era of machine intelligence.  We believe the brain is the best example of an intelligent system, providing a roadmap for building intelligent machines. The brain’s center of intelligence, the neocortex, controls a wide range of functions using a common set of principles.
+              </p>
+              <p
+                className="paragraph">
+                Because today’s computers are programmed, they can only do exactly as they are told. In stark contrast, intelligent machines continuously and automatically learn patterns in their environment without being programmed, enabling them to tackle problems in entirely new ways. Intelligent machines that learn will have an enormous beneficial impact in the coming decades.
+              </p>
+              <p
+                className="paragraph">
+                We have made significant progress in understanding the neocortex and building software based on those principles. We put all of our research and software implementations into open source and encourage others to join us in building a community. From a commercial point of view, we 
+                 
+                <a
+                  className="textlink"
+                  href="http://numenta.org/licenses/"
+                  onClick={[Function]}
+                  target={undefined}>
+                  license our technology and intellectual property.
+                </a>
+              </p>
+            </div>
+          </div>
+          <span
+            className="anchor"
+            id="history" />
+          <h2
+            className="h2">
+            History
+          </h2>
+          <img
+            alt="Numenta Historical Timeline"
+            className="image mw"
+            onClick={undefined}
+            src="filename.ext"
+            title={undefined} />
+          <p
+            className="paragraph">
+            Numenta was established in 2005 in Redwood City, CA.  Our progress can be categorized by three distinct phases:
+          </p>
+          <ol
+            className="ol">
+            <li
+              className="li copy markerDecimal">
+              <strong
+                className="strong">
+                Testing the HTM theory and developing first generation algorithms.
+              </strong>
+               
+               
+              During this phase, vision was a main application focus area.
+            </li>
+            <li
+              className="li copy markerDecimal">
+              <strong
+                className="strong">
+                Developing a second generation of HTM Learning algorithms with stronger biological correlation and a roadmap for future work.
+              </strong>
+               
+               
+              During this phase, we continued to explore applications, built a prediction engine, and started our open source project.
+            </li>
+            <li
+              className="li copy markerDecimal">
+              <strong
+                className="strong">
+                Researching the third generation of HTM Learning algorithms.
+              </strong>
+               
+               
+              We are currently focusing on sensorimotor integration.
+            </li>
+          </ol>
+        </article>
+        <div
+          className="closeButton"
+          onClick={[Function]}
+          title="Close Section: Mission & History">
+          <svg
+            className="closeIcon"
+            fill="currentColor"
+            height="1em"
+            preserveAspectRatio="xMidYMid meet"
+            style={
+              Object {
+                "color": "inherit",
+                "verticalAlign": "middle",
+              }
+            }
+            viewBox="0 0 40 40"
+            width="1em">
+            <g>
+              <path
+                d="m31 26.4q0 0.3-0.2 0.5l-1.1 1.2q-0.3 0.2-0.6 0.2t-0.5-0.2l-8.7-8.8-8.8 8.8q-0.2 0.2-0.5 0.2t-0.5-0.2l-1.2-1.2q-0.2-0.2-0.2-0.5t0.2-0.5l10.4-10.4q0.3-0.2 0.6-0.2t0.5 0.2l10.4 10.4q0.2 0.2 0.2 0.5z" />
+            </g>
+          </svg>
+          Close Section
+        </div>
+      </div>
+    </section>
+    <section
+      className="section"
+      id="sectionNeuroscience">
+      <nav
+        className="title"
+        onClick={[Function]}
+        title="Open Section: Neuroscience Research">
+        <svg
+          className="toggle"
+          fill="currentColor"
+          height="1em"
+          preserveAspectRatio="xMidYMid meet"
+          style={
+            Object {
+              "color": undefined,
+              "verticalAlign": "middle",
+            }
+          }
+          viewBox="0 0 40 40"
+          width="1em">
+          <g>
+            <path
+              d="m31 16.4q0 0.3-0.2 0.5l-10.4 10.4q-0.3 0.3-0.5 0.3t-0.6-0.3l-10.4-10.4q-0.2-0.2-0.2-0.5t0.2-0.5l1.2-1.1q0.2-0.2 0.5-0.2t0.5 0.2l8.8 8.8 8.7-8.8q0.3-0.2 0.5-0.2t0.6 0.2l1.1 1.1q0.2 0.2 0.2 0.5z" />
+          </g>
+        </svg>
+        <h1
+          className="title">
+          Neuroscience Research
+        </h1>
+      </nav>
+      <div
+        className="article closed">
+        <article>
+          <div
+            className="columns">
+            <div
+              className="aside">
+              <div
+                className="brain">
+                <img
+                  alt="Stylized Brain Artwork"
+                  className="image mw"
+                  onClick={undefined}
+                  src="filename.ext"
+                  title={undefined} />
+              </div>
+            </div>
+            <div
+              className="content">
+              <p
+                className="paragraph lead">
+                Reverse engineering the neocortex to figure out how the brain works is one of humanity\'s grand scientific challenges. We are fortunate to be living in an era when neuroscience techniques are advancing at an amazing pace, giving rise to a wealth of data on everything from synapses, to neurons, to entire cortical regions. Our research team focuses on theory. We work with experimentalists and published results to derive an understanding of what the neocortex does and how the detailed architecture of the neocortex implements this. We test our theories via simulation, mathematical analysis, and experimental partnerships. While there are many experimental neuroscience laboratories, Numenta is unique in its focus on large-scale cortical theory and simulation.
+              </p>
+              <p
+                className="paragraph">
+                Although there is much to do, we have made significant progress on several key aspects of cortical theory. Our first focus was on how the neocortex learns the structure in streams of sensory data. This led to a comprehensive theory of why neurons in the neocortex have thousands of synapses and active dendrites, and why they are arranged in minicolumns as observed in the neocortex. We have taken this theoretical advance and applied it to commercially valuable problems in anomaly detection and prediction in streaming data. To further that goal we created a 
+                 
+                <a
+                  className="textlink"
+                  href={undefined}
+                  onClick={[Function]}
+                  style={Object {}}
+                  target={undefined}>
+                  benchmark for anomaly detection in streaming data
+                </a>
+                 
+                 
+                that for the first time provided a means for comparing the results of different algorithms for anomaly detection. Our current research focus is developing a comprehensive theory of how the neocortex learns through movement — what is often called “sensorimotor” learning.
+              </p>
+              <p
+                className="paragraph">
+                We document our research in several ways, including 
+                 
+                <a
+                  className="textlink"
+                  href={undefined}
+                  onClick={[Function]}
+                  style={Object {}}
+                  target={undefined}>
+                  peer-reviewed journal papers,
+                </a>
+                 
+                 
+                conference proceedings, research reports, 
+                 
+                <a
+                  className="textlink"
+                  href={undefined}
+                  onClick={[Function]}
+                  style={Object {}}
+                  target={undefined}>
+                  invited talks,
+                </a>
+                 
+                 
+                and a living book titled 
+                 
+                <a
+                  className="textlink"
+                  href={undefined}
+                  onClick={[Function]}
+                  style={Object {}}
+                  target={undefined}>
+                  BAMI
+                </a>
+                 
+                 
+                (for biological and machine intelligence). In addition, we place all of our software, from our commercial grade applications to our daily research commits, in our open source project, 
+                 
+                <a
+                  className="textlink"
+                  href="http://numenta.org"
+                  onClick={[Function]}
+                  target={undefined}>
+                  NuPIC.
+                </a>
+                 
+                 
+                We strive to be completely open in everything we do. We welcome collaborations with both neuroscientists and machine learning researchers.
+              </p>
+            </div>
+          </div>
+        </article>
+        <div
+          className="closeButton"
+          onClick={[Function]}
+          title="Close Section: Neuroscience Research">
+          <svg
+            className="closeIcon"
+            fill="currentColor"
+            height="1em"
+            preserveAspectRatio="xMidYMid meet"
+            style={
+              Object {
+                "color": "inherit",
+                "verticalAlign": "middle",
+              }
+            }
+            viewBox="0 0 40 40"
+            width="1em">
+            <g>
+              <path
+                d="m31 26.4q0 0.3-0.2 0.5l-1.1 1.2q-0.3 0.2-0.6 0.2t-0.5-0.2l-8.7-8.8-8.8 8.8q-0.2 0.2-0.5 0.2t-0.5-0.2l-1.2-1.2q-0.2-0.2-0.2-0.5t0.2-0.5l10.4-10.4q0.3-0.2 0.6-0.2t0.5 0.2l10.4 10.4q0.2 0.2 0.2 0.5z" />
+            </g>
+          </svg>
+          Close Section
+        </div>
+      </div>
+    </section>
+    <section
+      className="section"
+      id="sectionTechnology">
+      <nav
+        className="title"
+        onClick={[Function]}
+        title="Open Section: Machine Intelligence Technology">
+        <svg
+          className="toggle"
+          fill="currentColor"
+          height="1em"
+          preserveAspectRatio="xMidYMid meet"
+          style={
+            Object {
+              "color": undefined,
+              "verticalAlign": "middle",
+            }
+          }
+          viewBox="0 0 40 40"
+          width="1em">
+          <g>
+            <path
+              d="m31 16.4q0 0.3-0.2 0.5l-10.4 10.4q-0.3 0.3-0.5 0.3t-0.6-0.3l-10.4-10.4q-0.2-0.2-0.2-0.5t0.2-0.5l1.2-1.1q0.2-0.2 0.5-0.2t0.5 0.2l8.8 8.8 8.7-8.8q0.3-0.2 0.5-0.2t0.6 0.2l1.1 1.1q0.2 0.2 0.2 0.5z" />
+          </g>
+        </svg>
+        <h1
+          className="title">
+          Machine Intelligence Technology
+        </h1>
+      </nav>
+      <div
+        className="article closed">
+        <article
+          className="columns">
+          <div
+            className="aside">
+            <div
+              className="video">
+              <img
+                alt="Intro to our Technology youtube video screenshot"
+                className="image border mw shadow"
+                onClick={[Function]}
+                src="filename.ext"
+                title={undefined} />
+              <div
+                className="caption">
+                Video: 
+                Intro to our Technology (02:23)
+              </div>
+              <noscript />
+            </div>
+          </div>
+          <article
+            className="content">
+            <p
+              className="paragraph lead">
+              Based on a wealth of 
+               
+              <a
+                className="textlink"
+                href={undefined}
+                onClick={[Function]}
+                style={Object {}}
+                target={undefined}>
+                neuroscience evidence,
+              </a>
+               
+               
+              we have created HTM (Hierarchical Temporal Memory), a theoretical framework for both biological and machine intelligence. Our HTM technology is not just biologically inspired. It’s biologically constrained. When applied to computers, HTM is well suited for prediction, anomaly detection, classification and ultimately sensorimotor applications. We believe this technology will be the foundation for the next wave of computing.
+            </p>
+            <p
+              className="paragraph">
+              At the core of HTM are learning algorithms that can store, learn, infer and recall high-order sequences. Unlike most other machine learning methods, HTM learns time-based patterns in unlabeled data on a continuous basis. HTM is robust to noise, and high capacity, meaning that it can learn multiple patterns simultaneously.
+            </p>
+            <p
+              className="paragraph">
+              HTM works best with data that meets the following characteristics:
+            </p>
+            <ul
+              className="ul">
+              <li
+                className="li copy markerDisc">
+                Streaming data rather than batch data files
+              </li>
+              <li
+                className="li copy markerDisc">
+                Data with time-based patterns
+              </li>
+              <li
+                className="li copy markerDisc">
+                Many individual data sources where hand crafting separate models is impractical
+              </li>
+              <li
+                className="li copy markerDisc">
+                Subtle patterns that can’t always be seen by humans
+              </li>
+              <li
+                className="li copy markerDisc">
+                Data for which simple techniques such as thresholds yield substantial false positives and false negatives
+              </li>
+            </ul>
+            <p
+              className="paragraph">
+              Our technology has been 
+               
+              <a
+                className="textlink"
+                href={undefined}
+                onClick={[Function]}
+                style={Object {}}
+                target={undefined}>
+                tested and implemented in software,
+              </a>
+               
+               
+              all of which is developed with best practices and suitable for deploying in commercial applications.
+            </p>
+          </article>
+        </article>
+        <div
+          className="closeButton"
+          onClick={[Function]}
+          title="Close Section: Machine Intelligence Technology">
+          <svg
+            className="closeIcon"
+            fill="currentColor"
+            height="1em"
+            preserveAspectRatio="xMidYMid meet"
+            style={
+              Object {
+                "color": "inherit",
+                "verticalAlign": "middle",
+              }
+            }
+            viewBox="0 0 40 40"
+            width="1em">
+            <g>
+              <path
+                d="m31 26.4q0 0.3-0.2 0.5l-1.1 1.2q-0.3 0.2-0.6 0.2t-0.5-0.2l-8.7-8.8-8.8 8.8q-0.2 0.2-0.5 0.2t-0.5-0.2l-1.2-1.2q-0.2-0.2-0.2-0.5t0.2-0.5l10.4-10.4q0.3-0.2 0.6-0.2t0.5 0.2l10.4 10.4q0.2 0.2 0.2 0.5z" />
+            </g>
+          </svg>
+          Close Section
+        </div>
+      </div>
+    </section>
+    <section
+      className="section"
+      id="sectionOpensource">
+      <nav
+        className="title"
+        onClick={[Function]}
+        title="Open Section: Open Source Community">
+        <svg
+          className="toggle"
+          fill="currentColor"
+          height="1em"
+          preserveAspectRatio="xMidYMid meet"
+          style={
+            Object {
+              "color": undefined,
+              "verticalAlign": "middle",
+            }
+          }
+          viewBox="0 0 40 40"
+          width="1em">
+          <g>
+            <path
+              d="m31 16.4q0 0.3-0.2 0.5l-10.4 10.4q-0.3 0.3-0.5 0.3t-0.6-0.3l-10.4-10.4q-0.2-0.2-0.2-0.5t0.2-0.5l1.2-1.1q0.2-0.2 0.5-0.2t0.5 0.2l8.8 8.8 8.7-8.8q0.3-0.2 0.5-0.2t0.6 0.2l1.1 1.1q0.2 0.2 0.2 0.5z" />
+          </g>
+        </svg>
+        <h1
+          className="title">
+          Open Source Community
+        </h1>
+      </nav>
+      <div
+        className="article closed">
+        <article
+          className="columns">
+          <div
+            className="aside">
+            <img
+              alt="Numenta Open Source Hackathon Event"
+              className="image mw shadow"
+              onClick={undefined}
+              src="filename.ext"
+              title={undefined} />
+          </div>
+          <div
+            className="content">
+            <p
+              className="paragraph lead">
+              Because we want our technology to be broadly adopted, we make it widely accessible in an open source community. There you’ll find our algorithms, daily research, source code, and an active discussion forum with HTM community members covering a variety of topics.
+            </p>
+            <p
+              className="paragraph">
+              You’ll also find our implementation of HTM theory, called NuPIC (Numenta Platform for Intelligent Computing), which is written in C++ and Python. Other implementations have been ported from NuPIC into other languages by community members.
+            </p>
+            <p
+              className="paragraph">
+              If you are interested in seeing, developing or working with our technology, we invite you to participate at 
+               
+              <a
+                className="textlink"
+                href="http://numenta.org"
+                onClick={[Function]}
+                target={undefined}>
+                http://numenta.org
+              </a>
+              . Anyone is welcome to use our technology for free, under the 
+               
+              <a
+                className="textlink"
+                href="http://numenta.org/licenses/"
+                onClick={[Function]}
+                target={undefined}>
+                AGPLv3 open source license.
+              </a>
+               
+               
+              In addition, we have created a separate, 
+               
+              <a
+                className="textlink"
+                href="http://numenta.org/licenses/trial/"
+                onClick={[Function]}
+                target={undefined}>
+                trial license without commercial rights
+              </a>
+               
+               
+              for those individuals or organizations who are unable to use the AGPLv3 license. For more on our licenses, see the 
+               
+              <a
+                className="textlink"
+                href={undefined}
+                onClick={[Function]}
+                style={Object {}}
+                target={undefined}>
+                Business Strategy & IP
+              </a>
+               
+               
+              section.
+            </p>
+          </div>
+        </article>
+        <div
+          className="closeButton"
+          onClick={[Function]}
+          title="Close Section: Open Source Community">
+          <svg
+            className="closeIcon"
+            fill="currentColor"
+            height="1em"
+            preserveAspectRatio="xMidYMid meet"
+            style={
+              Object {
+                "color": "inherit",
+                "verticalAlign": "middle",
+              }
+            }
+            viewBox="0 0 40 40"
+            width="1em">
+            <g>
+              <path
+                d="m31 26.4q0 0.3-0.2 0.5l-1.1 1.2q-0.3 0.2-0.6 0.2t-0.5-0.2l-8.7-8.8-8.8 8.8q-0.2 0.2-0.5 0.2t-0.5-0.2l-1.2-1.2q-0.2-0.2-0.2-0.5t0.2-0.5l10.4-10.4q0.3-0.2 0.6-0.2t0.5 0.2l10.4 10.4q0.2 0.2 0.2 0.5z" />
+            </g>
+          </svg>
+          Close Section
+        </div>
+      </div>
+    </section>
+    <section
+      className="section"
+      id="sectionApplications">
+      <nav
+        className="title"
+        onClick={[Function]}
+        title="Open Section: Applications">
+        <svg
+          className="toggle"
+          fill="currentColor"
+          height="1em"
+          preserveAspectRatio="xMidYMid meet"
+          style={
+            Object {
+              "color": undefined,
+              "verticalAlign": "middle",
+            }
+          }
+          viewBox="0 0 40 40"
+          width="1em">
+          <g>
+            <path
+              d="m31 16.4q0 0.3-0.2 0.5l-10.4 10.4q-0.3 0.3-0.5 0.3t-0.6-0.3l-10.4-10.4q-0.2-0.2-0.2-0.5t0.2-0.5l1.2-1.1q0.2-0.2 0.5-0.2t0.5 0.2l8.8 8.8 8.7-8.8q0.3-0.2 0.5-0.2t0.6 0.2l1.1 1.1q0.2 0.2 0.2 0.5z" />
+          </g>
+        </svg>
+        <h1
+          className="title">
+          Applications
+        </h1>
+      </nav>
+      <div
+        className="article closed">
+        <article>
+          <div
+            className="columns">
+            <div
+              className="aside">
+              <div
+                className="video">
+                <img
+                  alt="Intro to our Applications youtube video screenshot"
+                  className="image border mw shadow"
+                  onClick={[Function]}
+                  src="filename.ext"
+                  title={undefined} />
+                <div
+                  className="caption">
+                  Video: 
+                  Intro to our Applications (02:32)
+                </div>
+                <noscript />
+              </div>
+            </div>
+            <div
+              className="content">
+              <p
+                className="paragraph lead">
+                While Numenta does not build commercial applications, we have created example HTM applications in several fields such as monitoring stock performance, detecting unusual human behavior, and finding patterns in geospatial data. Additionally, our partners have created commercial applications in the field of monitoring IT infrastructure and understanding natural language. We are confident that many additional applications will be created in the future.
+              </p>
+              <p
+                className="paragraph">
+                HTM is well suited for applications that have the following characteristics:
+              </p>
+              <ul
+                className="ul">
+                <li
+                  className="li copy markerDisc">
+                  Data flowing through time: the data can be in the form of numbers, dates, text, or GPS points
+                </li>
+                <li
+                  className="li copy markerDisc">
+                  A data sampling rate from once per minute to once per hour, with the “sweet spot” being between once per minute and once every five minutes (faster velocity data can be aggregated or sampled as well)
+                </li>
+                <li
+                  className="li copy markerDisc">
+                  Data that has inherent structure, i.e. not entirely random
+                </li>
+                <li
+                  className="li copy markerDisc">
+                  Many models are required rather than one large model
+                </li>
+                <li
+                  className="li copy markerDisc">
+                  Focus of the application is prediction or anomaly detection
+                </li>
+              </ul>
+              <p
+                className="paragraph">
+                The following applications are examples that fit these characteristics:
+              </p>
+              <ul
+                className="ul">
+                <li
+                  className="li copy markerDisc">
+                  Highlighting anomalies in the behavior of moving objects, such as tracking a fleet’s movements on a truck by truck basis
+                </li>
+                <li
+                  className="li copy markerDisc">
+                  Understanding if human behavior is normal or abnormal on a securities trading floor
+                </li>
+                <li
+                  className="li copy markerDisc">
+                  Predicting energy usage for a utility on a customer by customer basis
+                </li>
+                <li
+                  className="li copy markerDisc">
+                  Predicting failure in a complex machine based on data from many sensors
+                </li>
+              </ul>
+              <p
+                className="paragraph">
+                In order to demonstrate these capabilities, we have created several tools and example applications.
+              </p>
+            </div>
+          </div>
+          <span
+            className="anchor"
+            id="htmstudio" />
+          <h2
+            className="h2">
+            HTM Studio for Anomaly Detection
+          </h2>
+          <div
+            className="columns">
+            <div
+              className="aside">
+              <a
+                className="imagelink"
+                href={undefined}
+                onClick={[Function]}
+                style={Object {}}
+                title={undefined}>
+                <img
+                  alt="HTM Studio screenshot"
+                  className="image border mw shadow"
+                  onClick={undefined}
+                  src="filename.ext"
+                  title={undefined} />
+              </a>
+            </div>
+            <div
+              className="content">
+              <p
+                className="paragraph">
+                HTM Studio for Anomaly Detection is a tool that makes it easy to experiment with using HTM to detect anomalies in your own scalar data. Designed for the business-focused user, this tool makes it easy to develop a proof of concept with HTM technology without doing any coding.
+              </p>
+              <ul
+                className="ul">
+                <li
+                  className="li copy markerDisc">
+                  <a
+                    className="textlink"
+                    href={undefined}
+                    onClick={[Function]}
+                    style={Object {}}
+                    target={undefined}>
+                    More Information
+                  </a>
+                </li>
+                <li
+                  className="li copy markerDisc">
+                  <a
+                    className="textlink"
+                    href={undefined}
+                    onClick={[Function]}
+                    style={Object {}}
+                    target={undefined}>
+                    Register to Give Feedback
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <span
+            className="anchor"
+            id="htmstocks" />
+          <h2
+            className="h2">
+            HTM for Stocks
+          </h2>
+          <div
+            className="columns">
+            <div
+              className="aside">
+              <a
+                className="imagelink"
+                href={undefined}
+                onClick={[Function]}
+                style={Object {}}
+                title={undefined}>
+                <img
+                  alt="HTM for Stocks screenshot"
+                  className="image mw shadow"
+                  onClick={undefined}
+                  src="filename.ext"
+                  title={undefined} />
+              </a>
+            </div>
+            <div
+              className="content">
+              <p
+                className="paragraph">
+                HTM for Stocks is an example application that detects anomalies in publicly traded companies. It continuously models stock price, stock volume, and Twitter volume for top publicly traded companies and alerts you in real time when something unusual is happening. HTM for Stocks is available for free via the 
+                 
+                <a
+                  className="textlink"
+                  href="https://itunes.apple.com/us/app/htm-for-stocks/id1049429350?mt=8"
+                  onClick={[Function]}
+                  target={undefined}>
+                  App Store
+                </a>
+                 
+                 or 
+                 
+                <a
+                  className="textlink"
+                  href="https://play.google.com/store/apps/details?id=com.numenta.taurus"
+                  onClick={[Function]}
+                  target={undefined}>
+                  Google Play Store.
+                </a>
+              </p>
+              <ul
+                className="ul">
+                <li
+                  className="li copy markerDisc">
+                  <a
+                    className="textlink"
+                    href={undefined}
+                    onClick={[Function]}
+                    style={Object {}}
+                    target={undefined}>
+                    More Information
+                  </a>
+                </li>
+                <li
+                  className="li copy markerDisc">
+                  <a
+                    className="textlink"
+                    href={undefined}
+                    onClick={[Function]}
+                    style={Object {}}
+                    target={undefined}>
+                    Register to Give Feedback
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <span
+            className="anchor"
+            id="grokit" />
+          <h2
+            className="h2">
+            Grok
+          </h2>
+          <div
+            className="columns">
+            <div
+              className="aside">
+              <a
+                className="imagelink"
+                href="http://grokstream.com/"
+                onClick={[Function]}
+                title={undefined}>
+                <img
+                  alt="Grok for IT Analytics screenshot"
+                  className="image mw shadow"
+                  onClick={undefined}
+                  src="filename.ext"
+                  title={undefined} />
+              </a>
+            </div>
+            <div
+              className="content">
+              <p
+                className="paragraph">
+                Grok is a commercial application offered by one of our strategic partners that detects anomalies in servers and applications. It learns continuously, automatically discovers time-based patterns in data, and generalizes from experience.
+              </p>
+              <p
+                className="paragraph">
+                Grok is now available at 
+                 
+                <a
+                  className="textlink"
+                  href="http://grokstream.com/"
+                  onClick={[Function]}
+                  target={undefined}>
+                  http://grokstream.com/
+                  .
+                </a>
+              </p>
+              <ul
+                className="ul">
+                <li
+                  className="li copy markerDisc">
+                  <a
+                    className="textlink"
+                    href="http://grokstream.com//#pricing"
+                    onClick={[Function]}
+                    target={undefined}>
+                    Sign Up
+                  </a>
+                </li>
+                <li
+                  className="li copy markerDisc">
+                  <a
+                    className="textlink"
+                    href="http://grokstream.com/"
+                    onClick={[Function]}
+                    target={undefined}>
+                    More Information
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <span
+            className="anchor"
+            id="rogue" />
+          <h2
+            className="h2">
+            Rogue Behavior Detection
+          </h2>
+          <div
+            className="columns">
+            <div
+              className="aside">
+              <a
+                className="imagelink"
+                href="https://github.com/numenta/nupic.rogue"
+                onClick={[Function]}
+                title={undefined}>
+                <img
+                  alt="Rogue Behavior Detection screenshot"
+                  className="image mw shadow"
+                  onClick={undefined}
+                  src="filename.ext"
+                  title={undefined} />
+              </a>
+            </div>
+            <div
+              className="content">
+              <p
+                className="paragraph">
+                This example application models normal behavior of individuals by detecting changes in behavior, such as unusual use of files. You can experiment with this application using your own data by downloading our sample application code below.
+              </p>
+              <ul
+                className="ul">
+                <li
+                  className="li copy markerDisc">
+                  <a
+                    className="textlink"
+                    href="/assets/pdf/whitepapers/Rogue%20Behavior%20Detection%20White%20Paper.pdf"
+                    onClick={[Function]}
+                    target={undefined}>
+                    Whitepaper: HTM for Rogue Behavior
+                  </a>
+                </li>
+                <li
+                  className="li copy markerDisc">
+                  <a
+                    className="textlink"
+                    href="https://github.com/numenta/nupic.rogue"
+                    onClick={[Function]}
+                    target={undefined}>
+                    Download Application Code
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <span
+            className="anchor"
+            id="geo" />
+          <h2
+            className="h2">
+            Geospatial Tracking
+          </h2>
+          <div
+            className="columns">
+            <div
+              className="aside">
+              <a
+                className="imagelink"
+                href="https://github.com/numenta/nupic.geospatial"
+                onClick={[Function]}
+                title={undefined}>
+                <img
+                  alt="Geospatial Tracking screenshot"
+                  className="image border mw shadow"
+                  onClick={undefined}
+                  src="filename.ext"
+                  title={undefined} />
+              </a>
+            </div>
+            <div
+              className="content">
+              <p
+                className="paragraph">
+                The example geospatial tracking application detects anomalies in the movement of people, objects, or material using speed and location data. Use this application to enable logistics optimization. You can experiment with this application using your own data by downloading our sample application code below.
+              </p>
+              <ul
+                className="ul">
+                <li
+                  className="li copy markerDisc">
+                  <a
+                    className="textlink"
+                    href="/assets/pdf/whitepapers/Geospatial%20Tracking%20White%20Paper.pdf"
+                    onClick={[Function]}
+                    target={undefined}>
+                    Whitepaper: HTM for Geospatial Tracking
+                  </a>
+                </li>
+                <li
+                  className="li copy markerDisc">
+                  <a
+                    className="textlink"
+                    href="https://github.com/numenta/nupic.geospatial"
+                    onClick={[Function]}
+                    target={undefined}>
+                    Download Application Code
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <span
+            className="anchor"
+            id="nlp" />
+          <h2
+            className="h2">
+            Natural Language Processing
+          </h2>
+          <div
+            className="columns">
+            <div
+              className="aside">
+              <a
+                className="imagelink"
+                href="http://cortical.io/"
+                onClick={[Function]}
+                title={undefined}>
+                <img
+                  alt="Natural Language Processing screenshot"
+                  className="image mw shadow"
+                  onClick={undefined}
+                  src="filename.ext"
+                  title={undefined} />
+              </a>
+            </div>
+            <div
+              className="content">
+              <p
+                className="paragraph">
+                One of our partners, 
+                 
+                <a
+                  className="textlink"
+                  href="http://cortical.io/"
+                  onClick={[Function]}
+                  target={undefined}>
+                  Cortical.io,
+                </a>
+                 
+                 
+                has used Numenta’s technology to develop and commercialize Natural Language Processing Solutions. By representing language with highly efficient semantic fingerprints, Cortical.io has built the first semantic engine that can analyze text in real time, in any language.
+              </p>
+              <ul
+                className="ul">
+                <li
+                  className="li copy markerDisc">
+                  <a
+                    className="textlink"
+                    href="http://cortical.io/"
+                    onClick={[Function]}
+                    target={undefined}>
+                    More Information
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </article>
+        <div
+          className="closeButton"
+          onClick={[Function]}
+          title="Close Section: Applications">
+          <svg
+            className="closeIcon"
+            fill="currentColor"
+            height="1em"
+            preserveAspectRatio="xMidYMid meet"
+            style={
+              Object {
+                "color": "inherit",
+                "verticalAlign": "middle",
+              }
+            }
+            viewBox="0 0 40 40"
+            width="1em">
+            <g>
+              <path
+                d="m31 26.4q0 0.3-0.2 0.5l-1.1 1.2q-0.3 0.2-0.6 0.2t-0.5-0.2l-8.7-8.8-8.8 8.8q-0.2 0.2-0.5 0.2t-0.5-0.2l-1.2-1.2q-0.2-0.2-0.2-0.5t0.2-0.5l10.4-10.4q0.3-0.2 0.6-0.2t0.5 0.2l10.4 10.4q0.2 0.2 0.2 0.5z" />
+            </g>
+          </svg>
+          Close Section
+        </div>
+      </div>
+    </section>
+    <section
+      className="section"
+      id="sectionPartners">
+      <nav
+        className="title"
+        onClick={[Function]}
+        title="Open Section: Partners">
+        <svg
+          className="toggle"
+          fill="currentColor"
+          height="1em"
+          preserveAspectRatio="xMidYMid meet"
+          style={
+            Object {
+              "color": undefined,
+              "verticalAlign": "middle",
+            }
+          }
+          viewBox="0 0 40 40"
+          width="1em">
+          <g>
+            <path
+              d="m31 16.4q0 0.3-0.2 0.5l-10.4 10.4q-0.3 0.3-0.5 0.3t-0.6-0.3l-10.4-10.4q-0.2-0.2-0.2-0.5t0.2-0.5l1.2-1.1q0.2-0.2 0.5-0.2t0.5 0.2l8.8 8.8 8.7-8.8q0.3-0.2 0.5-0.2t0.6 0.2l1.1 1.1q0.2 0.2 0.2 0.5z" />
+          </g>
+        </svg>
+        <h1
+          className="title">
+          Partners
+        </h1>
+      </nav>
+      <div
+        className="article closed">
+        <article>
+          <div
+            className="columns">
+            <div
+              className="aside">
+              <div
+                className="logomark">
+                <img
+                  alt="Numenta Logo Mark"
+                  className="image"
+                  onClick={undefined}
+                  src="filename.ext"
+                  title="Numenta" />
+              </div>
+            </div>
+            <div
+              className="content">
+              <p
+                className="paragraph lead">
+                Numenta works with strategic partners to bring the power of HTM to the market. While we focus on the science and the core technology, we select application partners who have deep domain knowledge and are able to add an application layer tuned to market needs.
+              </p>
+              <p
+                className="paragraph">
+                We are flexible in structuring these relationships in a way that works for both parties. If you are interested in becoming a partner, please 
+                 
+                <a
+                  className="textlink"
+                  href="http://numenta.org/licenses/"
+                  onClick={[Function]}
+                  target={undefined}>
+                  review our license guide,
+                </a>
+                 
+                 
+                and email us at 
+                 
+                <a
+                  className="textlink"
+                  href="mailto:sales@numenta.com"
+                  onClick={[Function]}
+                  target={undefined}>
+                  sales@numenta.com
+                  .
+                </a>
+              </p>
+            </div>
+          </div>
+          <span
+            className="anchor"
+            id="cortical" />
+          <h2
+            className="h2">
+            Cortical.io
+          </h2>
+          <div
+            className="columns">
+            <div
+              className="aside">
+              <a
+                className="imagelink"
+                href="http://cortical.io/"
+                onClick={[Function]}
+                title={undefined}>
+                <img
+                  alt="Cortical.io logo"
+                  className="image mw"
+                  onClick={undefined}
+                  src="filename.ext"
+                  title={undefined} />
+              </a>
+            </div>
+            <div
+              className="content">
+              <p
+                className="paragraph">
+                Cortical.io is leading the next generation of natural language processing: language intelligence. Founded on core principles of HTM, Cortical.io’s Semantic Folding technology translates text into sparse distributed representations. This enables a host of exciting applications that have challenged computer scientists for decades including sentiment analysis, automatic summarization, semantic search and conversational dialogue systems.
+              </p>
+              <ul
+                className="ul">
+                <li
+                  className="li copy markerDisc">
+                  <a
+                    className="textlink"
+                    href="http://cortical.io/"
+                    onClick={[Function]}
+                    target={undefined}>
+                    Cortical.io
+                  </a>
+                </li>
+                <li
+                  className="li copy markerDisc">
+                  <a
+                    className="textlink"
+                    href="http://www.cortical.io/static/downloads/semantic-folding-theory-white-paper.pdf"
+                    onClick={[Function]}
+                    target={undefined}>
+                    Whitepaper: Semantic Folding
+                  </a>
+                </li>
+                <li
+                  className="li copy markerDisc">
+                  <a
+                    className="textlink"
+                    href={undefined}
+                    onClick={[Function]}
+                    style={Object {}}
+                    target={undefined}>
+                    Press Release
+                  </a>
+                </li>
+                <li
+                  className="li copy markerDisc">
+                  <a
+                    className="textlink"
+                    href={undefined}
+                    onClick={[Function]}
+                    style={Object {}}
+                    target={undefined}>
+                    Newsletter
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <span
+            className="anchor"
+            id="grok" />
+          <h2
+            className="h2">
+            Grok
+          </h2>
+          <div
+            className="columns">
+            <div
+              className="aside">
+              <a
+                className="imagelink"
+                href="http://grokstream.com/"
+                onClick={[Function]}
+                title={undefined}>
+                <img
+                  alt="Grok Stream logo"
+                  className="image mw"
+                  onClick={undefined}
+                  src="filename.ext"
+                  title={undefined} />
+              </a>
+            </div>
+            <div
+              className="content">
+              <p
+                className="paragraph">
+                Grok is using HTM technology for advanced IT anomaly detection. Grok applies Numenta\'s breakthrough technology to solving the IT department’s hardest problems, with a complete enterprise solution. Its modern user interface makes it easy to drill down to important anomalies and take action before a problem worsens.
+              </p>
+              <ul
+                className="ul">
+                <li
+                  className="li copy markerDisc">
+                  <a
+                    className="textlink"
+                    href="http://grokstream.com/"
+                    onClick={[Function]}
+                    target={undefined}>
+                    Grok
+                  </a>
+                </li>
+                <li
+                  className="li copy markerDisc">
+                  <a
+                    className="textlink"
+                    href={undefined}
+                    onClick={[Function]}
+                    style={Object {}}
+                    target={undefined}>
+                    Press Release
+                  </a>
+                </li>
+                <li
+                  className="li copy markerDisc">
+                  <a
+                    className="textlink"
+                    href={undefined}
+                    onClick={[Function]}
+                    style={Object {}}
+                    target={undefined}>
+                    Newsletter
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </article>
+        <div
+          className="closeButton"
+          onClick={[Function]}
+          title="Close Section: Partners">
+          <svg
+            className="closeIcon"
+            fill="currentColor"
+            height="1em"
+            preserveAspectRatio="xMidYMid meet"
+            style={
+              Object {
+                "color": "inherit",
+                "verticalAlign": "middle",
+              }
+            }
+            viewBox="0 0 40 40"
+            width="1em">
+            <g>
+              <path
+                d="m31 26.4q0 0.3-0.2 0.5l-1.1 1.2q-0.3 0.2-0.6 0.2t-0.5-0.2l-8.7-8.8-8.8 8.8q-0.2 0.2-0.5 0.2t-0.5-0.2l-1.2-1.2q-0.2-0.2-0.2-0.5t0.2-0.5l10.4-10.4q0.3-0.2 0.6-0.2t0.5 0.2l10.4 10.4q0.2 0.2 0.2 0.5z" />
+            </g>
+          </svg>
+          Close Section
+        </div>
+      </div>
+    </section>
+    <section
+      className="section"
+      id="sectionBusiness">
+      <nav
+        className="title"
+        onClick={[Function]}
+        title="Open Section: Business Strategy & IP">
+        <svg
+          className="toggle"
+          fill="currentColor"
+          height="1em"
+          preserveAspectRatio="xMidYMid meet"
+          style={
+            Object {
+              "color": undefined,
+              "verticalAlign": "middle",
+            }
+          }
+          viewBox="0 0 40 40"
+          width="1em">
+          <g>
+            <path
+              d="m31 16.4q0 0.3-0.2 0.5l-10.4 10.4q-0.3 0.3-0.5 0.3t-0.6-0.3l-10.4-10.4q-0.2-0.2-0.2-0.5t0.2-0.5l1.2-1.1q0.2-0.2 0.5-0.2t0.5 0.2l8.8 8.8 8.7-8.8q0.3-0.2 0.5-0.2t0.6 0.2l1.1 1.1q0.2 0.2 0.2 0.5z" />
+          </g>
+        </svg>
+        <h1
+          className="title">
+          Business Strategy & IP
+        </h1>
+      </nav>
+      <div
+        className="article closed">
+        <article>
+          <div
+            className="columns">
+            <div
+              className="aside">
+              <img
+                alt="Numenta Office"
+                className="image mw shadow"
+                onClick={undefined}
+                src="filename.ext"
+                title={undefined} />
+            </div>
+            <div
+              className="content">
+              <p
+                className="paragraph lead">
+                Numenta’s business strategy and approach to intellectual property (IP) is to create an active research community as well as to enable strong commercial opportunities. To that end, we follow these general principles:
+              </p>
+              <ol
+                className="ol">
+                <li
+                  className="li copy markerDecimal">
+                  <strong
+                    className="strong">
+                    Transparency
+                  </strong>
+                  . We openly publish our scientific findings, software, intellectual property, and business strategy. There are no hidden agendas.
+                </li>
+                <li
+                  className="li copy markerDecimal">
+                  <strong
+                    className="strong">
+                    Scientific Use
+                  </strong>
+                  . Anyone can freely use our software and intellectual property for non-commercial purposes.
+                </li>
+                <li
+                  className="li copy markerDecimal">
+                  <strong
+                    className="strong">
+                    Commercial Deployment
+                  </strong>
+                  . Our software can be used for free under an AGPL license. If the AGPL license is not a good fit, we offer low cost licenses that enable commercial use and create a sustainable business opportunity for Numenta.
+                </li>
+              </ol>
+            </div>
+          </div>
+          <span
+            className="anchor"
+            id="transparency" />
+          <h2
+            className="h2">
+            1. Transparency
+          </h2>
+          <div
+            className="columns">
+            <div
+              className="aside">
+              <svg
+                className="icon"
+                fill="currentColor"
+                height="1em"
+                preserveAspectRatio="xMidYMid meet"
+                style={
+                  Object {
+                    "color": undefined,
+                    "verticalAlign": "middle",
+                  }
+                }
+                viewBox="0 0 40 40"
+                width="1em">
+                <g>
+                  <path
+                    d="m4.1 17.5l12.1 12.9-5.8-12.9h-6.3z m15.8 15l6.7-15h-13.5z m-9.5-17.5l4-7.4h-5.1l-5.6 7.4h6.7z m13.1 15.4l12.1-12.9h-6.2z m-10.2-15.4h13.2l-4-7.4h-5.3z m16 0h6.7l-5.6-7.4h-5.1z m2.7-9.4l7.5 9.9q0.3 0.4 0.3 0.8t-0.4 0.8l-18.6 19.9q-0.4 0.4-0.9 0.4t-0.9-0.4l-18.7-19.9q-0.3-0.3-0.3-0.8t0.3-0.8l7.4-9.9q0.4-0.5 1-0.5h22.4q0.6 0 0.9 0.5z" />
+                </g>
+              </svg>
+            </div>
+            <div
+              className="content">
+              <p
+                className="paragraph">
+                We have enabled a community of researchers and developers working on HTM technology in the NuPIC open source community at 
+                 
+                <a
+                  className="textlink"
+                  href="http://numenta.org"
+                  onClick={[Function]}
+                  target={undefined}>
+                  http://numenta.org
+                  .
+                </a>
+                 
+                 
+                We post all of our application and algorithm code in NuPIC as well as our research updates as they occur. We 
+                 
+                <a
+                  className="textlink"
+                  href={undefined}
+                  onClick={[Function]}
+                  style={Object {}}
+                  target={undefined}>
+                  publish our work
+                </a>
+                 
+                 
+                in peer-reviewed journals and submit pre-publication manuscripts to arXiv. We also speak at a variety of forums, such as machine learning, data science, neuroscience, and application-specific events. Other than confidential information relating to partner relationships, products or data, we work as much in the open as possible.
+              </p>
+              <p
+                className="paragraph">
+                Given the uniqueness of our work and our early focus on temporal data, we have been issued over thirty U.S. and international patents. The list of issued U.S. patents can be 
+                 
+                <a
+                  className="textlink"
+                  href="http://patft.uspto.gov/netacgi/nph-Parser?Sect1=PTO2&Sect2=HITOFF&p=1&u=%2Fnetahtml%2FPTO%2Fsearch-bool.html&r=0&f=S&l=50&TERM1=Numenta&FIELD1=ASNM&co1=AND&TERM2=&FIELD2=&d=PTXT"
+                  onClick={[Function]}
+                  target={undefined}>
+                  found here.
+                </a>
+                 
+                 
+                In addition, we have international patents filed that are not included in this list. We believe these patents cover some of the foundational principles of machine intelligence.
+              </p>
+            </div>
+          </div>
+          <span
+            className="anchor"
+            id="science" />
+          <h2
+            className="h2">
+            2. Scientific Use
+          </h2>
+          <div
+            className="columns">
+            <div
+              className="aside">
+              <svg
+                className="icon"
+                fill="currentColor"
+                height="1em"
+                preserveAspectRatio="xMidYMid meet"
+                style={
+                  Object {
+                    "color": undefined,
+                    "verticalAlign": "middle",
+                  }
+                }
+                viewBox="0 0 40 40"
+                width="1em">
+                <g>
+                  <path
+                    d="m11.3 24.1q-2 1.1-4.9 1.1h-2.3v-1.1h-1.2q-0.2 0-0.4-0.4t-0.2-1.1q0-0.4 0.2-0.9-1.1 0-1.8-0.2t-0.7-0.3 0.7-0.4 1.8-0.2q-0.2-0.5-0.2-0.9 0-0.6 0.2-1t0.4-0.5h1.2v-1.1h2.3q2.9 0 4.9 1.1h20.3q0.7 0.2 1.9 0.4t1.5 0.2q1.6 0.3 2.7 0.8t1.5 0.8 0.4 0.8-0.4 0.7-1.5 0.9-2.7 0.7q-0.3 0.1-1.5 0.3t-1.9 0.3h-20.3z m20.4-4.6q1 0.6 1 1.7t-1 1.6l1.5 0.6q1.2-0.9 1.2-2.2t-1.2-2.3z m-20.3 4.9h18.5q-4 0.7-8.3 1.4-1.1 0-2.1 0.5t-1.5 0.8l-0.5 0.5-5.3 5.2q-0.4 0.5-1.2 0.8t-1.7 0.4h-1.7l-1.7-8.5h0.5q2.9 0 5-1.1z m-5-7.6h-0.5l1.7-8.5h1.7q0.9 0 1.7 0.4t1.2 0.8l5.3 5.3q0.1 0 0.2 0.1t0.5 0.5 0.9 0.5 1.2 0.4 1.3 0.2l8.3 1.5h-18.5q-2.1-1.2-5-1.2z" />
+                </g>
+              </svg>
+            </div>
+            <div
+              className="content">
+              <p
+                className="paragraph">
+                Our software, along with its associated IP, is available at 
+                 
+                <a
+                  className="textlink"
+                  href="http://numenta.org"
+                  onClick={[Function]}
+                  target={undefined}>
+                  http://numenta.org
+                </a>
+                 under the AGPLv3 license at no cost. Scientists, researchers, and students are able to use our technology by agreeing to the terms of this open source license. For those researchers who are unable to use the AGPLv3 license, we have created a separate, no-cost, non-commercial, 
+                 
+                <a
+                  className="textlink"
+                  href="http://numenta.org/licenses/trial/"
+                  onClick={[Function]}
+                  target={undefined}>
+                  trial license.
+                </a>
+              </p>
+              <p
+                className="paragraph">
+                For those scientists and researchers who want to use our intellectual property without our software, or whose work may be covered by our patents, we make a clear statement of non-assertion: as long as your work is for non-commercial use, we will not assert our patents.
+              </p>
+            </div>
+          </div>
+          <span
+            className="anchor"
+            id="deployment" />
+          <h2
+            className="h2">
+            3. Commercial Deployment
+          </h2>
+          <div
+            className="columns">
+            <div
+              className="aside">
+              <svg
+                className="icon"
+                fill="currentColor"
+                height="1em"
+                preserveAspectRatio="xMidYMid meet"
+                style={
+                  Object {
+                    "color": undefined,
+                    "verticalAlign": "middle",
+                  }
+                }
+                viewBox="0 0 40 40"
+                width="1em">
+                <g>
+                  <path
+                    d="m26.6 19.3q0-0.3-0.2-0.4l-7.3-7.4q-0.2-0.1-0.5-0.1t-0.5 0.1l-7.3 7.3q-0.2 0.3-0.2 0.5 0 0.3 0.2 0.5t0.5 0.2h4.6v7.3q0 0.3 0.2 0.5t0.5 0.2h4q0.3 0 0.5-0.2t0.2-0.5v-7.3h4.6q0.3 0 0.5-0.2t0.2-0.5z m13.3 6q0 3.3-2.4 5.7t-5.6 2.3h-22.6q-3.8 0-6.6-2.7t-2.7-6.6q0-2.7 1.5-5t3.9-3.4q-0.1-0.6-0.1-0.9 0-4.4 3.1-7.5t7.5-3.1q3.3 0 6 1.8t3.9 4.8q1.5-1.3 3.4-1.3 2.2 0 3.8 1.5t1.5 3.8q0 1.6-0.8 2.8 2.7 0.7 4.4 2.9t1.8 4.9z" />
+                </g>
+              </svg>
+            </div>
+            <div
+              className="content">
+              <p
+                className="paragraph">
+                In our terminology, commercial use means using the technology or patents to create a product or service that is sold, licensed, hosted, or offered to customers or business partners as standalone functionality or as part of another product, whether for a fee or not. In addition, commercial use includes deploying the technology or patents internally to be used in any business process. For example, if you use our technology or patents internally to monitor performance of your IT servers, even if you don’t offer it to others, we view this as commercial use.
+              </p>
+              <p
+                className="paragraph">
+                Commercial partners are welcome to use our software under the terms of the AGPLv3 license.  For those who want to distribute derivative software and do not want to accept these terms, we have a 
+                 
+                <a
+                  className="textlink"
+                  href="http://numenta.org/licenses/"
+                  onClick={[Function]}
+                  target={undefined}>
+                  commercial license available
+                </a>
+                , which may change as we develop our business.
+              </p>
+              <p
+                className="paragraph">
+                For those who do not want to license our software but want to license our patents, we will offer a patent-only license. Our intention is to offer low-cost ways for partners to commercialize this technology. We believe that a broad-based strategy is compelling for a technology that is likely to be widely deployed in time. Please contact us at 
+                 
+                <a
+                  className="textlink"
+                  href="mailto:sales@numenta.com"
+                  onClick={[Function]}
+                  target={undefined}>
+                  sales@numenta.com
+                </a>
+                 
+                 
+                if you are interested in this license.
+              </p>
+            </div>
+          </div>
+          <span
+            className="anchor"
+            id="licenses" />
+          <h3
+            className="h3">
+            Summary of Numenta Licenses
+          </h3>
+          <div
+            className="columns">
+            <div
+              className="content">
+              <div
+                className="licenses">
+                <table
+                  className="table border">
+                  <thead
+                    className="tableHeader">
+                    <tr
+                      className="tableRow">
+                      <th
+                        className="tableTitle border"
+                        colSpan={1} />
+                      <th
+                        className="tableTitle border"
+                        colSpan={3}>
+                        Software (includes IP)
+                      </th>
+                      <th
+                        className="tableTitle border"
+                        colSpan={1}>
+                        Patents Only
+                      </th>
+                    </tr>
+                  </thead>
+                  <tbody
+                    className="tableBody">
+                    <tr
+                      className="tableRow">
+                      <td
+                        className="tableCell border"
+                        colSpan={1}>
+                        <strong
+                          className="strong">
+                          Scientists, Researchers, or any Non-commercial use
+                        </strong>
+                      </td>
+                      <td
+                        className="tableCell border"
+                        colSpan={3}>
+                        AGPLv3 or trial license (both no cost)
+                      </td>
+                      <td
+                        className="tableCell border"
+                        colSpan={1}>
+                        Non-assert statement for non-commercial purposes
+                      </td>
+                    </tr>
+                    <tr
+                      className="tableRow">
+                      <td
+                        className="tableCell border"
+                        colSpan={1}>
+                        <strong
+                          className="strong">
+                          Commercial use
+                        </strong>
+                      </td>
+                      <td
+                        className="tableCell border"
+                        colSpan={1}>
+                        Use internally only: AGPLv3 (no cost)
+                      </td>
+                      <td
+                        className="tableCell border"
+                        colSpan={1}>
+                        Able to offer to others under the terms of the AGPLv3, including making source code available: AGPLv3 (no cost)
+                      </td>
+                      <td
+                        className="tableCell border"
+                        colSpan={1}>
+                        Prefer to keep code proprietary: Commercial license (fee)
+                      </td>
+                      <td
+                        className="tableCell border"
+                        colSpan={1}>
+                        Patent license (under development – fee TBD)
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+          <span
+            className="anchor"
+            id="faq" />
+          <h3
+            className="h3">
+            Numenta Licensing FAQ
+          </h3>
+          <div
+            className="columns">
+            <div
+              className="aside">
+              <svg
+                className="icon"
+                fill="currentColor"
+                height="1em"
+                preserveAspectRatio="xMidYMid meet"
+                style={
+                  Object {
+                    "color": undefined,
+                    "verticalAlign": "middle",
+                  }
+                }
+                viewBox="0 0 40 40"
+                width="1em">
+                <g>
+                  <path
+                    d="m23 30.7v-4.3q0-0.3-0.2-0.5t-0.5-0.2h-4.3q-0.3 0-0.5 0.2t-0.2 0.5v4.3q0 0.3 0.2 0.5t0.5 0.2h4.3q0.3 0 0.5-0.2t0.2-0.5z m5.7-15q0-2-1.2-3.6t-3.1-2.6-3.8-0.9q-5.4 0-8.3 4.7-0.3 0.6 0.2 1l2.9 2.2q0.2 0.1 0.5 0.1 0.3 0 0.5-0.2 1.2-1.6 1.9-2.1 0.8-0.5 2-0.5 1 0 1.9 0.6t0.8 1.3q0 0.8-0.4 1.3t-1.6 1q-1.4 0.7-2.5 2t-1.2 2.8v0.8q0 0.3 0.2 0.5t0.5 0.2h4.3q0.3 0 0.5-0.2t0.2-0.5q0-0.5 0.5-1.1t1.2-1.1q0.7-0.4 1.1-0.7t1-0.8 1-1 0.6-1.4 0.3-1.8z m8.6 4.3q0 4.7-2.3 8.6t-6.3 6.2-8.6 2.3-8.6-2.3-6.2-6.2-2.3-8.6 2.3-8.6 6.2-6.2 8.6-2.3 8.6 2.3 6.3 6.2 2.3 8.6z" />
+                </g>
+              </svg>
+            </div>
+            <div
+              className="content">
+              <div
+                className="faq">
+                <dl
+                  className="defineList vertical">
+                  <dt
+                    className="defineTitle vertical">
+                    I operate a business. Why wouldn’t I use the free AGPL version for my product?
+                  </dt>
+                  <dd
+                    className="defineItem vertical">
+                    You are welcome to do so under the terms of that license. AGPL is a “copyleft” license. It requires that if you distribute or make available your software (either directly or through a SaaS model), you must also distribute the source code under the AGPL license. For some companies and some situations, that is an acceptable requirement. However, companies who want to keep the resulting code proprietary will prefer a commercial license.
+                  </dd>
+                  <dt
+                    className="defineTitle vertical">
+                    If I do not intend to distribute or make available as a SaaS implementation any derivative software, then it seems to me that I can use the AGPL version internally without any additional license, even if it is for a commercial purpose. For example, I run a hedge fund and I figured out how to use NuPIC to advantage, but I don’t distribute the software or results, nor do I make it available to others. Is this correct?
+                  </dt>
+                  <dd
+                    className="defineItem vertical">
+                    Generally you may use the software and patents for internal use under the AGPL. Note, however, if you do not use our open-source software (and thus do not fall under the AGPL), you WOULD need a license for our IP. For example, say you do your own, very specific version of HTM for your hedge fund. Once you deploy that within your company for any productive purpose (as opposed to research), you would need an IP license from us because you are not under the AGPL.
+                  </dd>
+                  <dt
+                    className="defineTitle vertical">
+                    I’m a researcher who uses different machine learning techniques. I’m trying to add capabilities that are similar to Numenta, i.e. using temporal data streams in a hierarchy, but I’m not using your software. What are my obligations relative to Numenta?
+                  </dt>
+                  <dd
+                    className="defineItem vertical">
+                    For researchers who are doing work that is covered by Numenta patents, we have promised to not assert our patents for any non-commercial use including publications, teaching, and experimentation. We do ask that you provide appropriate citations of our work. Make sure to visit our current repository of 
+                    <a
+                      className="textlink"
+                      href={undefined}
+                      onClick={[Function]}
+                      style={Object {}}
+                      target={undefined}>
+                      research papers.
+                    </a>
+                     
+                     If you are a corporate researcher who is applying this technology to commercial use, then you will need to evaluate the Numenta patent portfolio to see if our patents cover your work. If so, you should contact us to explore a patent license.
+                  </dd>
+                </dl>
+              </div>
+            </div>
+          </div>
+        </article>
+        <div
+          className="closeButton"
+          onClick={[Function]}
+          title="Close Section: Business Strategy & IP">
+          <svg
+            className="closeIcon"
+            fill="currentColor"
+            height="1em"
+            preserveAspectRatio="xMidYMid meet"
+            style={
+              Object {
+                "color": "inherit",
+                "verticalAlign": "middle",
+              }
+            }
+            viewBox="0 0 40 40"
+            width="1em">
+            <g>
+              <path
+                d="m31 26.4q0 0.3-0.2 0.5l-1.1 1.2q-0.3 0.2-0.6 0.2t-0.5-0.2l-8.7-8.8-8.8 8.8q-0.2 0.2-0.5 0.2t-0.5-0.2l-1.2-1.2q-0.2-0.2-0.2-0.5t0.2-0.5l10.4-10.4q0.3-0.2 0.6-0.2t0.5 0.2l10.4 10.4q0.2 0.2 0.2 0.5z" />
+            </g>
+          </svg>
+          Close Section
+        </div>
+      </div>
+    </section>
+    <section
+      className="section"
+      id="sectionAnomaly">
+      <nav
+        className="title"
+        onClick={[Function]}
+        title="Open Section: Anomaly Detection Benchmark">
+        <svg
+          className="toggle"
+          fill="currentColor"
+          height="1em"
+          preserveAspectRatio="xMidYMid meet"
+          style={
+            Object {
+              "color": undefined,
+              "verticalAlign": "middle",
+            }
+          }
+          viewBox="0 0 40 40"
+          width="1em">
+          <g>
+            <path
+              d="m31 16.4q0 0.3-0.2 0.5l-10.4 10.4q-0.3 0.3-0.5 0.3t-0.6-0.3l-10.4-10.4q-0.2-0.2-0.2-0.5t0.2-0.5l1.2-1.1q0.2-0.2 0.5-0.2t0.5 0.2l8.8 8.8 8.7-8.8q0.3-0.2 0.5-0.2t0.6 0.2l1.1 1.1q0.2 0.2 0.2 0.5z" />
+          </g>
+        </svg>
+        <h1
+          className="title">
+          Anomaly Detection Benchmark
+        </h1>
+      </nav>
+      <div
+        className="article closed">
+        <article
+          className="columns">
+          <div
+            className="aside">
+            <a
+              className="imagelink"
+              href={undefined}
+              onClick={[Function]}
+              style={Object {}}
+              title={undefined}>
+              <img
+                alt="Numenta Anomaly Benchmark (NAB) screenshot"
+                className="image border mw shadow"
+                onClick={undefined}
+                src="filename.ext"
+                title={undefined} />
+            </a>
+          </div>
+          <div
+            className="content">
+            <p
+              className="paragraph lead">
+              Sensors and data streams are proliferating as the Internet of Things vision becomes realized. However, using the data from these sensors is not so easy. Specifically, being able to identify anomalies in streaming data is surprisingly difficult. Most techniques are a form of thresholds, i.e. predetermined limits that must be set to notify abnormalities. However, thresholds have some glaring weaknesses, including often finding a problem after it has happened, not before, and not adapting to new states, such that false positives can crowd out the important signal.
+            </p>
+            <p
+              className="paragraph">
+              We created the 
+              <strong
+                className="strong">
+                Numenta Anomaly Benchmark (NAB)
+              </strong>
+               in order to be able to measure and compare results from algorithms designed to find anomalies in streaming data. NAB is an open source framework consisting of:
+            </p>
+            <ul
+              className="ul">
+              <li
+                className="li copy markerDisc">
+                A dataset with real-world, labeled data files
+              </li>
+              <li
+                className="li copy markerDisc">
+                A scoring mechanism that rewards early detection and on-line learning
+              </li>
+            </ul>
+            <h3
+              className="h3">
+              Resources
+            </h3>
+            <ul
+              className="ul">
+              <li
+                className="li copy markerDisc">
+                Business Paper: 
+                 
+                <a
+                  className="textlink"
+                  href="/assets/pdf/numenta-anomaly-benchmark/NAB-Business-Paper.pdf"
+                  onClick={[Function]}
+                  target={undefined}>
+                  The Numenta Anomaly Benchmark
+                </a>
+              </li>
+              <li
+                className="li copy markerDisc">
+                Technical Peer-Reviewed Paper: 
+                 
+                <a
+                  className="textlink"
+                  href="http://arxiv.org/abs/1510.03336"
+                  onClick={[Function]}
+                  target={undefined}>
+                  Evaluating Real-time Anomaly Detection Algorithms – the Numenta Anomaly Benchmark
+                </a>
+              </li>
+              <li
+                className="li copy markerDisc">
+                <a
+                  className="textlink"
+                  href={undefined}
+                  onClick={[Function]}
+                  style={Object {}}
+                  target={undefined}>
+                  More Information
+                </a>
+              </li>
+            </ul>
+          </div>
+        </article>
+        <div
+          className="closeButton"
+          onClick={[Function]}
+          title="Close Section: Anomaly Detection Benchmark">
+          <svg
+            className="closeIcon"
+            fill="currentColor"
+            height="1em"
+            preserveAspectRatio="xMidYMid meet"
+            style={
+              Object {
+                "color": "inherit",
+                "verticalAlign": "middle",
+              }
+            }
+            viewBox="0 0 40 40"
+            width="1em">
+            <g>
+              <path
+                d="m31 26.4q0 0.3-0.2 0.5l-1.1 1.2q-0.3 0.2-0.6 0.2t-0.5-0.2l-8.7-8.8-8.8 8.8q-0.2 0.2-0.5 0.2t-0.5-0.2l-1.2-1.2q-0.2-0.2-0.2-0.5t0.2-0.5l10.4-10.4q0.3-0.2 0.6-0.2t0.5 0.2l10.4 10.4q0.2 0.2 0.2 0.5z" />
+            </g>
+          </svg>
+          Close Section
+        </div>
+      </div>
+    </section>
+    <section
+      className="section"
+      id="sectionResources">
+      <nav
+        className="title"
+        onClick={[Function]}
+        title="Open Section: Papers, Videos & More">
+        <svg
+          className="toggle"
+          fill="currentColor"
+          height="1em"
+          preserveAspectRatio="xMidYMid meet"
+          style={
+            Object {
+              "color": undefined,
+              "verticalAlign": "middle",
+            }
+          }
+          viewBox="0 0 40 40"
+          width="1em">
+          <g>
+            <path
+              d="m31 16.4q0 0.3-0.2 0.5l-10.4 10.4q-0.3 0.3-0.5 0.3t-0.6-0.3l-10.4-10.4q-0.2-0.2-0.2-0.5t0.2-0.5l1.2-1.1q0.2-0.2 0.5-0.2t0.5 0.2l8.8 8.8 8.7-8.8q0.3-0.2 0.5-0.2t0.6 0.2l1.1 1.1q0.2 0.2 0.2 0.5z" />
+          </g>
+        </svg>
+        <h1
+          className="title">
+          Papers, Videos & More
+        </h1>
+      </nav>
+      <div
+        className="article closed">
+        <article>
+          <div
+            className="columns">
+            <div
+              className="aside">
+              <div
+                className="video">
+                <div
+                  className="video">
+                  <img
+                    alt="The Hard Unsolved Problems in HTM Theory youtube video screenshot"
+                    className="image border mw shadow"
+                    onClick={[Function]}
+                    src="filename.ext"
+                    title={undefined} />
+                  <div
+                    className="caption">
+                    Video: 
+                    The Hard Unsolved Problems in HTM Theory (1:00:00)
+                  </div>
+                  <noscript />
+                </div>
+              </div>
+            </div>
+            <div
+              className="content">
+              <p
+                className="paragraph lead">
+                To help you learn about our theory and technology, we have organized educational content below. It is designed for anyone who wants to learn about HTM cortical theory and its applications for machine intelligence.
+              </p>
+              <ol
+                className="ol">
+                <li
+                  className="li copy markerDisc">
+                  <a
+                    className="textlink"
+                    href={undefined}
+                    onClick={[Function]}
+                    style={Object {}}
+                    target={undefined}>
+                    Research Papers
+                  </a>
+                  <span
+                    className="spacer">
+                    •
+                  </span>
+                  Here you’ll find a collection of recent Numenta Research papers. Some of them are currently under review at journals/conferences but we have made all manuscripts available on 
+                   
+                  <a
+                    className="textlink"
+                    href="http://arxiv.org"
+                    onClick={[Function]}
+                    target={undefined}>
+                    arXiv,
+                  </a>
+                   
+                   
+                  an online repository of self-archived scientific papers.
+                </li>
+                <li
+                  className="li copy markerDisc">
+                  <a
+                    className="textlink"
+                    href={undefined}
+                    onClick={[Function]}
+                    style={Object {}}
+                    target={undefined}>
+                    Biological and Machine Intelligence (BAMI)
+                  </a>
+                  <span
+                    className="spacer">
+                    •
+                  </span>
+                  This living book (Biological And Machine Intelligence) documents our Hierarchical Temporal Memory framework for both biological and machine intelligence.
+                </li>
+                <li
+                  className="li copy markerDisc">
+                  <a
+                    className="textlink"
+                    href="https://www.youtube.com/playlist?list=PL3yXMgtrZmDqhsFQzwUC9V8MeeVOQ7eZ9"
+                    onClick={[Function]}
+                    target={undefined}>
+                    HTM School
+                  </a>
+                  <span
+                    className="spacer">
+                    •
+                  </span>
+                  This YouTube series is designed to educate the general public about Hierarchical Temporal Memory (HTM). Each 10-15 minute episode dives into a particular topic of HTM theory.
+                </li>
+              </ol>
+            </div>
+          </div>
+          <div
+            className="columns">
+            <div
+              className="content">
+              <span
+                className="anchor"
+                id="videos" />
+              <h2
+                className="h2">
+                Videos
+              </h2>
+              <ol
+                className="ol" />
+            </div>
+            <div
+              className="aside">
+              <span
+                className="anchor"
+                id="more" />
+              <h2
+                className="h2">
+                More
+              </h2>
+              <ol
+                className="ol" />
+            </div>
+          </div>
+        </article>
+        <div
+          className="closeButton"
+          onClick={[Function]}
+          title="Close Section: Papers, Videos & More">
+          <svg
+            className="closeIcon"
+            fill="currentColor"
+            height="1em"
+            preserveAspectRatio="xMidYMid meet"
+            style={
+              Object {
+                "color": "inherit",
+                "verticalAlign": "middle",
+              }
+            }
+            viewBox="0 0 40 40"
+            width="1em">
+            <g>
+              <path
+                d="m31 26.4q0 0.3-0.2 0.5l-1.1 1.2q-0.3 0.2-0.6 0.2t-0.5-0.2l-8.7-8.8-8.8 8.8q-0.2 0.2-0.5 0.2t-0.5-0.2l-1.2-1.2q-0.2-0.2-0.2-0.5t0.2-0.5l10.4-10.4q0.3-0.2 0.6-0.2t0.5 0.2l10.4 10.4q0.2 0.2 0.2 0.5z" />
+            </g>
+          </svg>
+          Close Section
+        </div>
+      </div>
+    </section>
+    <section
+      className="section"
+      id="sectionCareers">
+      <nav
+        className="title open"
+        onClick={[Function]}
+        title="Close Section: Careers & Team">
+        <svg
+          className="toggle"
+          fill="currentColor"
+          height="1em"
+          preserveAspectRatio="xMidYMid meet"
+          style={
+            Object {
+              "color": undefined,
+              "verticalAlign": "middle",
+            }
+          }
+          viewBox="0 0 40 40"
+          width="1em">
+          <g>
+            <path
+              d="m31 26.4q0 0.3-0.2 0.5l-1.1 1.2q-0.3 0.2-0.6 0.2t-0.5-0.2l-8.7-8.8-8.8 8.8q-0.2 0.2-0.5 0.2t-0.5-0.2l-1.2-1.2q-0.2-0.2-0.2-0.5t0.2-0.5l10.4-10.4q0.3-0.2 0.6-0.2t0.5 0.2l10.4 10.4q0.2 0.2 0.2 0.5z" />
+          </g>
+        </svg>
+        <h1
+          className="title">
+          Careers & Team
+        </h1>
+      </nav>
+      <div
+        className="article">
+        <article>
+          <span
+            className="anchor"
+            id="careers" />
+          <h2
+            className="h2">
+            Careers
+          </h2>
+          <div
+            className="columns">
+            <div
+              className="aside">
+              <img
+                alt="Numenta Office Interior"
+                className="image border mw shadow"
+                onClick={undefined}
+                src="filename.ext"
+                title={undefined} />
+            </div>
+            <div
+              className="content">
+              <p
+                className="paragraph lead">
+                Company culture is important to us, so why not join a startup that feels like a family? We may be busy cracking the code on machine intelligence, but we’ve got a work-hard, play-hard attitude. Our kitchen is stocked with salty and sweet snacks, and on Wednesdays we enjoy catered lunches from a variety of local restaurants.
+              </p>
+              <p
+                className="paragraph">
+                At the heart of the peninsula, our downtown Redwood City location is a short walk from the Caltrain station.  Outside the office, we blow off steam with company events, happy hours and other fun activities. In the past, we’ve cheered on the SF Giants, baked pies at Pie Ranch in Pescadero, and do-si-doed through the night.
+              </p>
+              <h3
+                className="h3">
+                Current Openings
+              </h3>
+              <ul
+                className="ul" />
+            </div>
+          </div>
+          <span
+            className="anchor"
+            id="team" />
+          <h2
+            className="h2">
+            Management Team
+          </h2>
+          <ul
+            className="ul">
+            <li
+              className="li">
+              <h4
+                className="h4">
+                Donna Dubinsky
+              </h4>
+              <h5
+                className="h5">
+                CEO & Co-Founder
+              </h5>
+              <div
+                className="columns">
+                <div
+                  className="aside">
+                  <img
+                    alt="Donna Dubinsky"
+                    className="image border mw shadow"
+                    onClick={undefined}
+                    src="filename.ext"
+                    title={undefined} />
+                </div>
+                <div
+                  className="content">
+                  <p
+                    className="paragraph">
+                    Donna first partnered with Jeff Hawkins at Palm, Inc. in 1992, where she served as president and CEO. She held this position throughout Palm\'s acquisition by U.S Robotics and subsequently 3Com Corporation. In 1998, Donna and Jeff co-founded Handspring, creator of the category-defining Treo smartphone. Handspring merged with Palm in 2003, and Donna continued to serve on Palm\'s board until 2009. Previously, Donna spent 10 years at Apple Inc. in a multitude of sales, sales support, and logistics functions—both at Apple and at Claris, an Apple software subsidiary.
+                  </p>
+                  <p
+                    className="paragraph">
+                    Donna earned a B.A. from Yale University, and an M.B.A. from Harvard Business School. She is currently on the board of Yale University.
+                  </p>
+                </div>
+              </div>
+            </li>
+            <li
+              className="li">
+              <h4
+                className="h4">
+                Jeff Hawkins
+              </h4>
+              <h5
+                className="h5">
+                Co-Founder
+              </h5>
+              <div
+                className="columns">
+                <div
+                  className="aside">
+                  <img
+                    alt="Jeff Hawkins"
+                    className="image border mw shadow"
+                    onClick={undefined}
+                    src="filename.ext"
+                    title={undefined} />
+                </div>
+                <div
+                  className="content">
+                  <p
+                    className="paragraph">
+                    Jeff is an engineer, serial entrepreneur, scientist, inventor and author. His life-long interest in neuroscience and theories of the neocortex has driven his passion for building a technology based on neocortical theory. Previously, he founded two mobile computing companies, Palm and Handspring, and is the architect of many computing products such as the PalmPilot and Treo smartphone. In 2002, he founded the Redwood Neuroscience Institute, a scientific institute focused on understanding how the neocortex processes information. The institute is currently located at U.C. Berkeley. In 2004 Jeff wrote the book, On Intelligence, which outlines Hierarchical Temporal Memory (HTM) and describes progress on understanding the neocortex.
+                  </p>
+                  <p
+                    className="paragraph">
+                    Jeff earned his B.S. in Electrical Engineering from Cornell University in 1979. He was elected to the National Academy of Engineering in 2003.
+                  </p>
+                </div>
+              </div>
+            </li>
+            <li
+              className="li">
+              <h4
+                className="h4">
+                Subutai Ahmad
+              </h4>
+              <h5
+                className="h5">
+                VP of Research
+              </h5>
+              <div
+                className="columns">
+                <div
+                  className="aside">
+                  <img
+                    alt="Subutai Ahmad"
+                    className="image border mw shadow"
+                    onClick={undefined}
+                    src="filename.ext"
+                    title={undefined} />
+                </div>
+                <div
+                  className="content">
+                  <p
+                    className="paragraph">
+                    Subutai brings experience across real time systems, computer vision and learning to Numenta. He has previously served as VP Engineering at YesVideo, Inc. where he helped grow the company from a three-person start-up to a leader in automated digital media authoring. In 1997, Subutai co- founded ePlanet Interactive, a spin-off from Interval Research. ePlanet developed the IntelPlay Me2Cam, the first computer vision product developed for consumers. He has served as a key researcher at Interval Research.
+                  </p>
+                  <p
+                    className="paragraph">
+                    Subutai holds a B.S. in Computer Science from Cornell University, and a Ph.D in Computer Science from the University of Illinois at Urbana-Champaign. While pursuing his Ph.D, Subutai completed a thesis on computational neuroscience models of visual attention.
+                  </p>
+                </div>
+              </div>
+            </li>
+            <li
+              className="li">
+              <h4
+                className="h4">
+                Celeste Baranski
+              </h4>
+              <h5
+                className="h5">
+                VP of Engineering
+              </h5>
+              <div
+                className="columns">
+                <div
+                  className="aside">
+                  <img
+                    alt="Celeste Baranski"
+                    className="image border mw shadow"
+                    onClick={undefined}
+                    src="filename.ext"
+                    title={undefined} />
+                </div>
+                <div
+                  className="content">
+                  <p
+                    className="paragraph">
+                    Celeste has vast experience in high tech engineering, design and management. Previously, Celeste was SVP Engineering & Operations at Panasas, a Big Data storage provider. She was CEO and Co-Founder of Vitamin D, one of the first developers to use the NuPIC platform. Celeste also served in VP Engineering roles at Palm and at Handspring, where she led the companies’ engineering efforts for handheld computers and smartphones. Celeste has built effective engineering teams, starting from a few to over 500 and has delivered numerous successful and award-winning products.
+                  </p>
+                  <p
+                    className="paragraph">
+                    Celeste holds both a B.S. and M.S. in electrical engineering from Stanford University.
+                  </p>
+                </div>
+              </div>
+            </li>
+          </ul>
+          <span
+            className="anchor"
+            id="board" />
+          <h2
+            className="h2">
+            Board of Directors
+          </h2>
+          <ul
+            className="ul">
+            <li
+              className="li">
+              <h4
+                className="h4">
+                Ed Colligan
+              </h4>
+              <h5
+                className="h5">
+                Former President & CEO, Palm, Inc.
+              </h5>
+              <div
+                className="columns">
+                <div
+                  className="aside">
+                  <img
+                    alt="Ed Colligan"
+                    className="image border mw shadow"
+                    onClick={undefined}
+                    src="filename.ext"
+                    title={undefined} />
+                </div>
+                <div
+                  className="content">
+                  <p
+                    className="paragraph">
+                    Ed has been a part of the core team of five Silicon Valley start-ups. Ed’s first big success was Radius, Inc. where he was instrumental in building products and the brand. After Radius, Ed was the first vice president of marketing for Palm where he helped develop the original Palm Pilot, the Palm brand and Palm\'s product strategy. He moved on from Palm to found Handspring where Ed and his partners created the forbearer of all future smartphones; the Handspring Treo. Ed drove the transaction that reunited Palm and Handspring into a single Palm again. He established relationships with wireless carriers globally and drove Palm\'s annual smartphone business to more than $2 billion. As the CEO of Palm, Ed spearheaded the transformation that created the WebOS platform and Palm Pre line of smartphones.
+                  </p>
+                  <p
+                    className="paragraph">
+                    Ed now spends his time investing in and mentoring entrepreneurs. Ed is a board member of Numenta, Inc., Active Mind Technology, and POPS Worldwide, and is an investor and on the board of advisors of six other start-up companies. Ed holds a B.S. from the University of Oregon.
+                  </p>
+                </div>
+              </div>
+            </li>
+            <li
+              className="li">
+              <h4
+                className="h4">
+                Donna Dubinsky
+              </h4>
+              <h5
+                className="h5">
+                CEO & Co-Founder
+              </h5>
+              <div
+                className="columns">
+                <div
+                  className="aside">
+                  <img
+                    alt="Donna Dubinsky"
+                    className="image border mw shadow"
+                    onClick={undefined}
+                    src="filename.ext"
+                    title={undefined} />
+                </div>
+                <div
+                  className="content">
+                  <p
+                    className="paragraph">
+                    Donna first partnered with Jeff Hawkins at Palm, Inc. in 1992, where she served as president and CEO. She held this position throughout Palm\'s acquisition by U.S Robotics and subsequently 3Com Corporation. In 1998, Donna and Jeff co-founded Handspring, creator of the category-defining Treo smartphone. Handspring merged with Palm in 2003, and Donna continued to serve on Palm\'s board until 2009. Previously, Donna spent 10 years at Apple Inc. in a multitude of sales, sales support, and logistics functions—both at Apple and at Claris, an Apple software subsidiary.
+                  </p>
+                  <p
+                    className="paragraph">
+                    Donna earned a B.A. from Yale University, and an M.B.A. from Harvard Business School. She is currently on the board of Yale University.
+                  </p>
+                </div>
+              </div>
+            </li>
+            <li
+              className="li">
+              <h4
+                className="h4">
+                Mike Farmwald
+              </h4>
+              <h5
+                className="h5">
+                General Partner, Skymoon Ventures
+              </h5>
+              <div
+                className="columns">
+                <div
+                  className="aside">
+                  <img
+                    alt="Mike Farmwald"
+                    className="image border mw shadow"
+                    onClick={undefined}
+                    src="filename.ext"
+                    title={undefined} />
+                </div>
+                <div
+                  className="content">
+                  <p
+                    className="paragraph">
+                    Mike Farmwald is a successful serial entrepreneur. He has founded many companies with breakthrough technologies including FTL, a super computing company that merged with MIPs, Epigram, which was acquired by Broadcom, Rambus and Matrix Semiconductor, a creator of 3D integrated circuits.
+                  </p>
+                  <p
+                    className="paragraph">
+                    Mike currently sits on the board of Rambus (NASDAQ: RMBS). He is participating on the Numenta board as an individual, rather than as a representative of Skymoon Ventures. Mike holds a B.S. degree in Mathematics from Purdue University and a Ph.D. in Computer Science from Stanford University.
+                  </p>
+                </div>
+              </div>
+            </li>
+            <li
+              className="li">
+              <h4
+                className="h4">
+                Jeff Hawkins
+              </h4>
+              <h5
+                className="h5">
+                Co-Founder
+              </h5>
+              <div
+                className="columns">
+                <div
+                  className="aside">
+                  <img
+                    alt="Jeff Hawkins"
+                    className="image border mw shadow"
+                    onClick={undefined}
+                    src="filename.ext"
+                    title={undefined} />
+                </div>
+                <div
+                  className="content">
+                  <p
+                    className="paragraph">
+                    Jeff is an engineer, serial entrepreneur, scientist, inventor and author. His life-long interest in neuroscience and theories of the neocortex has driven his passion for building a technology based on neocortical theory. Previously, he founded two mobile computing companies, Palm and Handspring, and is the architect of many computing products such as the PalmPilot and Treo smartphone. In 2002, he founded the Redwood Neuroscience Institute, a scientific institute focused on understanding how the neocortex processes information. The institute is currently located at U.C. Berkeley. In 2004 Jeff wrote the book, On Intelligence, which outlines Hierarchical Temporal Memory (HTM) and describes progress on understanding the neocortex.
+                  </p>
+                  <p
+                    className="paragraph">
+                    Jeff earned his B.S. in Electrical Engineering from Cornell University in 1979. He was elected to the National Academy of Engineering in 2003.
+                  </p>
+                </div>
+              </div>
+            </li>
+            <li
+              className="li">
+              <h4
+                className="h4">
+                Harry Saal
+              </h4>
+              <h5
+                className="h5">
+                Chairman, Retrotope, Inc.
+              </h5>
+              <div
+                className="columns">
+                <div
+                  className="aside">
+                  <img
+                    alt="Harry Saal"
+                    className="image border mw shadow"
+                    onClick={undefined}
+                    src="filename.ext"
+                    title={undefined} />
+                </div>
+                <div
+                  className="content">
+                  <p
+                    className="paragraph">
+                    In 2002, Dr. Harry J. Saal was chosen by the US Department of Justice to lead the Technical Committee charged with monitoring and enforcing the Microsoft Antitrust case, and he served as Chairman of the Committee through the May 2011 expiration of the Judgment.
+                  </p>
+                  <p
+                    className="paragraph">
+                    Harry founded Nestar Systems, a pioneer in local area network systems, in 1978. In 1986, Harry became the founder and CEO of Network General Corporation, the first company wholly dedicated to the area of network diagnostics. From 1993 through 1995, Harry served as founding CEO and President of Smart Valley, Inc., a non-profit organization chartered to create a regional electronic community based on an advanced information infrastructure and the collective ability to use it.
+                  </p>
+                  <p
+                    className="paragraph">
+                    Harry is active in philanthropy and community affairs, and serves on the board of the American Institute of Mathematics, among others. Harry holds a B.A., M.A. and Ph.D. in Physics from Columbia University.
+                  </p>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </article>
+        <div
+          className="closeButton"
+          onClick={[Function]}
+          title="Close Section: Careers & Team">
+          <svg
+            className="closeIcon"
+            fill="currentColor"
+            height="1em"
+            preserveAspectRatio="xMidYMid meet"
+            style={
+              Object {
+                "color": "inherit",
+                "verticalAlign": "middle",
+              }
+            }
+            viewBox="0 0 40 40"
+            width="1em">
+            <g>
+              <path
+                d="m31 26.4q0 0.3-0.2 0.5l-1.1 1.2q-0.3 0.2-0.6 0.2t-0.5-0.2l-8.7-8.8-8.8 8.8q-0.2 0.2-0.5 0.2t-0.5-0.2l-1.2-1.2q-0.2-0.2-0.2-0.5t0.2-0.5l10.4-10.4q0.3-0.2 0.6-0.2t0.5 0.2l10.4 10.4q0.2 0.2 0.2 0.5z" />
+            </g>
+          </svg>
+          Close Section
+        </div>
+      </div>
+    </section>
+    <section
+      className="section"
+      id="sectionContact">
+      <nav
+        className="title"
+        onClick={[Function]}
+        title="Open Section: Contact">
+        <svg
+          className="toggle"
+          fill="currentColor"
+          height="1em"
+          preserveAspectRatio="xMidYMid meet"
+          style={
+            Object {
+              "color": undefined,
+              "verticalAlign": "middle",
+            }
+          }
+          viewBox="0 0 40 40"
+          width="1em">
+          <g>
+            <path
+              d="m31 16.4q0 0.3-0.2 0.5l-10.4 10.4q-0.3 0.3-0.5 0.3t-0.6-0.3l-10.4-10.4q-0.2-0.2-0.2-0.5t0.2-0.5l1.2-1.1q0.2-0.2 0.5-0.2t0.5 0.2l8.8 8.8 8.7-8.8q0.3-0.2 0.5-0.2t0.6 0.2l1.1 1.1q0.2 0.2 0.2 0.5z" />
+          </g>
+        </svg>
+        <h1
+          className="title">
+          Contact
+        </h1>
+      </nav>
+      <div
+        className="article closed">
+        <article>
+          <div
+            className="columns">
+            <div
+              className="content">
+              <p
+                className="paragraph">
+                Want to get in contact with us? Send us a message by filling out this form or use the appropriate email.
+              </p>
+              <form
+                acceptCharset="UTF-8"
+                action="https://numenta.wufoo.com/forms/kcp312j1iehcj2/#public"
+                autoComplete="off"
+                className="form"
+                encType="multipart/form-data"
+                id="form9"
+                method="post"
+                name="form9"
+                onSubmit={undefined}>
+                <div
+                  className="formRow">
+                  <label
+                    className="formLabel"
+                    htmlFor="Field861">
+                    First Name
+                  </label>
+                  <input
+                    className="formInput medium"
+                    id="Field861"
+                    name="Field861"
+                    onChange={undefined}
+                    placeholder="Firstname"
+                    type="text"
+                    value={undefined} />
+                </div>
+                <div
+                  className="formRow">
+                  <label
+                    className="formLabel"
+                    htmlFor="Field862">
+                    Last Name
+                  </label>
+                  <input
+                    className="formInput large"
+                    id="Field862"
+                    name="Field862"
+                    onChange={undefined}
+                    placeholder="Lastname"
+                    type="text"
+                    value={undefined} />
+                </div>
+                <div
+                  className="formRow">
+                  <label
+                    className="formLabel"
+                    htmlFor="Field757">
+                    Job Title
+                  </label>
+                  <input
+                    className="formInput medium"
+                    id="Field757"
+                    name="Field757"
+                    onChange={undefined}
+                    placeholder="Role"
+                    type="text"
+                    value={undefined} />
+                </div>
+                <div
+                  className="formRow">
+                  <label
+                    className="formLabel"
+                    htmlFor="Field114">
+                    Company
+                  </label>
+                  <input
+                    className="formInput small"
+                    id="Field114"
+                    name="Field114"
+                    onChange={undefined}
+                    placeholder="Company"
+                    type="text"
+                    value={undefined} />
+                </div>
+                <div
+                  className="formRow">
+                  <label
+                    className="formLabel"
+                    htmlFor="Field9">
+                    Email
+                  </label>
+                  <input
+                    className="formInput medium"
+                    id="Field9"
+                    name="Field9"
+                    onChange={undefined}
+                    placeholder="name@company.com"
+                    type="email"
+                    value={undefined} />
+                </div>
+                <div
+                  className="formRow">
+                  <label
+                    className="formLabel"
+                    htmlFor="Field244">
+                    Phone
+                  </label>
+                  <input
+                    className="formInput small"
+                    id="Field244"
+                    name="Field244"
+                    onChange={undefined}
+                    placeholder="+1-555-555-5555"
+                    type="tel"
+                    value={undefined} />
+                </div>
+                <div
+                  className="formRow">
+                  <label
+                    className="formLabel"
+                    htmlFor="Field858">
+                    How can we help?
+                  </label>
+                  <textarea
+                    className="formTextArea"
+                    id="Field858"
+                    name="Field858"
+                    placeholder="Comment here." />
+                </div>
+                <div
+                  className="formRow">
+                  <label
+                    className="formLabel"
+                    htmlFor={undefined}>
+                     
+                  </label>
+                  <button
+                    className="button primary"
+                    disabled={false}
+                    onClick={undefined}
+                    type="submit">
+                    Send
+                  </button>
+                </div>
+                <input
+                  className="formInput large"
+                  id="idstamp"
+                  name="idstamp"
+                  onChange={undefined}
+                  placeholder={undefined}
+                  type="hidden"
+                  value="hwFr746QGPGzzbeOEbIcrXFmpScleWw61VTW0cdscY4=" />
+              </form>
+            </div>
+            <div
+              className="aside">
+              <div
+                className="emails">
+                <dl
+                  className="defineList vertical">
+                  <dt
+                    className="defineTitle vertical">
+                    Product Support:
+                  </dt>
+                  <dd
+                    className="defineItem vertical">
+                    <a
+                      className="textlink"
+                      href="mailto:support@numenta.com"
+                      onClick={[Function]}
+                      target={undefined}>
+                      support@numenta.com
+                    </a>
+                  </dd>
+                  <dt
+                    className="defineTitle vertical">
+                    Press Contact:
+                  </dt>
+                  <dd
+                    className="defineItem vertical">
+                    <a
+                      className="textlink"
+                      href="mailto:press@numenta.com"
+                      onClick={[Function]}
+                      target={undefined}>
+                      press@numenta.com
+                    </a>
+                  </dd>
+                  <dt
+                    className="defineTitle vertical">
+                    Licensing Inquiries:
+                  </dt>
+                  <dd
+                    className="defineItem vertical">
+                    <a
+                      className="textlink"
+                      href="mailto:sales@numenta.com"
+                      onClick={[Function]}
+                      target={undefined}>
+                      sales@numenta.com
+                    </a>
+                  </dd>
+                </dl>
+              </div>
+            </div>
+          </div>
+          <span
+            className="anchor"
+            id="office" />
+          <h2
+            className="h2">
+            Office
+          </h2>
+          <div
+            className="columns">
+            <div
+              className="asideCenter">
+              <a
+                className="imagelink"
+                href="http://maps.google.com/maps?q=791+Middlefield+Road,+Redwood+City,+CA+94063"
+                onClick={[Function]}
+                title={undefined}>
+                <img
+                  alt="Map to Numenta Office"
+                  className="image mw"
+                  onClick={undefined}
+                  src="filename.ext"
+                  title={undefined} />
+              </a>
+            </div>
+            <div
+              className="content">
+              <table
+                className="table">
+                <tbody
+                  className="tableBody">
+                  <tr
+                    className="tableRow">
+                    <td
+                      className="tableCell"
+                      colSpan={1}>
+                      <strong
+                        className="strong">
+                        Phone
+                      </strong>
+                    </td>
+                    <td
+                      className="tableCell"
+                      colSpan={1}>
+                      <a
+                        className="textlink"
+                        href="tel:650-369-8282"
+                        onClick={[Function]}
+                        target={undefined}>
+                        650-369-8282
+                      </a>
+                    </td>
+                  </tr>
+                  <tr
+                    className="tableRow">
+                    <td
+                      className="tableCell"
+                      colSpan={1}>
+                      <strong
+                        className="strong">
+                        Fax
+                      </strong>
+                    </td>
+                    <td
+                      className="tableCell"
+                      colSpan={1}>
+                      650-369-8283
+                    </td>
+                  </tr>
+                  <tr
+                    className="tableRow">
+                    <td
+                      className="tableCell"
+                      colSpan={1}>
+                      <strong
+                        className="strong">
+                        Address
+                      </strong>
+                    </td>
+                    <td
+                      className="tableCell"
+                      colSpan={1}>
+                      <address
+                        className="address">
+                        791 Middlefield Road 
+                        <br />
+                        Redwood City, CA 94063
+                      </address>
+                    </td>
+                  </tr>
+                  <tr
+                    className="tableRow">
+                    <td
+                      className="tableCell"
+                      colSpan={1}>
+                      <strong
+                        className="strong">
+                        Map
+                      </strong>
+                    </td>
+                    <td
+                      className="tableCell"
+                      colSpan={1}>
+                      <a
+                        className="textlink"
+                        href="http://maps.google.com/maps?q=791+Middlefield+Road,+Redwood+City,+CA+94063"
+                        onClick={[Function]}
+                        target={undefined}>
+                        Google Maps Link
+                      </a>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+              <div
+                className="office">
+                <ul
+                  className="ul">
+                  <li
+                    className="li copy markerDisc">
+                    Reception is on the second floor on the left
+                  </li>
+                  <li
+                    className="li copy markerDisc">
+                    Street parking is available on surrounding streets
+                  </li>
+                  <li
+                    className="li copy markerDisc">
+                    The Jefferson Avenue Garage is the nearest parking structure
+                  </li>
+                </ul>
+              </div>
+              <span
+                className="anchor"
+                id="follow" />
+              <h3
+                className="h3">
+                Follow
+              </h3>
+              <div
+                className="social">
+                <span
+                  className="spread">
+                  <a
+                    className="imagelink"
+                    href="https://www.facebook.com/pages/Numenta/321559142118?ref=br_tf"
+                    onClick={[Function]}
+                    title="facebook">
+                    <svg
+                      fill="currentColor"
+                      height="1em"
+                      preserveAspectRatio="xMidYMid meet"
+                      style={
+                        Object {
+                          "color": "inherit",
+                          "verticalAlign": "middle",
+                        }
+                      }
+                      viewBox="0 0 40 40"
+                      width="1em">
+                      <g>
+                        <path
+                          d="m29.4 0.3v5.9h-3.5q-1.9 0-2.6 0.8t-0.7 2.4v4.2h6.6l-0.9 6.6h-5.7v16.9h-6.8v-16.9h-5.7v-6.6h5.7v-4.9q0-4.1 2.3-6.4t6.2-2.3q3.3 0 5.1 0.3z" />
+                      </g>
+                    </svg>
+                  </a>
+                </span>
+                <span
+                  className="spread">
+                  <a
+                    className="imagelink"
+                    href="https://twitter.com/numenta"
+                    onClick={[Function]}
+                    title="twitter">
+                    <svg
+                      fill="currentColor"
+                      height="1em"
+                      preserveAspectRatio="xMidYMid meet"
+                      style={
+                        Object {
+                          "color": "inherit",
+                          "verticalAlign": "middle",
+                        }
+                      }
+                      viewBox="0 0 40 40"
+                      width="1em">
+                      <g>
+                        <path
+                          d="m37.7 9.1q-1.5 2.2-3.7 3.7 0.1 0.3 0.1 1 0 2.9-0.9 5.8t-2.6 5.5-4.1 4.7-5.7 3.3-7.2 1.2q-6.1 0-11.1-3.3 0.8 0.1 1.7 0.1 5 0 9-3-2.4-0.1-4.2-1.5t-2.6-3.5q0.8 0.1 1.4 0.1 1 0 1.9-0.3-2.5-0.5-4.1-2.5t-1.7-4.6v0q1.5 0.8 3.3 0.9-1.5-1-2.4-2.6t-0.8-3.4q0-2 0.9-3.7 2.7 3.4 6.6 5.4t8.3 2.2q-0.2-0.9-0.2-1.7 0-3 2.1-5.1t5.1-2.1q3.2 0 5.3 2.3 2.4-0.5 4.6-1.7-0.8 2.5-3.2 3.9 2.1-0.2 4.2-1.1z" />
+                      </g>
+                    </svg>
+                  </a>
+                </span>
+                <span
+                  className="spread">
+                  <a
+                    className="imagelink"
+                    href="https://www.youtube.com/c/NumentaOrg"
+                    onClick={[Function]}
+                    title="youtube">
+                    <svg
+                      fill="currentColor"
+                      height="1em"
+                      preserveAspectRatio="xMidYMid meet"
+                      style={
+                        Object {
+                          "color": "inherit",
+                          "verticalAlign": "middle",
+                        }
+                      }
+                      viewBox="0 0 40 40"
+                      width="1em">
+                      <g>
+                        <path
+                          d="m24.7 27.8v4.7q0 1.5-0.9 1.5-0.5 0-1-0.5v-6.7q0.5-0.5 1-0.5 0.9 0 0.9 1.5z m7.5 0v1h-2v-1q0-1.5 1-1.5t1 1.5z m-21.5-4.9h2.3v-2.1h-6.9v2.1h2.3v12.7h2.3v-12.7z m6.4 12.7h2v-11h-2v8.4q-0.7 1-1.3 1-0.4 0-0.5-0.5 0-0.1 0-0.8v-8.1h-2v8.7q0 1.1 0.2 1.7 0.3 0.8 1.3 0.8 1.1 0 2.3-1.4v1.2z m9.6-3.3v-4.4q0-1.6-0.2-2.2-0.4-1.2-1.6-1.2-1.1 0-2.1 1.2v-4.9h-2v14.8h2v-1q1 1.2 2.1 1.2 1.2 0 1.6-1.2 0.2-0.6 0.2-2.3z m7.5-0.2v-0.3h-2q0 1.1-0.1 1.4-0.1 0.8-0.9 0.8-1 0-1-1.6v-1.9h4v-2.3q0-1.8-0.6-2.6-0.9-1.1-2.4-1.1-1.5 0-2.4 1.1-0.6 0.8-0.6 2.6v3.9q0 1.7 0.7 2.5 0.8 1.2 2.4 1.2 1.6 0 2.4-1.2 0.4-0.6 0.5-1.2 0-0.2 0-1.3z m-13.6-20.4v-4.7q0-1.5-0.9-1.5t-1 1.5v4.7q0 1.6 1 1.6t0.9-1.6z m16.1 16.8q0 5.2-0.6 7.8-0.3 1.3-1.3 2.2t-2.3 1q-4.1 0.5-12.4 0.5t-12.3-0.5q-1.3-0.1-2.3-1t-1.3-2.2q-0.6-2.5-0.6-7.8 0-5.2 0.6-7.8 0.3-1.3 1.3-2.2t2.3-1.1q4.1-0.4 12.3-0.4t12.4 0.4q1.3 0.2 2.3 1.1t1.3 2.2q0.6 2.5 0.6 7.8z m-22.3-28.5h2.3l-2.7 8.9v6.1h-2.2v-6.1q-0.4-1.6-1.4-4.7-0.8-2.3-1.5-4.2h2.4l1.6 5.9z m8.3 7.4v3.9q0 1.8-0.7 2.7-0.8 1.1-2.3 1.1-1.5 0-2.4-1.1-0.6-0.9-0.6-2.7v-3.9q0-1.8 0.6-2.6 0.9-1.1 2.4-1.1 1.5 0 2.3 1.1 0.7 0.8 0.7 2.6z m7.4-3.6v11.2h-2v-1.3q-1.2 1.4-2.3 1.4-1 0-1.3-0.8-0.2-0.5-0.2-1.7v-8.8h2v8.2q0 0.7 0.1 0.8 0 0.5 0.4 0.5 0.6 0 1.3-1v-8.5h2z" />
+                      </g>
+                    </svg>
+                  </a>
+                </span>
+                <span
+                  className="spread">
+                  <a
+                    className="imagelink"
+                    href="https://www.linkedin.com/company/numenta"
+                    onClick={[Function]}
+                    title="linkedin">
+                    <svg
+                      fill="currentColor"
+                      height="1em"
+                      preserveAspectRatio="xMidYMid meet"
+                      style={
+                        Object {
+                          "color": "inherit",
+                          "verticalAlign": "middle",
+                        }
+                      }
+                      viewBox="0 0 40 40"
+                      width="1em">
+                      <g>
+                        <path
+                          d="m10.8 13.9v22.2h-7.4v-22.1h7.4z m0.5-6.8q0 1.7-1.2 2.7t-3 1.1h0q-1.9 0-3-1.1t-1.1-2.7q0-1.6 1.2-2.7t3-1.1 2.9 1.1 1.2 2.7z m26 16.3v12.7h-7.4v-11.9q0-2.3-0.9-3.6t-2.8-1.4q-1.4 0-2.3 0.8t-1.5 1.9q-0.2 0.7-0.2 1.8v12.4h-7.3q0-8.9 0-14.5t0-6.6l0-1h7.3v3.2h-0.1q0.5-0.7 1-1.3t1.2-1.1 2-1 2.5-0.4q3.8 0 6.2 2.6t2.3 7.4z" />
+                      </g>
+                    </svg>
+                  </a>
+                </span>
+              </div>
+            </div>
+          </div>
+        </article>
+        <div
+          className="closeButton"
+          onClick={[Function]}
+          title="Close Section: Contact">
+          <svg
+            className="closeIcon"
+            fill="currentColor"
+            height="1em"
+            preserveAspectRatio="xMidYMid meet"
+            style={
+              Object {
+                "color": "inherit",
+                "verticalAlign": "middle",
+              }
+            }
+            viewBox="0 0 40 40"
+            width="1em">
+            <g>
+              <path
+                d="m31 26.4q0 0.3-0.2 0.5l-1.1 1.2q-0.3 0.2-0.6 0.2t-0.5-0.2l-8.7-8.8-8.8 8.8q-0.2 0.2-0.5 0.2t-0.5-0.2l-1.2-1.2q-0.2-0.2-0.2-0.5t0.2-0.5l10.4-10.4q0.3-0.2 0.6-0.2t0.5 0.2l10.4 10.4q0.2 0.2 0.2 0.5z" />
+            </g>
+          </svg>
+          Close Section
+        </div>
+      </div>
+    </section>
+  </div>
+</div>
+`;

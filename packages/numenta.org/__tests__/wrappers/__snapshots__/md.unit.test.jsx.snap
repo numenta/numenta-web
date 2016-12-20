@@ -1,0 +1,78 @@
+exports[`MD Wrapper React component Renders correctly 1`] = `
+<article
+  className="md">
+  <div
+    className="date">
+    <time
+      className="time"
+      dateTime="2016-12-21T00:00:00-08:00">
+      Wed, Dec 21, 2016
+    </time>
+  </div>
+  <section
+    className="section"
+    id={undefined}>
+    <h1
+      className="headline">
+      Calculus of the Nervous System
+    </h1>
+    <div
+      className="article">
+      <div
+        className="author">
+        <span
+          className="subtle">
+          <span
+            className="avatar">
+            <img
+              alt="Ada Lovelace"
+              className="image border round"
+              onClick={undefined}
+              src="filename.ext"
+              title="Ada Lovelace" />
+          </span>
+          Ada Lovelace
+          <span
+            className="spacer">
+            •
+          </span>
+          Evangelist
+        </span>
+      </div>
+      <div
+        className="content">
+        <div
+          className="markdown">
+          <div
+            dangerouslySetInnerHTML={
+              Object {
+                "__html": undefined,
+              }
+            } />
+        </div>
+      </div>
+      <div
+        className="author">
+        <span
+          className="subtle">
+          <span
+            className="avatar">
+            <img
+              alt="Ada Lovelace"
+              className="image border round"
+              onClick={undefined}
+              src="filename.ext"
+              title="Ada Lovelace" />
+          </span>
+          Ada Lovelace
+          <span
+            className="spacer">
+            •
+          </span>
+          Evangelist
+        </span>
+      </div>
+    </div>
+  </section>
+</article>
+`;

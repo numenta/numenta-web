@@ -1,0 +1,17 @@
+/**
+ * Numenta Web Platform and Sites source code
+ * MIT License (see LICENSE.txt)
+ * Copyright © 2005—2017 Numenta <http://numenta.com>
+ */
+
+.spread {
+  composes: ph3 from 'tachyons';
+}
+
+.social {
+  composes: f2 from 'tachyons';
+  composes: mb4 from 'tachyons';
+  composes: mt3 from 'tachyons';
+  composes: tc from 'tachyons';
+  composes: tl-ns from 'tachyons';
+}

@@ -1,0 +1,85 @@
+/**
+ * Numenta Web Platform and Sites source code
+ * MIT License (see LICENSE.txt)
+ * Copyright © 2005—2017 Numenta <http://numenta.com>
+ */
+
+
+/**
+ * Global document layout and style
+ */
+
+:global html {
+  font-family: Catamaran, Helvetica, Arial, sans-serif;
+  font-size: 15px;  /* base size for tachyons em's */
+}
+:global .body {
+  background: linear-gradient(to bottom, #999, #777);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+:global .anchor {  /* see: components/Anchor */
+  display: block;
+  height: 4rem;
+  margin-top: -4rem;  /* (tachyons h3) */
+  visibility: hidden;
+  z-index: -9999;
+}
+
+:global a[href*="://"]::after,
+:global a[href$=".doc"]::after,
+:global a[href$=".docx"]::after,
+:global a[href$=".pdf"]::after,
+:global a[href$=".txt"]::after,
+:global a[href*="youtu.be"]::after,
+:global a[href*="youtube.com"]::after {
+  content: ' ';
+  display: inline-block;
+  left: 0.333rem;
+  margin-right: 0.555rem;
+  position: relative;
+  top: 0.05rem;
+}
+:global a[href*="://"]::after {
+  background-image: url('./images/link.svg');
+  background-size: 11px 11px;
+  height: 11px;
+  width: 11px;
+}
+:global a[href$=".doc"]::after,
+:global a[href$=".docx"]::after {
+  background-image: url('./images/word.svg');
+  background-size: 14px 13px;
+  height: 13px;
+  width: 14px;
+}
+:global a[href$=".pdf"]::after {
+  background-image: url('./images/pdf.svg');
+  background-size: 14px 13px;
+  height: 13px;
+  width: 14px;
+}
+:global a[href$=".txt"]::after {
+  background-image: url('./images/text.svg');
+  background-size: 14px 13px;
+  height: 13px;
+  width: 14px;
+}
+:global a[href*="youtu.be"]::after,
+:global a[href*="youtube.com"]::after {
+  background-image: url('./images/play.svg');
+  background-size: 15px 15px;
+  height: 13px;
+  width: 15px;
+}
+
+/**
+ * Layout.jsx
+ */
+
+.layout {
+  composes: f4 from 'tachyons';
+  composes: f5-ns from 'tachyons';
+  composes: fw4 from 'tachyons';
+  composes: mb4 from 'tachyons';
+}

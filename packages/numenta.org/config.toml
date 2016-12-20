@@ -1,0 +1,53 @@
+linkPrefix = ''
+# linkPrefix = '/numenta-web'  # integration/staging (gh-pages)
+
+siteHost = 'Numenta.org'
+siteTitle = 'Hierarchical Temporal Memory (HTM)'
+description = 'Bridging the Gap Between Neuroscience and AI'
+company = 'Numenta'
+
+[contact]
+  [contact.email]
+    info = 'info@numenta.org'
+
+[analytics]
+  google = 'UA-40622508-1'
+  pingdom = '55a7dbc8abe53dba666b928b'
+
+[links]
+  [links.out]  # external links
+    bami = 'http://numenta.com/biological-and-machine-intelligence/'
+    com = 'http://numenta.com/'
+    cortical = 'http://cortical.io/'
+    github = 'https://github.com/numenta'
+    grok = 'http://grokstream.com/'
+    forum = 'https://discourse.numenta.org/categories'
+    meetup = 'http://www.meetup.com/Numenta-Platform-for-Intelligent-Computing-Events/'
+    school = 'https://www.youtube.com/watch?v=XMB0ri4qgwc'
+    youtube = 'https://www.youtube.com/c/NumentaOrg'
+
+  [links.in]  # internal paths
+    # main/home pseudo-single page
+    home = '/'
+    research = '/research-and-publications/'
+    community = '/community/'
+    htm = '/hierarchical-temporal-memory/'
+    code = '/code/'
+    # other site pages
+    blog = '/blog/'
+    conduct = '/licenses/conduct/'
+    contrib = '/licenses/contrib/'
+    faq = '/faq/'
+    history = '/htm-history/'
+    implement = '/implementations/'
+    license = '/licenses/'
+    papers = '/papers/'
+    privacy = '/legal/privacy/'
+    school = '/htm-school/'
+    sitemap = '/sitemap/'
+    terms = '/legal/terms/'
+    trial = '/licenses/trial/'
+
+[moments]
+  post = 'YYYY/MM/DD'
+  human = 'ddd, MMM DD, YYYY'

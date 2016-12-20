@@ -1,0 +1,10 @@
+/**
+ * Numenta Web Platform and Sites source code
+ * MIT License (see LICENSE.txt)
+ * Copyright © 2005—2017 Numenta <http://numenta.com>
+ */
+
+.spacer {
+  composes: mh1 from 'tachyons';
+  composes: silver from 'tachyons';
+}

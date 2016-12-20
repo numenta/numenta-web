@@ -1,0 +1,24 @@
+/**
+ * Numenta Web Platform and Sites source code
+ * MIT License (see LICENSE.txt)
+ * Copyright © 2005—2017 Numenta <http://numenta.com>
+ */
+
+.search {
+  composes: cf from 'tachyons';
+}
+
+.label {
+  composes: clip from 'tachyons';
+}
+
+.query {
+  composes: fl from 'tachyons';
+  composes: flex from 'tachyons';
+  composes: h2 from 'tachyons';
+  composes: mb2 from 'tachyons';
+  composes: relative from 'tachyons';
+  composes: w4 from 'tachyons';
+  composes: w5-ns from 'tachyons';
+  top: 2px;
+}

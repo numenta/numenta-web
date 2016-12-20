@@ -1,0 +1,35 @@
+/**
+ * Numenta Web Platform and Sites source code
+ * MIT License (see LICENSE.txt)
+ * Copyright © 2005—2017 Numenta <http://numenta.com>
+ */
+
+.blockquote {
+  composes: db from 'tachyons';
+  composes: f4 from 'tachyons';
+  composes: lh-copy from 'tachyons';
+  composes: mb4 from 'tachyons';
+  composes: mt2 from 'tachyons';
+  composes: pt0 from 'tachyons';
+  composes: tc from 'tachyons';
+}
+
+.paragraph {
+  composes: di from 'tachyons';
+  composes: fw3 from 'tachyons';
+  composes: i from 'tachyons';
+}
+
+.footer {
+  composes: di from 'tachyons';
+}
+
+.dash {
+  composes: fs-normal from 'tachyons';
+  composes: ml3 from 'tachyons';
+  composes: moon-gray from 'tachyons';
+}
+
+.cite {
+  composes: silver from 'tachyons';
+}

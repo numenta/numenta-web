@@ -1,0 +1,34 @@
+exports[`Events Page React component Renders correctly 1`] = `
+<article
+  className="events">
+  <section
+    className="section"
+    id={undefined}>
+    <h1
+      className="headline">
+      Events
+    </h1>
+    <div
+      className="article">
+      <span
+        className="anchor"
+        id="upcoming" />
+      <h2
+        className="h2">
+        Upcoming Events
+      </h2>
+      <ul
+        className="ul" />
+      <span
+        className="anchor"
+        id="past" />
+      <h2
+        className="h2">
+        Past Events
+      </h2>
+      <ul
+        className="ul" />
+    </div>
+  </section>
+</article>
+`;

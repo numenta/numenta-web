@@ -1,0 +1,25 @@
+/**
+ * Numenta Web Platform and Sites source code
+ * MIT License (see LICENSE.txt)
+ * Copyright © 2005—2017 Numenta <http://numenta.com>
+ */
+
+.horizontal {
+  composes: fl from 'tachyons';
+  composes: h-100 from 'tachyons';
+  composes: ma0 from 'tachyons';
+  padding-bottom: 0.2rem;
+  padding-top: 0.4rem;
+  width: 65%;
+}
+
+.vertical {
+  composes: mb3 from 'tachyons';
+  composes: ml0 from 'tachyons';
+  composes: pl0 from 'tachyons';
+}
+
+
+.defineItem {
+  word-wrap: break-word;
+}

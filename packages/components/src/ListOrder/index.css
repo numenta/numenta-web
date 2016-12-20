@@ -1,0 +1,11 @@
+/**
+ * Numenta Web Platform and Sites source code
+ * MIT License (see LICENSE.txt)
+ * Copyright © 2005—2017 Numenta <http://numenta.com>
+ */
+
+.ol {
+  composes: list from 'tachyons';
+  composes: mb4 from 'tachyons';
+  composes: pl0 from 'tachyons';
+}

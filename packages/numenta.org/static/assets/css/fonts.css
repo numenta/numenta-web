@@ -1,0 +1,84 @@
+/**
+ * Numenta Web Platform and Sites source code
+ * MIT License (see LICENSE.txt)
+ * Copyright © 2005—2017 Numenta <http://numenta.com>
+ */
+
+/**
+ * Web Font: Catamaran
+ */
+
+/* catamaran-300 - latin */
+@font-face {
+  font-family: 'Catamaran';
+  font-style: normal;
+  font-weight: 300;
+  src: url('../fonts/catamaran-v1-latin-300.eot');
+  src: local('Catamaran Light'),
+    local('Catamaran-Light'),
+    url('../fonts/catamaran-v1-latin-300.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/catamaran-v1-latin-300.woff2') format('woff2'),
+    url('../fonts/catamaran-v1-latin-300.woff') format('woff'),
+    url('../fonts/catamaran-v1-latin-300.ttf') format('truetype'),
+    url('../fonts/catamaran-v1-latin-300.svg#Catamaran') format('svg');
+}
+
+/* catamaran-regular - latin */
+@font-face {
+  font-family: 'Catamaran';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/catamaran-v1-latin-regular.eot');
+  src: local('Catamaran'),
+    local('Catamaran-Regular'),
+    url('../fonts/catamaran-v1-latin-regular.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/catamaran-v1-latin-regular.woff2') format('woff2'),
+    url('../fonts/catamaran-v1-latin-regular.woff') format('woff'),
+    url('../fonts/catamaran-v1-latin-regular.ttf') format('truetype'),
+    url('../fonts/catamaran-v1-latin-regular.svg#Catamaran') format('svg');
+}
+
+/* catamaran-500 - latin */
+@font-face {
+  font-family: 'Catamaran';
+  font-style: normal;
+  font-weight: 500;
+  src: url('../fonts/catamaran-v1-latin-500.eot');
+  src: local('Catamaran Medium'),
+    local('Catamaran-Medium'),
+    url('../fonts/catamaran-v1-latin-500.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/catamaran-v1-latin-500.woff2') format('woff2'),
+    url('../fonts/catamaran-v1-latin-500.woff') format('woff'),
+    url('../fonts/catamaran-v1-latin-500.ttf') format('truetype'),
+    url('../fonts/catamaran-v1-latin-500.svg#Catamaran') format('svg');
+}
+
+/* catamaran-600 - latin */
+@font-face {
+  font-family: 'Catamaran';
+  font-style: normal;
+  font-weight: 600;
+  src: url('../fonts/catamaran-v1-latin-600.eot');
+  src: local('Catamaran SemiBold'),
+    local('Catamaran-SemiBold'),
+    url('../fonts/catamaran-v1-latin-600.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/catamaran-v1-latin-600.woff2') format('woff2'),
+    url('../fonts/catamaran-v1-latin-600.woff') format('woff'),
+    url('../fonts/catamaran-v1-latin-600.ttf') format('truetype'),
+    url('../fonts/catamaran-v1-latin-600.svg#Catamaran') format('svg');
+}
+
+/* catamaran-700 - latin */
+@font-face {
+  font-family: 'Catamaran';
+  font-style: normal;
+  font-weight: 700;
+  src: url('../fonts/catamaran-v1-latin-700.eot');
+  src: local('Catamaran Bold'),
+    local('Catamaran-Bold'),
+    url('../fonts/catamaran-v1-latin-700.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/catamaran-v1-latin-700.woff2') format('woff2'),
+    url('../fonts/catamaran-v1-latin-700.woff') format('woff'),
+    url('../fonts/catamaran-v1-latin-700.ttf') format('truetype'),
+    url('../fonts/catamaran-v1-latin-700.svg#Catamaran') format('svg');
+}

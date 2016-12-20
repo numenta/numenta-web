@@ -1,4 +1,7 @@
+coverage/
+node_modules/
+
 .DS_Store
 .gatsby-context.js
-node_modules
+lerna-debug.log
 npm-debug.log

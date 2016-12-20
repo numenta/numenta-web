@@ -1,0 +1,37 @@
+/**
+ * Numenta Web Platform and Sites source code
+ * MIT License (see LICENSE.txt)
+ * Copyright © 2005—2017 Numenta <http://numenta.com>
+ */
+
+.appbar {
+  composes: fixed from 'tachyons';
+  composes: h3 from 'tachyons';
+  composes: ph3 from 'tachyons';
+  composes: shadow-1 from 'tachyons';
+  composes: top-0 from 'tachyons';
+  composes: w-100 from 'tachyons';
+  background-color: #0a90cb;
+  z-index: 800;
+}
+
+.header {
+  composes: center from 'tachyons';
+  composes: cf from 'tachyons';
+  composes: mw-100 from 'tachyons';
+  composes: mw7-m from 'tachyons';
+  composes: mw8-l from 'tachyons';
+}
+
+.logo {
+  composes: fl from 'tachyons';
+  composes: relative from 'tachyons';
+  composes: top-1 from 'tachyons';
+  height: 33px;
+  width: 145px;
+}
+
+.search {
+  composes: fr from 'tachyons';
+  composes: mt3 from 'tachyons';
+}

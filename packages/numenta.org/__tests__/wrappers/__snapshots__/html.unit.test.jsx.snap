@@ -1,0 +1,17 @@
+exports[`HTML Wrapper React component Renders correctly 1`] = `
+<div
+  className="html">
+  <h1
+    dangerouslySetInnerHTML={
+      Object {
+        "__html": "Calculus of the Nervous System",
+      }
+    } />
+  <div
+    dangerouslySetInnerHTML={
+      Object {
+        "__html": undefined,
+      }
+    } />
+</div>
+`;

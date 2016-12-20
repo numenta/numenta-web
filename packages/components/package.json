@@ -1,0 +1,54 @@
+{
+  "name": "numenta-web-shared-components",
+  "version": "0.0.0",
+  "description": "Numenta Web Platform Shared View Components",
+  "license": "MIT",
+  "main": false,
+  "private": true,
+  "author": {
+    "name": "Numenta",
+    "email": "info@numenta.com",
+    "url": "http://numenta.com"
+  },
+  "bugs": {
+    "url": "https://github.com/numenta/numenta-web/issues",
+    "email": "info@numenta.com"
+  },
+  "dependencies": {
+    "catch-links": "github:numenta/catch-links#d6986c48715d69ba9575195002bd1338c4b41933",
+    "classnames": "2.2.5",
+    "gatsby": "0.11.7",
+    "lunr": "0.7.2",
+    "moment": "2.17.1",
+    "numenta-web-shared-utils": "^0.0.0",
+    "react": "15.4.1",
+    "react-highlighter": "0.3.3",
+    "react-icons": "2.2.1",
+    "react-modal": "1.6.3",
+    "react-router": "2.8.1",
+    "react-youtube": "7.3.0",
+    "superagent": "3.2.1",
+    "window-or-global": "1.0.1",
+    "xss-filters": "1.2.7"
+  },
+  "devDependencies": {
+    "babel-cli": "6.18.0",
+    "babel-core": "6.20.0",
+    "babel-plugin-add-module-exports": "0.2.1",
+    "babel-plugin-transform-class-properties": "6.19.0",
+    "babel-preset-es2015": "6.18.0",
+    "babel-preset-react": "6.16.0",
+    "babel-preset-react-hmre": "1.1.1",
+    "babel-preset-stage-0": "6.16.0",
+    "shx": "0.2.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/numenta/numenta-web"
+  },
+  "scripts": {
+    "clean": "shx rm -rf lib/",
+    "compile": "babel --copy-files --ignore __tests__ --out-dir lib/ --source-maps true src/",
+    "postinstall": "npm run compile"
+  }
+}

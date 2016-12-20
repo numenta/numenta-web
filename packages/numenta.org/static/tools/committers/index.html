@@ -1,0 +1,57 @@
+---
+layout: default
+redirect_from:
+  - "/committers.html"
+scripts:
+  - "/node_modules/handlebars/dist/handlebars.min.js"
+  - "/assets/js/committers.js"
+title: NuPIC Committers
+---
+
+<section>
+  <h1>{{ page.title }}</h1>
+  <div id="committers">
+    loading...
+  </div>
+</section>
+
+{% raw %}
+  <script id="committers-tmpl" type="text/x-handler-template">
+    {{#each committers}}
+      <div class="media">
+        <div class="media-left">
+          <a href="{{html_url}}" target="_blank">
+            <img class="media-object" src="{{avatar_url}}" alt="User Image" style="height:100px; width:100px;" />
+          </a>
+        </div>
+        <div class="media-body">
+          <h4 class="media-heading">
+            {{#if name}}
+              {{name}}
+            {{else}}
+              {{login}}
+            {{/if}}
+          </h4>
+          <p>{{bio}}</p>
+          <dl class="dl-horizontal small">
+            <dt>Followers</dt>
+              <dd>{{followers}}</dd>
+            {{#if location}}
+              <dt>Location</dt>
+                <dd>{{location}}</dd>
+            {{/if}}
+            {{#if company}}
+              <dt>Company</dt>
+                <dd>{{company}}</dd>
+            {{/if}}
+            {{#if email}}
+              <dt>Email</dt>
+                <dd><a href="mailto:{{email}}">{{email}}</a></dd>
+            {{/if}}
+          </dl>
+        </div> <!-- .media-body -->
+      </div> <!-- .media -->
+      <hr />
+    {{/each}}
+  </script>
+{% endraw %}

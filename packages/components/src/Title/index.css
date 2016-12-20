@@ -1,0 +1,24 @@
+/**
+ * Numenta Web Platform and Sites source code
+ * MIT License (see LICENSE.txt)
+ * Copyright © 2005—2017 Numenta <http://numenta.com>
+ */
+
+._base {
+  composes: black from 'tachyons';
+  composes: fw6 from 'tachyons';
+  composes: lh-title from 'tachyons';
+  composes: mv1 from 'tachyons';
+  composes: pa0 from 'tachyons';
+}
+
+
+.headline {
+  composes: f2 from 'tachyons';
+  composes: _base;
+}
+
+.title {
+  composes: f3 from 'tachyons';
+  composes: _base;
+}

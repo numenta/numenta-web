@@ -1,0 +1,17 @@
+exports[`Blog Page React component Renders correctly 1`] = `
+<article>
+  <section
+    className="section"
+    id={undefined}>
+    <h1
+      className="headline">
+      Blog
+    </h1>
+    <div
+      className="article">
+      <ul
+        className="ul" />
+    </div>
+  </section>
+</article>
+`;

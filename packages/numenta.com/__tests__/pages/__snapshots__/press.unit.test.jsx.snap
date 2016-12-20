@@ -1,0 +1,35 @@
+exports[`Press Page React component Renders correctly 1`] = `
+<article>
+  <section
+    className="section"
+    id={undefined}>
+    <h1
+      className="headline">
+      Press Releases
+    </h1>
+    <div
+      className="article">
+      <div
+        className="columns">
+        <div
+          className="content">
+          <ol
+            className="ol" />
+        </div>
+        <div
+          className="aside">
+          <span
+            className="anchor"
+            id="links" />
+          <h2
+            className="h2">
+            Press Links
+          </h2>
+          <ol
+            className="ol" />
+        </div>
+      </div>
+    </div>
+  </section>
+</article>
+`;

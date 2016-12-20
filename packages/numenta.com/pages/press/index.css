@@ -1,0 +1,32 @@
+/**
+ * Numenta Web Platform and Sites source code
+ * MIT License (see LICENSE.txt)
+ * Copyright © 2005—2017 Numenta <http://numenta.com>
+ */
+
+.columns {
+  composes: layout-columns from '../../static/assets/css/theme.css';
+}
+
+.content {
+  composes: pr4-l from 'tachyons';
+  composes: layout-content from '../../static/assets/css/theme.css';
+  margin-top: -0.5rem;
+}
+
+.aside {
+  composes: layout-aside from '../../static/assets/css/theme.css';
+  margin-top: -2rem;
+}
+
+
+.release {
+  composes: b--light-gray from 'tachyons';
+  composes: bt from 'tachyons';
+  composes: pb1 from 'tachyons';
+  composes: pt3 from 'tachyons';
+}
+
+.link {
+  composes: lh-copy from 'tachyons';
+}

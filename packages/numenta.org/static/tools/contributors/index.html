@@ -1,0 +1,53 @@
+---
+layout: default
+redirect_from:
+  - "/contributors.html"
+  - "/licenses/cl/contributors.html"
+scripts:
+  - "/node_modules/handlebars/dist/handlebars.min.js"
+  - "/node_modules/tablesorter/dist/js/jquery.tablesorter.min.js"
+  - "/assets/js/contributors.js"
+title: NuPIC Contributors
+---
+
+<section>
+  <h1>{{ page.title }} <small id="contrib-count"></small></h1>
+  <p>
+    These folks have contributed to the following repositories:
+    <ul>
+      <li><a href="https://github.com/numenta/nupic/graphs/contributors">numenta/nupic</a></li>
+      <li><a href="https://github.com/numenta/nupic.core/graphs/contributors">numenta/nupic.core</a></li>
+      <li><a href="https://github.com/numenta/htm.java/graphs/contributors">numenta/htm.java</a></li>
+      <li><a href="https://github.com/numenta/nupic.research/graphs/contributors">numenta/nupic.research</a></li>
+      <li><a href="https://github.com/numenta/NAB/graphs/contributors">numenta/NAB</a></li>
+    </ul>
+  </p>
+  <div id="contributors">
+    <i class="fa fa-fw fa-spin fa-cog"></i> Loading...
+  </div>
+</section>
+
+{% raw %}
+  <script id="contributor-table" type="text/x-handler-template">
+    <table class="table table-hover">
+      <thead>
+        <tr>
+          {{#each headings}}
+            <th id="tableHeader{{this}}" style="cursor: pointer; font-size: 14px;">{{this}}<span class="tableHeaderTriangle" style="font-size: 12px; margin-left: 5px; color: #888888;">&#x25BC;</span></th>
+          {{/each}}
+        </tr>
+      </thead>
+      <tbody>
+        {{#each contributors}}
+          <tr id="{{Github}}" style="font-size: 14px">
+            <td onclick="document.location='#{{Github}}'" style="color:#39c; cursor: pointer">{{Name}}</td>
+            <td onclick="document.location='https://github.com/{{Github}}'" style="color:#39c; cursor: pointer;">{{Github}}</td>
+            <td>{{Committer}}</td>
+            <td>{{Reviewer}}</td>
+            <td class="commits">{{Commits}}</td>
+          </tr>
+        {{/each}}
+      </tbody>
+    </table>
+  </script>
+{% endraw %}

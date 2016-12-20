@@ -1,0 +1,13 @@
+/**
+ * Numenta Web Platform and Sites source code
+ * MIT License (see LICENSE.txt)
+ * Copyright © 2005—2017 Numenta <http://numenta.com>
+ */
+
+.avatar {
+  composes: dib from 'tachyons';
+  composes: mr2 from 'tachyons';
+  composes: relative from 'tachyons';
+  composes: v-mid from 'tachyons';
+  top: 0.3rem;
+}

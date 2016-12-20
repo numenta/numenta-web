@@ -1,0 +1,29 @@
+exports[`Glance React component Renders correctly 1`] = `
+<aside
+  className="glance">
+  <div>
+    <h2>
+      Glance Header
+    </h2>
+  </div>
+  <dl
+    className="defineList horizontal">
+    <dt
+      className="defineTitle horizontal">
+      Title
+    </dt>
+    <dd
+      className="defineItem horizontal">
+      Definition
+    </dd>
+    <dt
+      className="defineTitle horizontal">
+      Another
+    </dt>
+    <dd
+      className="defineItem horizontal">
+      Last
+    </dd>
+  </dl>
+</aside>
+`;

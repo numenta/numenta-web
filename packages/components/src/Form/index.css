@@ -1,0 +1,12 @@
+/**
+ * Numenta Web Platform and Sites source code
+ * MIT License (see LICENSE.txt)
+ * Copyright © 2005—2017 Numenta <http://numenta.com>
+ */
+
+.form {
+  composes: pa0 from 'tachyons';
+  composes: mb3 from 'tachyons';
+  composes: mh0 from 'tachyons';
+  composes: mt0 from 'tachyons';
+}

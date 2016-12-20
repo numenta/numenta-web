@@ -1,0 +1,75 @@
+exports[`PostListRow React component Renders correctly 1`] = `
+<article
+  className="row">
+  <div
+    className="columns">
+    <div
+      className="aside">
+      <a
+        className="imagelink"
+        href={undefined}
+        onClick={[Function]}
+        style={Object {}}
+        title={undefined}>
+        <img
+          alt="Calculus of the Nervous System"
+          className="image border mw shadow"
+          onClick={undefined}
+          src="/blog/2016/09/30/calculus-of-the-nervous-system/"
+          title={undefined} />
+      </a>
+    </div>
+    <div
+      className="content">
+      <div
+        className="item">
+        <div
+          className="date">
+          <time
+            className="time"
+            dateTime="2016-12-21T00:00:00-08:00">
+            Wed, Dec 21, 2016
+          </time>
+        </div>
+        <a
+          className="textlink"
+          href={undefined}
+          onClick={[Function]}
+          style={Object {}}
+          target={undefined}>
+          <span
+            className="title">
+            Calculus of the Nervous System
+          </span>
+        </a>
+        <p
+          className="paragraph">
+          Quick quip or intro to the full text.
+          ...
+        </p>
+        <div
+          className="author">
+          <span
+            className="subtle">
+            <span
+              className="avatar">
+              <img
+                alt="Ada Lovelace"
+                className="image border round"
+                onClick={undefined}
+                src="filename.ext"
+                title="Ada Lovelace" />
+            </span>
+            Ada Lovelace
+            <span
+              className="spacer">
+              •
+            </span>
+            Evangelist
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>
+</article>
+`;

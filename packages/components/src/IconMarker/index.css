@@ -1,0 +1,16 @@
+/**
+ * Numenta Web Platform and Sites source code
+ * MIT License (see LICENSE.txt)
+ * Copyright © 2005—2017 Numenta <http://numenta.com>
+ */
+
+.iconMarker {
+  /* */
+}
+
+.icon {
+  composes: mr2 from 'tachyons';
+  composes: relative from 'tachyons';
+  color: #0277bd;
+  top: -0.066rem;
+}

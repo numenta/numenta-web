@@ -1,0 +1,109 @@
+/**
+ * Numenta Web Platform and Sites source code
+ * MIT License (see LICENSE.txt)
+ * Copyright © 2005—2017 Numenta <http://numenta.com>
+ */
+
+._icon {
+  composes: relative from 'tachyons';
+  composes: top--1 from 'tachyons';
+  composes: color-blue-mute from '../../static/assets/css/theme.css';
+}
+.iconSmall {
+  composes: _icon;
+  font-size: 5rem;
+}
+.iconLarge {
+  composes: _icon;
+  font-size: 10rem;
+}
+
+
+.columns {
+  composes: layout-columns from '../../static/assets/css/theme.css';
+}
+.content {
+  composes: layout-content from '../../static/assets/css/theme.css';
+}
+.aside {
+  composes: mt2 from 'tachyons';
+  composes: pb3 from 'tachyons';
+  composes: tc from 'tachyons';
+  composes: layout-aside from '../../static/assets/css/theme.css';
+}
+.asideLeft {
+  composes: pl4-ns from 'tachyons';
+  composes: layout-aside from '../../static/assets/css/theme.css';
+}
+
+
+/* hero + download + terms modal */
+
+.tagline {
+  composes: mb2 from 'tachyons';
+}
+.row {
+  composes: mv3 from 'tachyons';
+}
+.download {
+  composes: mv3 from 'tachyons';
+  composes: tc from 'tachyons';
+}
+.agree {
+  composes: ml2 from 'tachyons';
+}
+.hide {
+  composes: dn from 'tachyons';
+}
+.error {
+  composes: color-danger from '../../static/assets/css/theme.css';
+}
+.notes {
+  composes: center from 'tachyons';
+  composes: f6 from 'tachyons';
+  composes: mb3 from 'tachyons';
+  composes: silver from 'tachyons';
+  composes: w-80 from 'tachyons';
+}
+
+.modal h2 {
+  width: 100%;
+}
+.close {
+  composes: db from 'tachyons';
+  composes: mb2 from 'tachyons';
+  composes: pb2 from 'tachyons';
+  composes: tr from 'tachyons';
+  composes: w-100 from 'tachyons';
+}
+
+
+/* uses, features, faq, etc. */
+
+.pad {
+  composes: mt4 from 'tachyons';
+}
+
+.column {
+  composes: fl from 'tachyons';
+  composes: pb2 from 'tachyons';
+  composes: ph4 from 'tachyons';
+  composes: tc from 'tachyons';
+  composes: w-100 from 'tachyons';
+  composes: w-50-ns from 'tachyons';
+}
+.column h3 {
+  width: 100%;
+}
+
+.faq {
+  /* */
+}
+.faq strong {
+  display: block;
+  margin-bottom: -0.75rem;
+}
+.faqItem {
+  /*composes: left--1 from 'tachyons';*/
+  /*composes: relative from 'tachyons';*/
+}
