@@ -3,13 +3,15 @@
 // Copyright © 2005—2017 Numenta <http://numenta.com>
 
 import {config} from 'config'
-import {stampUrl} from 'numenta-web-shared-utils/lib/shared'
 import Helmet from 'react-helmet'
+import moment from 'moment'
 import Pingdom from 'numenta-web-shared-components/lib/Pingdom'
 import {prefixLink} from 'gatsby-helpers'
 import React from 'react'
 
-import {version} from './package'
+const {stampUrl} = require('numenta-web-shared-utils/universal')
+
+global.stamp = moment().unix().toString()
 
 
 /**
@@ -21,6 +23,7 @@ import {version} from './package'
  * @requires gatsby react
  */
 const HtmlDocument = ({body}) => {
+  const {stamp} = global
   const {analytics} = config
   const {htmlAttributes, link, meta, title} = Helmet.rewind()
   const attrs = htmlAttributes.toComponent()
@@ -36,7 +39,7 @@ const HtmlDocument = ({body}) => {
       </head>
       <body className="body">
         <div id="react-mount" dangerouslySetInnerHTML={{__html: body}} />
-        <script src={prefixLink(stampUrl('/bundle.js', version))} />
+        <script src={prefixLink(stampUrl('/bundle.js', stamp))} />
       </body>
     </html>
   )

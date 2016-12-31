@@ -25,11 +25,12 @@ import TableRow from 'numenta-web-shared-components/lib/TableRow'
 import TextLink from 'numenta-web-shared-components/lib/TextLink'
 import Time from 'numenta-web-shared-components/lib/Time'
 import Video from 'numenta-web-shared-components/lib/Video'
-import {
-  getEventTimeDisplay, getVideoIdFromUrl,
-} from 'numenta-web-shared-utils/lib/shared'
 
 import styles from './md.css'
+
+const {
+  getEventTimeDisplay, getVideoIdFromUrl,
+} = require('numenta-web-shared-utils/universal')
 
 const postTypes = [
   'blog', 'careers', 'events', 'newsletter', 'press', 'resources',

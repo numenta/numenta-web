@@ -120,6 +120,15 @@ npm run test:links -- http://numenta.com
 
 # Websites
 
+**Please change directories to one of the individual website sources, i.e.:**
+
+```shell
+cd packages/numenta.com/
+```
+
+**The rest of this section will assume you are in one of the website
+sub-directories.**
+
 ## Goals
 
 These sites are an attempt at getting back to the roots of the web: *reading*.
@@ -375,9 +384,10 @@ example, see the local file `.eslintrc.json`).
 * Each `React` Component should return 1 small element
 * Include spaces manually around React Elements in JSX with: `{' '}`
 * Custom [React context](https://facebook.github.io/react/docs/context.html)
-  which is available:
-  * `config` = Site config (see: `config.toml`).
-  * `manifest` = Site `package.json` manifest vars like `repo` and 'version`
+  which is available (in addition to Gatsby defaults):
+  * `config` = Site config object (see: `config.toml`).
+  * `manifest` = Site `package.json` manifest object vars like `repo`, 'version`
+  * `stamp` = Build start timestamp string (for cache-busting)
 * Make sure to use the `prefixLink()` helper function on all internal links.
   This should be handled auto-magically for you already, but if you have trouble
   with links on staging, this may be the problem
@@ -440,16 +450,9 @@ example, see the local file `.eslintrc.json`).
 
 ### Packages
 
-* Use exact versions for dependencies in `package.json`, no version RegExps
-  please. All package changes need be exact and on purpose for build
-  reproducibility. `npm` has a `--save-exact` parameter for this:
-  ```
-  npm install package@1.2.34 --save --save-exact
-  npm install other@5.6.7 --save-dev --save-exact
-  ```
-* Bump version number with each changeset: `npm version patch`
-* Keep packages as up-to-date as possible. Check with: `npm outdated -depth 0`
-* Update and test 1 package at a time
+* Use exact versions for dependencies in `package.json`
+* Keep packages as up-to-date as possible: `npm outdated -depth 0`
+* Update and test 1 package at a time for safety
 
 ### Styles
 

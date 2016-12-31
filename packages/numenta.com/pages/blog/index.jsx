@@ -8,9 +8,10 @@ import React from 'react'
 import ListItem from 'numenta-web-shared-components/lib/ListItem'
 import ListOrder from 'numenta-web-shared-components/lib/List'
 import Section from 'numenta-web-shared-components/lib/Section'
-import {sortDateDescend} from 'numenta-web-shared-utils/lib/shared'
 
 import PostListRow from '../../components/PostListRow'
+
+const {sortDateDescend} = require('numenta-web-shared-utils/universal')
 
 const title = 'Blog'
 

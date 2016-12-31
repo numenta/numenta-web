@@ -6,11 +6,12 @@ import Helmet from 'react-helmet'
 import React from 'react'
 
 import NextSection from 'numenta-web-shared-components/lib/NextSection'
-import {scrollToSection} from 'numenta-web-shared-utils/lib/client'
 import Section from 'numenta-web-shared-components/lib/Section'
 
 import MainSections from '../_MainSections'
 import SectionCode from './_Section'
+
+const {scrollToSection} = require('numenta-web-shared-utils/client')
 
 const Default = (<SectionCode key="sectionCode" />)
 const title = 'Code'

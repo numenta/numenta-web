@@ -12,8 +12,6 @@ import Paragraph from 'numenta-web-shared-components/lib/Paragraph'
 import SubTitle from 'numenta-web-shared-components/lib/SubTitle'
 import TextLink from 'numenta-web-shared-components/lib/TextLink'
 
-import {sortDateDescend} from 'numenta-web-shared-utils/lib/shared'
-
 import ImageCareers from './images/careers.png'
 import ImageCeleste from './images/team/celeste-baranski.png'
 import ImageDonna from './images/team/donna-dubinsky.jpg'
@@ -23,6 +21,8 @@ import ImageJeff from './images/team/jeff-hawkins.jpg'
 import ImageMike from './images/team/mike-farmwald.jpg'
 import ImageSubutai from './images/team/subutai-ahmad.jpg'
 import styles from './index.css'
+
+const {sortDateDescend} = require('numenta-web-shared-utils/universal')
 
 
 /**

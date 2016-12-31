@@ -2,9 +2,9 @@
 // MIT License (see LICENSE.txt)
 // Copyright © 2005—2017 Numenta <http://numenta.com>
 
-import browserSize from 'browser-size'
-import root from 'window-or-global'
-import url from 'url'
+const browserSize = require('browser-size')
+const root = require('window-or-global')
+const url = require('url')
 
 /**
  * Utils for the Clientside
@@ -15,7 +15,7 @@ import url from 'url'
  * Get current width of browser via DOM API, default to 640px.
  * @returns {Number} - Width of browser in pixels or default.
  */
-export function getBrowserWidth() {
+exports.getBrowserWidth = () => {
   const min = 640
   if (global.window) {
     const {width} = browserSize()
@@ -28,7 +28,7 @@ export function getBrowserWidth() {
  * Check if browser has SessionStorage feature.
  * @returns {Boolean} - True for SessionStorage in browser, False if not.
  */
-export function hasSessionStorage() {
+exports.hasSessionStorage = () => {
   const {sessionStorage} = root
   const mod = '_'
 
@@ -48,7 +48,7 @@ export function hasSessionStorage() {
  * @param {Number} [pad=-60] - Extra padding for precision, default -60 for
  *  static header component.
  */
-export function scrollToSection(element, pad = -60) {
+exports.scrollToSection = (element, pad = -60) => {
   const {scroll, setTimeout} = root
   if (element && 'getBoundingClientRect' in element) {
     const {top} = element.getBoundingClientRect()
@@ -63,7 +63,7 @@ export function scrollToSection(element, pad = -60) {
  * @param {String} href - Target URL event for tracking in GAnalytics
  * @requires react-g-analytics (or equivalent)
  */
-export function triggerGAnalyticsEvent(href) {
+exports.triggerGAnalyticsEvent = (href) => {
   if (!href) return
 
   const {ga} = root

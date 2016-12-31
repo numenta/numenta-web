@@ -3,7 +3,8 @@
 // Copyright © 2005—2017 Numenta <http://numenta.com>
 
 import root from 'window-or-global'
-import {scrollToSection} from 'numenta-web-shared-utils/lib/client'
+
+const {scrollToSection} = require('numenta-web-shared-utils/client')
 
 
 /**

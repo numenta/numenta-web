@@ -1,4 +1,4 @@
-import {getBrowserWidth, hasSessionStorage} from '../lib/client'
+const {getBrowserWidth, hasSessionStorage} = require('../client')
 
 
 describe('Client helper utils', () => {

@@ -13,10 +13,11 @@ import FormRow from 'numenta-web-shared-components/lib/FormRow'
 import ListItem from 'numenta-web-shared-components/lib/ListItem'
 import ListOrder from 'numenta-web-shared-components/lib/ListOrder'
 import Section from 'numenta-web-shared-components/lib/Section'
-import {sortDateDescend} from 'numenta-web-shared-utils/lib/shared'
 
 import PostListRow from '../../components/PostListRow'
 import styles from './index.css'
+
+const {sortDateDescend} = require('numenta-web-shared-utils/universal')
 
 const title = 'Newsletter'
 

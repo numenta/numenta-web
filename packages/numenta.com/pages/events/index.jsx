@@ -11,12 +11,13 @@ import ListItem from 'numenta-web-shared-components/lib/ListItem'
 import ListOrder from 'numenta-web-shared-components/lib/List'
 import Section from 'numenta-web-shared-components/lib/Section'
 import SubTitle from 'numenta-web-shared-components/lib/SubTitle'
-import {
-  sortDateAscend, sortDateDescend,
-} from 'numenta-web-shared-utils/lib/shared'
 
 import PostListRow from '../../components/PostListRow'
 import styles from './index.css'
+
+const {
+  sortDateAscend, sortDateDescend,
+} = require('numenta-web-shared-utils/universal')
 
 const title = 'Events'
 

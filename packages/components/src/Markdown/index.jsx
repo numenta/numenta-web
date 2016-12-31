@@ -8,9 +8,9 @@ import React from 'react'
 import root from 'window-or-global'
 import url from 'url'
 
-import {triggerGAnalyticsEvent} from 'numenta-web-shared-utils/lib/client'
-
 import styles from './index.css'
+
+const {triggerGAnalyticsEvent} = require('numenta-web-shared-utils/client')
 
 
 /**

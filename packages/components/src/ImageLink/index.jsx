@@ -6,9 +6,9 @@ import {IndexLink, Link} from 'react-router'
 import {prefixLink} from 'gatsby-helpers'
 import React from 'react'
 
-import {triggerGAnalyticsEvent} from 'numenta-web-shared-utils/lib/client'
-
 import styles from './index.css'
+
+const {triggerGAnalyticsEvent} = require('numenta-web-shared-utils/client')
 
 
 /**
