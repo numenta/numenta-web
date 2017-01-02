@@ -8,6 +8,7 @@ import lunr from 'lunr'
 import {prefixLink} from 'gatsby-helpers'
 import React from 'react'
 import request from 'superagent'
+import root from 'window-or-global'
 
 import Button from '../Button'
 import Form from '../Form'
@@ -78,6 +79,7 @@ class Search extends React.Component {
   }
 
   render() {
+    const {document} = root
     const {query} = this.state
     let {icon} = this.props
     let matches, results
@@ -95,7 +97,7 @@ class Search extends React.Component {
       results = (
         <SearchResult
           onClose={() => this._performSearch('')}
-          onOpen={() => global.document.getElementById('q').focus()}
+          onOpen={() => document.getElementById('q').focus()}
           query={query}
           results={matches}
         />

@@ -4,21 +4,24 @@
 
 import {config} from 'config'
 import Helmet from 'react-helmet'
-import moment from 'moment'
 import Pingdom from 'numenta-web-shared-components/lib/Pingdom'
 import {prefixLink} from 'gatsby-helpers'
 import React from 'react'
+import root from 'window-or-global'
 
 const {stampUrl} = require('numenta-web-shared-utils/universal')
 
-global.stamp = moment().unix().toString()
-
 
 /**
- * Main HTML Document Site wrapper - React view component.
+ * Main Numenta.org HTML5 Document skeleton - React view component. Base file
+ *  for Gatsby.js framework.
+ * @author Numenta <info@numenta.com>
+ * @copyright © 2005—2017 Numenta <http://numenta.com>
+ * @license MIT
+ * @requires gatsby react
  */
 const HtmlDocument = ({body}) => {
-  const {stamp} = global
+  const {STAMP} = root
   const {analytics} = config
   const {htmlAttributes, link, meta, title} = Helmet.rewind()
   const attrs = htmlAttributes.toComponent()
@@ -34,7 +37,7 @@ const HtmlDocument = ({body}) => {
       </head>
       <body className="body">
         <div id="react-mount" dangerouslySetInnerHTML={{__html: body}} />
-        <script src={prefixLink(stampUrl('/bundle.js', stamp))} />
+        <script src={prefixLink(stampUrl('/bundle.js', STAMP))} />
       </body>
     </html>
   )

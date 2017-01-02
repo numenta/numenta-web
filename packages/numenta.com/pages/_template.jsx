@@ -13,6 +13,7 @@ import mapValues from 'lodash/mapValues'
 import moment from 'moment'
 import {prefixLink} from 'gatsby-helpers'
 import React from 'react'
+import root from 'window-or-global'
 import values from 'lodash/values'
 
 import Layout from '../components/Layout'
@@ -23,10 +24,12 @@ import '../static/assets/css/fonts.css'
 
 const {stampUrl} = require('numenta-web-shared-utils/universal')
 
+root.STAMP = moment().unix().toString()  // global! cache-busting id
+
 
 /**
- * Root Gatsby Template, acts as React-router bridge (per Gatsby), and internal
- *  Layout and Headmatter manager.
+ * Numenta.com Root Gatsby Template, acts as React-router bridge (per Gatsby),
+ *  and internal Layout and Headmatter manager - a React view component.
  */
 class Template extends React.Component {
 
@@ -43,9 +46,9 @@ class Template extends React.Component {
   }
 
   getChildContext() {
-    const {stamp} = global
+    const {STAMP} = root
     const {route} = this.props
-    return {config, manifest, route, stamp}
+    return {config, manifest, route, stamp: STAMP}
   }
 
   componentDidMount() {
@@ -53,7 +56,7 @@ class Template extends React.Component {
   }
 
   render() {
-    const {stamp} = global
+    const {STAMP} = root
     const {children} = this.props
     const {analytics, company, description, siteHost} = config
     const lang = 'en'  // @TODO i18n l10n
@@ -74,7 +77,7 @@ class Template extends React.Component {
       {name: 'keywords', content: title.split(' ').join(',')},
       {
         name: 'generator',
-        content: `© ${siteHost} v${stamp} ${now} • Gatsby.js`,
+        content: `© ${now} ${siteHost} v=${STAMP} x Gatsby.js`,
       },
     ]
 
@@ -82,7 +85,7 @@ class Template extends React.Component {
     if (process.env.NODE_ENV === 'production') {
       links.push({
         rel: 'stylesheet',
-        href: prefixLink(stampUrl('/styles.css', stamp)),
+        href: prefixLink(stampUrl('/styles.css', STAMP)),
       })
     }
 
