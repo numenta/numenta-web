@@ -10,13 +10,14 @@ import ListItem from 'numenta-web-shared-components/lib/ListItem'
 import ListOrder from 'numenta-web-shared-components/lib/ListOrder'
 import PostListItem from 'numenta-web-shared-components/lib/PostListItem'
 import Section from 'numenta-web-shared-components/lib/Section'
-import {sortDateDescend} from 'numenta-web-shared-utils/lib/shared'
 import Spacer from 'numenta-web-shared-components/lib/Spacer'
 import SubTitle from 'numenta-web-shared-components/lib/SubTitle'
 import Subtle from 'numenta-web-shared-components/lib/Subtle'
 import TextLink from 'numenta-web-shared-components/lib/TextLink'
 
 import styles from './index.css'
+
+const {sortDateDescend} = require('numenta-web-shared-utils/universal')
 
 
 /**

@@ -2,11 +2,11 @@
 // MIT License (see LICENSE.txt)
 // Copyright © 2005—2017 Numenta <http://numenta.com>
 
-import {config} from 'config'
-import moment from 'moment'
+const {config} = require('config')
+const moment = require('moment')
 
 /**
- * Utils Shared between Client and Server (Isomorphic, Universal, etc.)
+ * Utils for both Client and Server (AKA Isomorphic, Universal, etc.)
  */
 
 
@@ -21,7 +21,7 @@ import moment from 'moment'
  * @returns {String} - Human-readable beautiful display text.
  * @TODO `when` should be a site-wide class instead of messy custom object.
  */
-export function getEventTimeDisplay(when) {
+exports.getEventTimeDisplay = (when) => {
   const formatDate = config.moments.human
   const formatTime = 'h:mm A'
   const formatBegin = [formatDate]
@@ -61,9 +61,9 @@ export function getEventTimeDisplay(when) {
 }
 
 /**
- *
+ * Figure out ideal width of Popup Modal based on browser width, etc.
  */
-export function getModalWidth(width, options) {
+exports.getModalWidth = (width, options) => {
   const copy = (options && 'copy' in options) ? options.copy : false
   const pad = (options && 'pad' in options) ? options.pad : 120
   let long
@@ -86,14 +86,12 @@ export function getModalWidth(width, options) {
  * @param {String} url - Video URL to get Video ID from, as http://youtu.be/ID
  * @returns {String} - Video ID as parsed from URL
  */
-export function getVideoIdFromUrl(url) {
-  return url.match(/.*\/(.*)$/).pop()
-}
+exports.getVideoIdFromUrl = (url) => url.match(/.*\/(.*)$/).pop()
 
 /**
- *
+ * Sort post by ascending date order.
  */
-export function sortDateAscend(a, b) {
+exports.sortDateAscend = (a, b) => {
   const aDate = moment(a.data.date, config.moments.post)
   const bDate = moment(b.data.date, config.moments.post)
 
@@ -103,9 +101,9 @@ export function sortDateAscend(a, b) {
 }
 
 /**
- *
+ * Sort post by descending date order.
  */
-export function sortDateDescend(a, b) {
+exports.sortDateDescend = (a, b) => {
   const aDate = moment(a.data.date, config.moments.post)
   const bDate = moment(b.data.date, config.moments.post)
 
@@ -115,9 +113,9 @@ export function sortDateDescend(a, b) {
 }
 
 /**
- *
+ * Sort posts by post 'sort' attribute order (alphabetic).
  */
-export function sortOrderAscend(a, b) {
+exports.sortOrderAscend = (a, b) => {
   if (a.data.sort > b.data.sort) return 1
   if (a.data.sort < b.data.sort) return -1
   return 0
@@ -129,9 +127,7 @@ export function sortOrderAscend(a, b) {
  * @param {String} version - Version string ("1.0.2") to use as stamp on URL.
  * @returns {String} - URL with Version stamp.
  */
-export function stampUrl(url, version) {
-  return `${url}?v=${version}`
-}
+exports.stampUrl = (url, version) => `${url}?v=${version}`
 
 /**
  * Template String to trim extra spaces from multiline es6 strings.
@@ -139,7 +135,7 @@ export function stampUrl(url, version) {
  * @param {...Array} [values] - Template string filler values.
  * @returns {String} - Completed and filled string.
  */
-export function trims(strings, ...values) {
+exports.trims = (strings, ...values) => {
   let result = ''
   let i = 0
   let tmp

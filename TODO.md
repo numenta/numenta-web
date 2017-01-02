@@ -1,9 +1,7 @@
-- Version bump after builds
-- Production deployments
-- Update new rewrites to new style for new sites
 - Docs/training
   - Where are rewrites
-- .Org ready for code handoff to Matt
+- .Org ready for code handoff to Matt / MD!
+
 
 - .ORG FAQ PAGE!?
 - Shared `/components` need to have theme style vars passed in from each site

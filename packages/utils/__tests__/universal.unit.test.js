@@ -1,9 +1,9 @@
-import {
+const {
   getModalWidth, getVideoIdFromUrl, stampUrl, trims,
-} from '../lib/shared'
+} = require('../universal')
 
 
-describe('Shared Client+Server helper utils', () => {
+describe('Universal Client+Server helper utils', () => {
 
   describe('getEventTimeDisplay()', () => {
     it('Gets event datetime display', () => {
@@ -37,7 +37,8 @@ describe('Shared Client+Server helper utils', () => {
 
   describe('stampUrl()', () => {
     it('Stamps a cache-buster version number on a URL string', () => {
-      expect(stampUrl('http://numenta.com/', '0.2.43')).toContain('0.2.')
+      const stamp = '1318874398'
+      expect(stampUrl('http://numenta.com/', stamp)).toContain(stamp)
     })
   })
 

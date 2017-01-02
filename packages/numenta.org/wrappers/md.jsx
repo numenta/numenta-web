@@ -18,9 +18,10 @@ import Subtle from 'numenta-web-shared-components/lib/Subtle'
 import TextLink from 'numenta-web-shared-components/lib/TextLink'
 import Time from 'numenta-web-shared-components/lib/Time'
 import Video from 'numenta-web-shared-components/lib/Video'
-import {getVideoIdFromUrl} from 'numenta-web-shared-utils/lib/shared'
 
 import styles from './md.css'
+
+const {getVideoIdFromUrl} = require('numenta-web-shared-utils/universal')
 
 const pluralize = (text) => (text.match(/s$/) ? text : `${text}s`)
 const postTypes = ['blog', 'papers']

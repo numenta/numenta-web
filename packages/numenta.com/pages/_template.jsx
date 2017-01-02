@@ -13,7 +13,7 @@ import mapValues from 'lodash/mapValues'
 import moment from 'moment'
 import {prefixLink} from 'gatsby-helpers'
 import React from 'react'
-import {stampUrl} from 'numenta-web-shared-utils/lib/shared'
+import root from 'window-or-global'
 import values from 'lodash/values'
 
 import Layout from '../components/Layout'
@@ -22,10 +22,14 @@ import manifest from '../package'
 import 'tachyons-base/css/tachyons-base.css'  // eslint-disable-line import/first, max-len
 import '../static/assets/css/fonts.css'
 
+const {stampUrl} = require('numenta-web-shared-utils/universal')
+
+root.STAMP = moment().unix().toString()  // global! cache-busting id
+
 
 /**
- * Root Gatsby Template, acts as React-router bridge (per Gatsby), and internal
- *  Layout and Headmatter manager.
+ * Numenta.com Root Gatsby Template, acts as React-router bridge (per Gatsby),
+ *  and internal Layout and Headmatter manager - a React view component.
  */
 class Template extends React.Component {
 
@@ -38,18 +42,21 @@ class Template extends React.Component {
     config: React.PropTypes.object,
     manifest: React.PropTypes.object,
     route: React.PropTypes.object,
+    stamp: React.PropTypes.string,
   }
 
   getChildContext() {
+    const {STAMP} = root
     const {route} = this.props
-    return {config, manifest, route}
+    return {config, manifest, route, stamp: STAMP}
   }
 
   componentDidMount() {
-    if (global.window) injectTapEventPlugin()  // remove @ React 1.0
+    if ('window' in global) injectTapEventPlugin()  // remove @ React 1.0
   }
 
   render() {
+    const {STAMP} = root
     const {children} = this.props
     const {analytics, company, description, siteHost} = config
     const lang = 'en'  // @TODO i18n l10n
@@ -57,7 +64,6 @@ class Template extends React.Component {
     const title = `${siteHost} • ${description}`
     const titleForm = `${siteHost} • %s`
     const icons = flatten(values(mapValues(favicons, (value) => keys(value))))
-    const {version} = manifest
 
     // react-helmet / head
     const attrs = {lang}
@@ -71,7 +77,7 @@ class Template extends React.Component {
       {name: 'keywords', content: title.split(' ').join(',')},
       {
         name: 'generator',
-        content: `© ${siteHost} v${version} ${now} • Gatsby.js`,
+        content: `© ${now} ${siteHost} v=${STAMP} x Gatsby.js`,
       },
     ]
 
@@ -79,7 +85,7 @@ class Template extends React.Component {
     if (process.env.NODE_ENV === 'production') {
       links.push({
         rel: 'stylesheet',
-        href: prefixLink(stampUrl('/styles.css', version)),
+        href: prefixLink(stampUrl('/styles.css', STAMP)),
       })
     }
 

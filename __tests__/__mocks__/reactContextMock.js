@@ -12,7 +12,6 @@ const context = {
       type: 'git',
       url: 'https://github.com/numenta/numenta-web',
     },
-    version: '0.0.1',
   },
   route: {
     page: post,
@@ -28,6 +27,7 @@ const context = {
     replace() {},
     setRouteLeaveHook() {},
   },
+  stamp: '1318874398',  // moment().unix().toString()
 }
 
 

@@ -24,8 +24,6 @@ import FormInput from 'numenta-web-shared-components/lib/FormInput'
 import FormLabel from 'numenta-web-shared-components/lib/FormLabel'
 import FormRow from 'numenta-web-shared-components/lib/FormRow'
 import FormTextArea from 'numenta-web-shared-components/lib/FormTextArea'
-import {getBrowserWidth} from 'numenta-web-shared-utils/lib/client'
-import {getModalWidth} from 'numenta-web-shared-utils/lib/shared'
 import Image from 'numenta-web-shared-components/lib/Image'
 import List from 'numenta-web-shared-components/lib/List'
 import ListItem from 'numenta-web-shared-components/lib/ListItem'
@@ -48,6 +46,9 @@ import ImageVideoWalkthru from './images/video-walkthru.png'
 import modalStyles from './_style-modal'
 import styles from './index.css'
 import Terms from './terms.md'
+
+const {getBrowserWidth} = require('numenta-web-shared-utils/client')
+const {getModalWidth} = require('numenta-web-shared-utils/universal')
 
 const title = 'HTM Studio'
 const URL_OSX = 'http://public.numenta.com/releases/htm-studio/darwin/HTM%20Studio-1.0.0.dmg'  // eslint-disable-line max-len

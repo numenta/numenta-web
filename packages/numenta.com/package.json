@@ -1,6 +1,6 @@
 {
   "name": "numenta-web-site-com",
-  "version": "0.2.211",
+  "version": "0.0.0",
   "description": "Numenta.com company website content, source code, and static generator tooling",
   "license": "MIT",
   "main": false,

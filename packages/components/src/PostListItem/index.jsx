@@ -2,7 +2,6 @@
 // MIT License (see LICENSE.txt)
 // Copyright © 2005—2017 Numenta <http://numenta.com>
 
-import {getEventTimeDisplay} from 'numenta-web-shared-utils/lib/shared'
 import moment from 'moment'
 import React from 'react'
 
@@ -19,6 +18,8 @@ import TextLink from '../TextLink'
 import Time from '../Time'
 
 import styles from './index.css'
+
+const {getEventTimeDisplay} = require('numenta-web-shared-utils/universal')
 
 
 /**

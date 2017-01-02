@@ -6,7 +6,6 @@ import findIndex from 'lodash/findIndex'
 import React from 'react'
 import root from 'window-or-global'
 
-import {hasSessionStorage} from 'numenta-web-shared-utils/lib/client'
 import Section from 'numenta-web-shared-components/lib/Section'
 
 import SectionCode from './code/_Section'
@@ -14,6 +13,8 @@ import SectionCommunity from './community/_Section'
 import SectionHome from './_Section'
 import SectionHtm from './hierarchical-temporal-memory/_Section'
 import SectionResearch from './research-and-publications/_Section'
+
+const {hasSessionStorage} = require('numenta-web-shared-utils/client')
 
 const mainSectionList = [
   {

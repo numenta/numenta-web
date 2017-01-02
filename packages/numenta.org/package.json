@@ -1,6 +1,6 @@
 {
   "name": "numenta-web-site-org",
-  "version": "0.2.22",
+  "version": "0.0.0",
   "description": "Numenta.org HTM Community website content, source code, and static generator tooling",
   "license": "MIT",
   "main": false,

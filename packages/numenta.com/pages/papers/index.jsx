@@ -10,12 +10,13 @@ import ListItem from 'numenta-web-shared-components/lib/ListItem'
 import ListOrder from 'numenta-web-shared-components/lib/ListOrder'
 import Paragraph from 'numenta-web-shared-components/lib/Paragraph'
 import Section from 'numenta-web-shared-components/lib/Section'
-import {sortOrderAscend} from 'numenta-web-shared-utils/lib/shared'
 import Spacer from 'numenta-web-shared-components/lib/Spacer'
 import Subtle from 'numenta-web-shared-components/lib/Subtle'
 import TextLink from 'numenta-web-shared-components/lib/TextLink'
 
 import styles from './index.css'
+
+const {sortOrderAscend} = require('numenta-web-shared-utils/universal')
 
 const title = 'Research Papers'
 

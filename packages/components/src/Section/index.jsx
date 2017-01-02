@@ -8,11 +8,11 @@ import {prefixLink} from 'gatsby-helpers'
 import React from 'react'
 import root from 'window-or-global'
 
-import {hasSessionStorage} from 'numenta-web-shared-utils/lib/client'
-
 import SectionTitle from '../SectionTitle'
 
 import styles from './index.css'
+
+const {hasSessionStorage} = require('numenta-web-shared-utils/client')
 
 
 /**
