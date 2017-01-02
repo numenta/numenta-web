@@ -1,9 +1,8 @@
-
 - Docs/training
   - Where are rewrites
 - .Org ready for code handoff to Matt / MD!
 
-- why Common `require/module.exports` over ES6 `import/export` modules
+
 - .ORG FAQ PAGE!?
 - Shared `/components` need to have theme style vars passed in from each site
   independently somehow. `theme.css` global what to do?
