@@ -200,11 +200,6 @@ const SitemapPage = (props, {config, route}) => {
                   Numenta Anomaly Benchmark
                 </TextLink>
               </ListItem>
-              <ListItem>
-                <TextLink to={links.in.papers}>
-                  Research Papers
-                </TextLink>
-              </ListItem>
             </ListOrder>
 
             <Anchor name="resources" />

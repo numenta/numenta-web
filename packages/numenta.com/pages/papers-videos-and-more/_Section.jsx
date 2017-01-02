@@ -116,7 +116,7 @@ const SectionPapers = (props, {config, route}) => {
           </Paragraph>
           <ListOrder marker="disc">
             <ListItem>
-              <TextLink to={links.in.papers}>
+              <TextLink to={links.out.papers}>
                 Research Papers
               </TextLink>
               <Spacer />

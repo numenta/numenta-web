@@ -174,7 +174,7 @@ const BamiPage = (props, {config}) => {
             <Paragraph>
               Note that some of the material in BAMI has been formally
               published; you can look at these {' '}
-              <TextLink to={links.in.papers}>papers</TextLink> to get the
+              <TextLink to={links.out.papers}>papers</TextLink> to get the
               appropriate citations.
             </Paragraph>
           </div>
