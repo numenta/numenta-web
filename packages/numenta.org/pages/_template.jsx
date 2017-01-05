@@ -19,7 +19,6 @@ import values from 'lodash/values'
 import Layout from '../components/Layout'
 import manifest from '../package'
 
-import styles from '!raw!../public/styles.css'  // eslint-disable-line
 import 'tachyons-base/css/tachyons-base.css'  // eslint-disable-line
 import '../static/assets/css/fonts.css'
 
@@ -80,11 +79,6 @@ class Template extends React.Component {
         content: `© ${now} ${siteHost} v=${STAMP} x Gatsby.js`,
       },
     ]
-
-    // inline production stylesheet bundle
-    if (process.env.NODE_ENV === 'production') {
-      style.push({type: 'text/css', cssText: styles})
-    }
 
     // push auto-generated favicons into react-helmet header link and meta
     icons.forEach((icon) => {

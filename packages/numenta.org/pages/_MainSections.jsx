@@ -18,7 +18,7 @@ import SectionResearch from './research-and-publications/_Section'
 const mainSectionList = [
   {
     component: <SectionHome key="sectionHome" />,
-    title: 'Bridging the Gap Between Neuroscience and AI',
+    title: 'Home of the HTM Community',
     url: '/',
   },
   {

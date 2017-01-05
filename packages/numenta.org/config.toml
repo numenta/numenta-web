@@ -3,7 +3,7 @@ linkPrefix = ''
 
 siteHost = 'Numenta.org'
 siteTitle = 'Hierarchical Temporal Memory (HTM)'
-description = 'Bridging the Gap Between Neuroscience and AI'
+description = 'Home of the HTM Community'
 company = 'Numenta'
 
 [contact]

@@ -28,7 +28,7 @@ class HomePage extends React.Component {
         <Section
           headline={true}
           open={true}
-          title="Bridging the Gap Between Neuroscience and AI"
+          title="Home of the HTM Community"
         >
           {Default}
           <NextSection {...next} />

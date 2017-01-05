@@ -108,37 +108,38 @@ const SectionHome = (props, {config}) => {
       <div className={styles.content}>
 
         <Paragraph lead={true}>
-          Welcome to <Strong>Numenta.org,</Strong> an open platform and
-          community dedicated to advancing the state of brain theory and machine
-          intelligence.  On this site, you will find the technical resources you
-          need to get started with Hierarchical Temporal Memory (HTM). HTM is
-          a theory of the neocortex developed by {' '}
+          Welcome to <Strong>Numenta.org</Strong>, home of Numenta’s HTM community and open source project. If you want to learn about Numenta the company visit {' '}
           <TextLink to={links.out.com}>
-            Numenta
-          </TextLink> {' '}
-          that provides a framework for both biological and machine
-          intelligence. Parts of HTM theory have been implemented, tested, and
-          used in applications, and other parts are still being developed.
+            Numenta.com
+          </TextLink> {' '}.
         </Paragraph>
+
         <Paragraph>
-          Because Numenta believes in making our work open and accessible, we
-          offer several ways to join us as we continue to progress the theory.
-          Experiment with our open source project {' '}
-          <TextLink to={links.in.code}>
-            NuPIC (Numenta Platform for Intelligent Computing),
+          <Strong>Machine Intelligence Starts Here</Strong>
+        </Paragraph>
+
+        <Paragraph>
+          <Strong>Hierarchical Temporal Memory</Strong> is a foundational technology for the future of machine intelligence. Numenta wants to make this technology accessible to everyone, so all HTM software and on-going research is open source. Anyone can learn about HTM Theory, then inspect the software and see exactly how it is implemented. Community members have written their own versions of HTM systems in other languages and platforms. Some have created detailed visualizations, experiments, and applications.
+        </Paragraph>
+
+        <Paragraph>
+          <Strong>Join us!</Strong>
+        </Paragraph>
+
+        <Paragraph>
+          Come discuss HTM theory with us {' '}
+          <TextLink to={links.out.forum}>
+            on our forums
           </TextLink> {' '}
-          learn about HTM through our collection of {' '}
-          <TextLink to={links.in.papers}>
-            scientific publications
+          , or share your HTM application on our {' '}
+          <TextLink to={links.out.github}>
+            Github organization
           </TextLink> {' '}
-          and {' '}
-          <TextLink to={links.in.school}>
-            educational videos,
+          . If you're new to HTM, you'll learn a lot in {' '}
+          <TextLink to={links.out.school}>
+            HTM School
           </TextLink> {' '}
-          and {' '}
-          <TextLink to={links.in.community}>
-            join our open source community.
-          </TextLink>
+          . The neocortex is a logical system that we'll understand fully in time. HTM theory reflects our current understanding of how the neocortex works, and HTM code reduces that theory to practice. HTM is continually being updated as we learn more about the brain. We believe HTM will play a critical role in the creation of truly intelligent machines. Join our community and help us discover the future of machine intelligence.
         </Paragraph>
 
       </div>

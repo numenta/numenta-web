@@ -6,3 +6,6 @@ npm-debug.log
 pages/_searchIndex.json
 public/_searchIndex.json
 public
+
+.idea/
+
