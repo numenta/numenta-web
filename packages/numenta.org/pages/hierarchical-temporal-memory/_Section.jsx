@@ -43,7 +43,7 @@ const SectionHtm = (props, {config}) => {
           <Paragraph>
             For detailed information — including educational videos, papers,
             and community discussions — regarding HTM, please see our {' '}
-            <TextLink to={links.in.school}>
+            <TextLink to={links.out.school}>
               HTM School.
             </TextLink>
           </Paragraph>
