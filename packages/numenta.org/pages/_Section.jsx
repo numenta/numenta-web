@@ -30,7 +30,7 @@ const SectionHome = (props, {config}) => {
         <Glance
           head={
             <div className={styles.glanceHead}>
-              HTM Resources
+              Community Resources
             </div>
           }
         >

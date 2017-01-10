@@ -19,7 +19,7 @@ exports[`Community Page React component Renders correctly 1`] = `
               <div>
                 <div
                   className="glanceHead">
-                  HTM Resources
+                  Community Resources
                 </div>
               </div>
               <dl
