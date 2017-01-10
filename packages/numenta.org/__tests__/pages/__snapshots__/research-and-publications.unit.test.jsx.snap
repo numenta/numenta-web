@@ -212,8 +212,8 @@ exports[`Research & Publications Page React component Renders correctly 1`] = `
                
               <a
                 className="textlink"
-                href="http://numenta.com/htm-school/"
                 onClick={[Function]}
+                style={Object {}}
                 target={undefined}>
                 HTM School
               </a>
@@ -412,19 +412,6 @@ exports[`Research & Publications Page React component Renders correctly 1`] = `
                   onClick={[Function]}
                   target={undefined}>
                   HTM School.
-                </a>
-              </p>
-              <p
-                className="paragraph">
-                To get an idea of how HTM theory originated, you can read about the created of the Redwood Neuroscience center and Numenta at 
-                 
-                <a
-                  className="textlink"
-                  href={undefined}
-                  onClick={[Function]}
-                  style={Object {}}
-                  target={undefined}>
-                  HTM History.
                 </a>
               </p>
               <p
