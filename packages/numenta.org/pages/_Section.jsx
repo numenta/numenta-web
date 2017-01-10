@@ -146,7 +146,7 @@ const SectionHome = (props, {config}) => {
             Github organization
           </TextLink> {' '}
           . If you're new to HTM, you'll learn a lot in {' '}
-          <TextLink to={links.out.school}>
+          <TextLink to={links.in.school}>
             HTM School
           </TextLink> {' '}
           . The neocortex is a logical system that we'll understand fully in
