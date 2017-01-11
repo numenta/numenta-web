@@ -107,11 +107,6 @@ const SitemapPage = (props, {config, route}) => {
             <SubTitle>Other</SubTitle>
             <ListOrder marker="disc">
               <ListItem>
-                <TextLink to={links.in.history}>
-                  HTM History
-                </TextLink>
-              </ListItem>
-              <ListItem>
                 <TextLink to={links.out.school}>
                   HTM School
                 </TextLink>

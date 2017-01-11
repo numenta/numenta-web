@@ -23,7 +23,7 @@
 }
 
 .glanceHead {
-  composes: f4 from 'tachyons';
+  composes: f3 from 'tachyons';
   composes: fw5 from 'tachyons';
   composes: mv3 from 'tachyons';
   composes: tc from 'tachyons';
@@ -32,4 +32,8 @@
 .promo {
   composes: fw5 from 'tachyons';
   composes: mv4 from 'tachyons';
+}
+
+.noLinkIcon a[href*="youtube.com"]::after {
+  background-image: none;
 }

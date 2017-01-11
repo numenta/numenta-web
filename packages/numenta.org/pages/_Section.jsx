@@ -9,6 +9,8 @@ import DefineTitle from 'numenta-web-shared-components/lib/DefineTitle'
 import Glance from 'numenta-web-shared-components/lib/Glance'
 import Paragraph from 'numenta-web-shared-components/lib/Paragraph'
 import Strong from 'numenta-web-shared-components/lib/Strong'
+import Image from 'numenta-web-shared-components/lib/Image'
+import ImageLink from 'numenta-web-shared-components/lib/ImageLink'
 import TextLink from 'numenta-web-shared-components/lib/TextLink'
 import SubTitle from 'numenta-web-shared-components/lib/SubTitle'
 
@@ -19,7 +21,7 @@ import styles from './index.css'
  * Numenta.org MainSection Homepage wrapper - React view component.
  */
 const SectionHome = (props, {config}) => {
-  const {links, siteTitle} = config
+  const {links} = config
 
   return (
     <article className={styles.columns}>
@@ -28,43 +30,36 @@ const SectionHome = (props, {config}) => {
         <Glance
           head={
             <div className={styles.glanceHead}>
-              {siteTitle}
+              Community Resources
             </div>
           }
         >
           <DefineTitle>
-            About
-          </DefineTitle>
-          <DefineItem>
-            <TextLink to={links.in.htm}>HTM</TextLink> {' '}
-            is a biologically-constrained theory of intelligence based on years
-            of research in theoretical neuroscience.
-          </DefineItem>
-
-          <DefineTitle>
             Discussion
           </DefineTitle>
           <DefineItem>
-            <TextLink to={links.out.forum}>
-              HTM Forum
-            </TextLink>
+            <TextLink to={links.out.forum}>HTM Forum</TextLink> {' '}
           </DefineItem>
 
           <DefineTitle>
-            Research Papers
-          </DefineTitle>
-          <DefineItem>
-            <TextLink to={links.in.papers}>
-              Collection
-            </TextLink>
-          </DefineItem>
-
-          <DefineTitle>
-            Open Source
+            Code
           </DefineTitle>
           <DefineItem>
             <TextLink to={links.out.github}>
-              GitHub
+              Numenta Github
+            </TextLink>
+            <br />
+            <TextLink to={links.out.communityGithub}>
+              HTM Community Github
+            </TextLink>
+          </DefineItem>
+
+          <DefineTitle>
+            Videos
+          </DefineTitle>
+          <DefineItem>
+            <TextLink to={links.out.youtube}>
+              YouTube
             </TextLink>
           </DefineItem>
 
@@ -77,14 +72,6 @@ const SectionHome = (props, {config}) => {
             </TextLink>
           </DefineItem>
 
-          <DefineTitle>
-            Videos
-          </DefineTitle>
-          <DefineItem>
-            <TextLink to={links.out.youtube}>
-              YouTube
-            </TextLink>
-          </DefineItem>
 
           <DefineTitle>
             Events
@@ -103,6 +90,30 @@ const SectionHome = (props, {config}) => {
               Blog
             </TextLink>
           </DefineItem>
+
+          <DefineTitle>
+            HTM School
+          </DefineTitle>
+          <DefineItem>
+            <Paragraph>
+              See the latest episode below!
+            </Paragraph>
+
+            <div className={styles.noLinkIcon}>
+
+              <ImageLink to={links.out.latestSchool}>
+                <Image
+                  alt="Latest HTM School Episode"
+                  border={true}
+                  respond="mw"
+                  src={links.out.latestSchoolThumb}
+                />
+              </ImageLink>
+
+            </div>
+
+          </DefineItem>
+
         </Glance>
 
       </div>

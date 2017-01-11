@@ -48,13 +48,6 @@ const SectionHtm = (props, {config}) => {
             </TextLink>
           </Paragraph>
           <Paragraph>
-            To get an idea of how HTM theory originated, you can read about the
-            created of the Redwood Neuroscience center and Numenta at {' '}
-            <TextLink to={links.in.history}>
-              HTM History.
-            </TextLink>
-          </Paragraph>
-          <Paragraph>
             To get involved in our community, join {' '}
             <TextLink to={links.out.forum}>
               HTM Forum.

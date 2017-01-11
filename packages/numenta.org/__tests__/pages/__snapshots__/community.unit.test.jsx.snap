@@ -19,29 +19,11 @@ exports[`Community Page React component Renders correctly 1`] = `
               <div>
                 <div
                   className="glanceHead">
-                  Hierarchical Temporal Memory (HTM)
+                  Community Resources
                 </div>
               </div>
               <dl
                 className="defineList horizontal">
-                <dt
-                  className="defineTitle horizontal">
-                  About
-                </dt>
-                <dd
-                  className="defineItem horizontal">
-                  <a
-                    className="textlink"
-                    href={undefined}
-                    onClick={[Function]}
-                    style={Object {}}
-                    target={undefined}>
-                    HTM
-                  </a>
-                   
-                   
-                  is a biologically-constrained theory of intelligence based on years of research in theoretical neuroscience.
-                </dd>
                 <dt
                   className="defineTitle horizontal">
                   Discussion
@@ -55,25 +37,12 @@ exports[`Community Page React component Renders correctly 1`] = `
                     target={undefined}>
                     HTM Forum
                   </a>
+                   
+                   
                 </dd>
                 <dt
                   className="defineTitle horizontal">
-                  Research Papers
-                </dt>
-                <dd
-                  className="defineItem horizontal">
-                  <a
-                    className="textlink"
-                    href={undefined}
-                    onClick={[Function]}
-                    style={Object {}}
-                    target={undefined}>
-                    Collection
-                  </a>
-                </dd>
-                <dt
-                  className="defineTitle horizontal">
-                  Open Source
+                  Code
                 </dt>
                 <dd
                   className="defineItem horizontal">
@@ -82,7 +51,29 @@ exports[`Community Page React component Renders correctly 1`] = `
                     href="https://github.com/numenta"
                     onClick={[Function]}
                     target={undefined}>
-                    GitHub
+                    Numenta Github
+                  </a>
+                  <br />
+                  <a
+                    className="textlink"
+                    href="https://github.com/htm-community"
+                    onClick={[Function]}
+                    target={undefined}>
+                    HTM Community Github
+                  </a>
+                </dd>
+                <dt
+                  className="defineTitle horizontal">
+                  Videos
+                </dt>
+                <dd
+                  className="defineItem horizontal">
+                  <a
+                    className="textlink"
+                    href="https://www.youtube.com/c/NumentaOrg"
+                    onClick={[Function]}
+                    target={undefined}>
+                    YouTube
                   </a>
                 </dd>
                 <dt
@@ -98,20 +89,6 @@ exports[`Community Page React component Renders correctly 1`] = `
                     style={Object {}}
                     target={undefined}>
                     AGPLv3
-                  </a>
-                </dd>
-                <dt
-                  className="defineTitle horizontal">
-                  Videos
-                </dt>
-                <dd
-                  className="defineItem horizontal">
-                  <a
-                    className="textlink"
-                    href="https://www.youtube.com/c/NumentaOrg"
-                    onClick={[Function]}
-                    target={undefined}>
-                    YouTube
                   </a>
                 </dd>
                 <dt
@@ -142,6 +119,32 @@ exports[`Community Page React component Renders correctly 1`] = `
                     target={undefined}>
                     Blog
                   </a>
+                </dd>
+                <dt
+                  className="defineTitle horizontal">
+                  HTM School
+                </dt>
+                <dd
+                  className="defineItem horizontal">
+                  <p
+                    className="paragraph">
+                    See the latest episode below!
+                  </p>
+                  <div
+                    className="noLinkIcon">
+                    <a
+                      className="imagelink"
+                      href="https://www.youtube.com/watch?v=HTW2Q_UrkAw"
+                      onClick={[Function]}
+                      title={undefined}>
+                      <img
+                        alt="Latest HTM School Episode"
+                        className="image border mw shadow"
+                        onClick={undefined}
+                        src="http://i3.ytimg.com/vi/HTW2Q_UrkAw/mqdefault.jpg"
+                        title={undefined} />
+                    </a>
+                  </div>
                 </dd>
               </dl>
             </aside>
@@ -412,19 +415,6 @@ exports[`Community Page React component Renders correctly 1`] = `
                   onClick={[Function]}
                   target={undefined}>
                   HTM School.
-                </a>
-              </p>
-              <p
-                className="paragraph">
-                To get an idea of how HTM theory originated, you can read about the created of the Redwood Neuroscience center and Numenta at 
-                 
-                <a
-                  className="textlink"
-                  href={undefined}
-                  onClick={[Function]}
-                  style={Object {}}
-                  target={undefined}>
-                  HTM History.
                 </a>
               </p>
               <p
