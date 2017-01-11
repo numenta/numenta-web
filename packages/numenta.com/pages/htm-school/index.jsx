@@ -103,7 +103,8 @@ const SchoolPage = (props, {config}) => {
             <Paragraph>
               So you have no idea what HTM is? In this introductory episode of
               HTM School, Matt walks you through the high-level theory of
-              Hierarchical Temporal Memory in less than 15 minutes. We believe
+              <Strong>Hierarchical Temporal Memory</Strong>
+              in less than 15 minutes. We believe
               that the mysteries of intelligence can be unlocked by studying
               biologically intelligent systems like the neocortex.
             </Paragraph>
@@ -163,11 +164,12 @@ const SchoolPage = (props, {config}) => {
               An SDR is simply a list of bits, each bit being
               <code>0</code>
               or
-              <code>1</code>. The brain performs a lot of binary operations on
-                these long bit arrays as it is trying to predict future input.
-                This episode introduces bit arrays and some basic binary
-                operations like OR and AND. We will also introduce the idea of
-                semantic data storage within SDRs.
+              <code>1</code>.
+              The brain performs a lot of binary operations on
+              these long bit arrays as it is trying to predict future input.
+              This episode introduces bit arrays and some basic binary
+              operations like OR and AND. We will also introduce the idea of
+              semantic data storage within SDRs.
             </Paragraph>
           </div>
         </div>
@@ -316,6 +318,11 @@ const SchoolPage = (props, {config}) => {
               concepts and talks about encoding scalar values. These examples
               are very simple, but widely used in HTM systems.
             </Paragraph>
+            <Paragraph>
+              How many ways can scalar data be encoded into a binary input
+              space? You'll find out two ways we do it, but there are countless
+              other ways to semantically encode data.
+            </Paragraph>
           </div>
         </div>
 
@@ -337,9 +344,15 @@ const SchoolPage = (props, {config}) => {
           </div>
           <div className={styles.content}>
             <Paragraph>
-              Now it's time to investigate datetime encoding, and explore how
-              semantic information from the same data point can be encoded into
-              one output SDR. After this episode, you might get some ideas
+              If we want an HTM system to comprehend the passage of time as we
+              humans have (minutes, hours, days, months), that data should be
+              encoded into a semantic representation and included along with any
+              data in an input row. In this episode, Matt explains how a
+              Date-Time Encoder works by joining together several periodic
+              scalar encodings.
+            </Paragraph>
+            <Paragraph>
+              After this episode, you might get some ideas
               about your own encoders.
             </Paragraph>
           </div>
