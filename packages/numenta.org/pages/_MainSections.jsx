@@ -13,18 +13,12 @@ import SectionCode from './code/_Section'
 import SectionCommunity from './community/_Section'
 import SectionHome from './_Section'
 import SectionHtm from './hierarchical-temporal-memory/_Section'
-import SectionResearch from './research-and-publications/_Section'
 
 const mainSectionList = [
   {
     component: <SectionHome key="sectionHome" />,
     title: 'Home of the HTM Community',
     url: '/',
-  },
-  {
-    component: <SectionResearch key="sectionResearch" />,
-    title: 'Research & Publications',
-    url: '/research-and-publications/',
   },
   {
     component: <SectionHtm key="sectionHtm" />,
