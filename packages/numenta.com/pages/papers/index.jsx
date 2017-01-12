@@ -26,13 +26,14 @@ const title = 'Research Papers'
 const PapersPage = (props, {route}) => {
   const {pages} = route
   const posts = pages.filter(({file}) => (file.path.match(/^papers\/.*\.md/)))
-  const items = posts.sort(sortOrderAscend).map(({data, file}) => {
+  const items = posts.sort(sortOrderAscend).map(({data, file, path}) => {
     const categoryNice = capitalize(data.category.replace(/-/, ' '))
+    const url = (data.type === 'link') ? data.link : path
     return (
       <ListItem key={file.stem}>
         <div className={styles.paper}>
           <div className={styles.title}>
-            <TextLink to={data.link}>
+            <TextLink to={url}>
               {data.title}
             </TextLink>
           </div>
