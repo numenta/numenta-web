@@ -215,8 +215,8 @@ exports[`Community Page React component Renders correctly 1`] = `
                
               <a
                 className="textlink"
-                href="http://numenta.com/htm-school/"
                 onClick={[Function]}
+                style={Object {}}
                 target={undefined}>
                 HTM School
               </a>
