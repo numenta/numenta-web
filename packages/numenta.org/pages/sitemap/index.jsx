@@ -46,7 +46,6 @@ const SitemapPage = (props, {config, route}) => {
   const {pages} = route
   const categories = [
     'blog',
-    'papers',
   ]
   const posts = categories
     .map((category) => pages
