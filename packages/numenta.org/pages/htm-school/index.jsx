@@ -3,7 +3,6 @@
 // Copyright © 2005—2017 Numenta <http://numenta.com>
 
 import Helmet from 'react-helmet'
-import IconSpace from 'react-icons/lib/ti/location'
 import IconTime from 'react-icons/lib/ti/media-play'
 import React from 'react'
 
@@ -60,7 +59,12 @@ const SchoolPage = (props, {config}) => {
           <div className={styles.content}>
             <Paragraph lead={true}>
               HTM School is a series of educational videos hosted by Numenta
-              Open Source Community Flag-Bearer Matt Taylor. Watch these
+              {' '}<em>
+                Open Source Community Flag-Bearer
+              </em> {' '}
+              <Strong>
+                Matt Taylor
+              </Strong>. Watch these
               videos to see detailed visualizations of HTM systems running,
               and thoughtful breakdowns of the biological algorithms
               involved.
@@ -75,7 +79,7 @@ const SchoolPage = (props, {config}) => {
               Please Subscribe to our&nbsp;
               <TextLink to={links.out.youtube}>
                 YouTube channel
-              </TextLink>
+              </TextLink> {' '}
               to keep updated on new content.
             </Quote>
             <Paragraph>
@@ -101,28 +105,24 @@ const SchoolPage = (props, {config}) => {
           </div>
           <div className={styles.content}>
             <Paragraph>
-              So you have no idea what HTM is? In this introductory episode of
+              In this introductory episode of
               HTM School, Matt walks you through the high-level theory of
-              Hierarchical Temporal Memory in less than 15 minutes. We believe
-              that the mysteries of intelligence can be unlocked by studying
-              biologically intelligent systems like the neocortex.
+              {' '} <Strong>
+                Hierarchical Temporal Memory
+              </Strong> {' '}
+              in less than 15 minutes.
             </Paragraph>
+
             <Paragraph>
-              For a longer and more technical introduction to HTM, here are a
-              few further videos featuring Numenta's co-founder Jeff Hawkins:
+              Hierarchical Temporal Memory is a theory of intelligence based
+              upon neuroscience research. The neocortex is the seat of
+              intelligence in the brain, and it is structurally homogeneous
+              throughout. This means a common algorithm is processing all your
+              sensory input, no matter which sense. We believe we have
+              discovered some of the foundational algorithms
+              of the neocortex, and we've implemented them in software.
             </Paragraph>
-            <List marker="disc">
-              <ListItem>
-                <TextLink to="https://youtu.be/6ufPpZDmPKA">
-                  Principles of Hierarchical Temporal Memory (HTM)
-                </TextLink>
-              </ListItem>
-              <ListItem>
-                <TextLink to="https://youtu.be/izO2_mCvFaw">
-                  What the Brain says about Machine Intelligence
-                </TextLink>
-              </ListItem>
-            </List>
+
           </div>
         </div>
 
@@ -131,7 +131,9 @@ const SchoolPage = (props, {config}) => {
         <div className={styles.columns}>
           <div className={styles.content}>
             <Paragraph>
-              <Strong>Sparse Distributed Representations (SDRs)</Strong>
+              <Strong>
+                Sparse Distributed Representations (SDRs)
+              </Strong> {' '}
               are a fundamental aspect of HTM systems. Before we talk about
               neurons and dendrites, we need to establish the communications
               medium of the brain. Each neuron could be connected to thousands
@@ -161,13 +163,14 @@ const SchoolPage = (props, {config}) => {
           <div className={styles.content}>
             <Paragraph>
               An SDR is simply a list of bits, each bit being
-              <code>0</code>
+              {' '} <code>0</code> {' '}
               or
-              <code>1</code>. The brain performs a lot of binary operations on
-                these long bit arrays as it is trying to predict future input.
-                This episode introduces bit arrays and some basic binary
-                operations like OR and AND. We will also introduce the idea of
-                semantic data storage within SDRs.
+              {' '} <code>1</code>.
+              The brain performs a lot of binary operations on
+              these long bit arrays as it is trying to predict future input.
+              This episode introduces bit arrays and some basic binary
+              operations like OR and AND. We will also introduce the idea of
+              semantic data storage within SDRs.
             </Paragraph>
           </div>
         </div>
@@ -192,7 +195,7 @@ const SchoolPage = (props, {config}) => {
               be represented in typical SDR structures. We also show how
               different SDRs can be compared to identify how similar they are.
               Of particular interest is the
-              <em>overlap score</em>
+              {' '}<em>overlap score</em> {' '}
               between two SDRs as a measure of their similarity.
             </Paragraph>
           </div>
@@ -316,6 +319,11 @@ const SchoolPage = (props, {config}) => {
               concepts and talks about encoding scalar values. These examples
               are very simple, but widely used in HTM systems.
             </Paragraph>
+            <Paragraph>
+              How many ways can scalar data be encoded into a binary input
+              space? You'll find out two ways we do it, but there are countless
+              other ways to semantically encode data.
+            </Paragraph>
           </div>
         </div>
 
@@ -330,17 +338,25 @@ const SchoolPage = (props, {config}) => {
               image={ImageEpisode6}
               respond="mw"
               shadow={true}
-              title="Scalar Encoding"
+              title="DateTime Encoding"
               type="youtube"
               videoId="PTYlge2K1G8"
             />
           </div>
           <div className={styles.content}>
             <Paragraph>
-              Now it's time to investigate datetime encoding, and explore how
-              semantic information from the same data point can be encoded into
-              one output SDR. After this episode, you might get some ideas
-              about your own encoders.
+              If we want an HTM system to comprehend the passage of time as we
+              humans have (minutes, hours, days, months), that data should be
+              encoded into a semantic representation and included along with any
+              data in an input row. In this episode, Matt explains how a
+              Date-Time Encoder works by joining together several periodic
+              scalar encodings.
+            </Paragraph>
+            <Paragraph>
+              After this episode, you might have some ideas about your own
+              encoders. This space has endless potential. If you're interested
+              in writing your own encoder, be sure to check out the extra
+              resources below.
             </Paragraph>
           </div>
         </div>
@@ -370,40 +386,23 @@ const SchoolPage = (props, {config}) => {
               Beginner's Guide to NuPIC
             </TextLink>
           </ListItem>
+          <ListItem>
+            <TextLink to="https://discourse.numenta.org/search?q=sdrs">
+              SDR Forum Discussions
+            </TextLink>
+          </ListItem>
         </List>
 
         <Anchor name="spatial-pooling" />
         <SubTitle>
           Spatial Pooling
         </SubTitle>
-        <div className={styles.columns}>
-          <div className={styles.aside}>
-            <div className={styles.icon}>
-              <IconSpace color="inherit" />
-            </div>
-          </div>
-          <div className={styles.content}>
-            <Paragraph>
-              The idea for the Spatial Pooler came from an observation in
-              biology. The neocortex is composed of a hierarchy of regions. The
-              feed-forward input to each region consists of millions of nerve
-              axons which come from sensory organs and other regions. Most
-              regions in the neocortex receive input from multiple sources; it
-              is not uncommon for a region to receive input from six or more
-              other regions. These inputs are generally mixed together, so a
-              region doesn’t “know” where the inputs originated or what they
-              represent. Confusing the picture, the number of input axons
-              doesn’t correlate closely with the size of the region. For
-              example, in humans there are about one million input axons
-              projecting to the primary visual region (V1) of the neocortex.
-              However, the areal size of V1 varies considerably in normal
-              humans, reportedly by up to a factor of three! How can a region
-              process inputs from many different sources without any prior
-              knowledge of what these inputs represent, how many input bits
-              there will be, and what spatial patterns may exist in the input?
-            </Paragraph>
-          </div>
-        </div>
+
+        <Paragraph>
+          Input coming from the senses or other parts of the brain are messy and
+          irregular. The Spatial Pooler's job is to normalize the sparsity of
+          the input while retaining semantically encoded information.
+        </Paragraph>
 
         <Anchor name="input-space-and-connections" />
         <SubTitle level={3}>
@@ -416,16 +415,19 @@ const SchoolPage = (props, {config}) => {
               image={ImageEpisode7}
               respond="mw"
               shadow={true}
-              title="Scalar Encoding"
+              title="Input Space and Connections"
               type="youtube"
               videoId="R5UoFNtv5AU"
             />
           </div>
           <div className={styles.content}>
             <Paragraph>
-              In this episode, Matt introduces SP with respect to the input
-              space of a spatial pooler, and how it randomly creates connections
-              to the input space.
+              An input space is like a fiber optics cable. The Spatial Pooler
+              needs to map its cells to the input space in a way that they will
+              be able to learn once patterns in the space start to change. Watch
+              this video to find out how the Spatial Pooler's columns are
+              initialized onto the input space, and how random connections are
+              established.
             </Paragraph>
           </div>
         </div>
@@ -441,16 +443,22 @@ const SchoolPage = (props, {config}) => {
               image={ImageEpisode8}
               respond="mw"
               shadow={true}
-              title="Scalar Encoding"
+              title="Learning"
               type="youtube"
               videoId="rHvjykCIrZM"
             />
           </div>
           <div className={styles.content}>
             <Paragraph>
-              In this episode of HTM School, we talk about how each column in
-              the Spatial Pooler learns to represent different spatial
-              characteristics in the input space.
+              Now we are going to start feeding real data into the Spatial
+              Pooler and watching as different columns learn to recognize
+              different characteristics of the input space.
+            </Paragraph>
+            <Paragraph>
+              Matt will show you how each column becomes active depending on its
+              connections to the input space, and he'll show you some learning
+              rules columns use. You will also see how a
+              "random" Spatial Pooler compares to an SP with learning turned on.
             </Paragraph>
           </div>
         </div>
@@ -466,18 +474,41 @@ const SchoolPage = (props, {config}) => {
               image={ImageEpisode9}
               respond="mw"
               shadow={true}
-              title="Scalar Encoding"
+              title="Boosting and Inhibition"
               type="youtube"
               videoId="MSwoNAODrgk"
             />
           </div>
           <div className={styles.content}>
             <Paragraph>
-              Learn about boosting and inhibition in this episode of HTM School
-              with Matt Taylor.
+              Today's topic is "Homeostatic Regulation of Neuronal
+              Excitability", or <em>boosting</em>. Learn about what this is, why
+              it's necessary, and how it works by watching this episode of HTM
+              School.
+            </Paragraph>
+            <Paragraph>
+              You'll learn about active duty cycles and see how some columns can
+              become much more active than others, limiting the total capacity
+              and efficiency of the Spatial Pooler. After boost factors are
+              calculated, watch as cellular activity spreads more evenly.
             </Paragraph>
           </div>
         </div>
+
+        <Anchor name="more-sp-resources" />
+        <SubTitle level={3}>
+          More Spatial Pooling Resources
+        </SubTitle>
+        <List marker="disc">
+          <ListItem>
+            <TextLink
+              to="https://discourse.numenta.org/search?q=spatial+pooling"
+            >
+              Spatial Pooling Forum Discussions
+            </TextLink>
+          </ListItem>
+        </List>
+
 
         <Anchor name="temporal-memory" />
         <SubTitle>

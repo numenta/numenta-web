@@ -216,8 +216,9 @@ exports[`Index Page React component Renders correctly 1`] = `
                
               <a
                 className="textlink"
-                href="http://numenta.com/htm-school/"
+                href={undefined}
                 onClick={[Function]}
+                style={Object {}}
                 target={undefined}>
                 HTM School
               </a>
@@ -290,8 +291,9 @@ exports[`Index Page React component Renders correctly 1`] = `
                  
                 <a
                   className="textlink"
-                  href="http://numenta.com/htm-school/"
+                  href={undefined}
                   onClick={[Function]}
+                  style={Object {}}
                   target={undefined}>
                   HTM School.
                 </a>

@@ -102,7 +102,7 @@ const SitemapPage = (props, {config, route}) => {
             <SubTitle>Other</SubTitle>
             <ListOrder marker="disc">
               <ListItem>
-                <TextLink to={links.out.school}>
+                <TextLink to={links.in.school}>
                   HTM School
                 </TextLink>
               </ListItem>
