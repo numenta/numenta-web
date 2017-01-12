@@ -210,22 +210,6 @@ exports[`Sitemap Page React component Renders correctly 1`] = `
               </a>
             </li>
           </ol>
-          <span
-            className="anchor"
-            id="papers" />
-          <h2
-            className="h2">
-            <a
-              className="textlink"
-              href={undefined}
-              onClick={[Function]}
-              style={Object {}}
-              target={undefined}>
-              Papers
-            </a>
-          </h2>
-          <ol
-            className="ol" />
         </div>
       </div>
     </div>
