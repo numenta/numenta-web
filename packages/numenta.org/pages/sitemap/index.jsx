@@ -112,16 +112,6 @@ const SitemapPage = (props, {config, route}) => {
                 </TextLink>
               </ListItem>
               <ListItem>
-                <TextLink to={links.in.papers}>
-                  Research Papers
-                </TextLink>
-              </ListItem>
-              <ListItem>
-                <TextLink to={links.in.faq}>
-                  Frequently Asked Questions (FAQ)
-                </TextLink>
-              </ListItem>
-              <ListItem>
                 <TextLink to={links.in.privacy}>
                   Privacy Policy
                 </TextLink>
