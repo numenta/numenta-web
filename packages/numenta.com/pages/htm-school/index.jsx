@@ -3,7 +3,6 @@
 // Copyright © 2005—2017 Numenta <http://numenta.com>
 
 import Helmet from 'react-helmet'
-import IconSpace from 'react-icons/lib/ti/location'
 import IconTime from 'react-icons/lib/ti/media-play'
 import React from 'react'
 
@@ -454,7 +453,9 @@ const SchoolPage = (props, {config}) => {
               different characteristics of the input space.
             </Paragraph>
             <Paragraph>
-              Matt will show you how each column becomes active depending on its connections to the input space, and he'll show you some learning rules columns use. You will also see how a
+              Matt will show you how each column becomes active depending on its
+              connections to the input space, and he'll show you some learning
+              rules columns use. You will also see how a
               "random" Spatial Pooler compares to an SP with learning turned on.
             </Paragraph>
           </div>
@@ -484,7 +485,10 @@ const SchoolPage = (props, {config}) => {
               School.
             </Paragraph>
             <Paragraph>
-              You'll learn about active duty cycles and see how some columns can become much more active than others, limiting the total capacity and efficiency of the Spatial Pooler. After boost factors are calculated, watch as cellular activity spreads more evenly.
+              You'll learn about active duty cycles and see how some columns can
+              become much more active than others, limiting the total capacity
+              and efficiency of the Spatial Pooler. After boost factors are
+              calculated, watch as cellular activity spreads more evenly.
             </Paragraph>
           </div>
         </div>
@@ -495,7 +499,9 @@ const SchoolPage = (props, {config}) => {
         </SubTitle>
         <List marker="disc">
           <ListItem>
-            <TextLink to="https://discourse.numenta.org/search?q=spatial+pooling">
+            <TextLink
+              to="https://discourse.numenta.org/search?q=spatial+pooling"
+            >
               Spatial Pooling Forum Discussions
             </TextLink>
           </ListItem>
