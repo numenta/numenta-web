@@ -170,16 +170,6 @@ const SitemapPage = (props, {config, route}) => {
               </ListItem>
             </ListOrder>
 
-            <Anchor name="papers" />
-            <SubTitle>
-              <TextLink to={links.in.papers}>
-                Papers
-              </TextLink>
-            </SubTitle>
-            <ListOrder marker="disc">
-              {items.papers}
-            </ListOrder>
-
           </div>
         </div>
 
