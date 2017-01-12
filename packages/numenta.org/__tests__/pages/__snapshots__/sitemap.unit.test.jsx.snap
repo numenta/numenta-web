@@ -83,8 +83,9 @@ exports[`Sitemap Page React component Renders correctly 1`] = `
               className="li copy markerDisc">
               <a
                 className="textlink"
-                href="http://numenta.com/htm-school/"
+                href={undefined}
                 onClick={[Function]}
+                style={Object {}}
                 target={undefined}>
                 HTM School
               </a>
