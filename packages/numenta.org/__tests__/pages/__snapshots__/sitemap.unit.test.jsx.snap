@@ -116,7 +116,6 @@ exports[`Sitemap Page React component Renders correctly 1`] = `
               className="li copy markerDisc">
               <a
                 className="textlink"
-                href={undefined}
                 onClick={[Function]}
                 style={Object {}}
                 target={undefined}>

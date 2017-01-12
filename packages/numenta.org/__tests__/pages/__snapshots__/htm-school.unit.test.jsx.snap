@@ -1,0 +1,700 @@
+exports[`HTM School Page React component Renders correctly 1`] = `
+<article>
+  <section
+    className="section"
+    id={undefined}>
+    <h1
+      className="headline">
+      HTM School
+    </h1>
+    <div
+      className="article">
+      <div
+        className="columns">
+        <div
+          className="aside">
+          <div
+            className="narrow">
+            <img
+              alt="HTM School Logo"
+              className="image mw"
+              onClick={undefined}
+              src="filename.ext"
+              title={undefined} />
+          </div>
+        </div>
+        <div
+          className="content">
+          <p
+            className="paragraph lead">
+            HTM School is a series of educational videos hosted by Numenta
+             
+            <em>
+              Open Source Community Flag-Bearer
+            </em>
+             
+             
+            <strong
+              className="strong">
+              Matt Taylor
+            </strong>
+            . Watch these videos to see detailed visualizations of HTM systems running, and thoughtful breakdowns of the biological algorithms involved.
+          </p>
+          <p
+            className="paragraph">
+            This series was designed for a general audience to be viewed in order, but feel free to jump into any episode. There is no need to have a background in neuroscience, mathematics, or computer science to understand HTM Theory.
+          </p>
+          <blockquote
+            className="blockquote">
+            <p
+              className="paragraph">
+              “
+              Please Subscribe to our 
+              <a
+                className="textlink"
+                href="https://www.youtube.com/c/NumentaOrg"
+                onClick={[Function]}
+                target={undefined}>
+                YouTube channel
+              </a>
+               
+               
+              to keep updated on new content.
+              ”
+            </p>
+          </blockquote>
+          <p
+            className="paragraph">
+            Read below for a description of the videos, and click the video icons on the right to watch!
+          </p>
+        </div>
+      </div>
+      <span
+        className="anchor"
+        id="overview" />
+      <h2
+        className="h2">
+        Overview
+      </h2>
+      <div
+        className="columns">
+        <div
+          className="aside">
+          <div
+            className="video">
+            <img
+              alt="Overview youtube video screenshot"
+              className="image border mw shadow"
+              onClick={[Function]}
+              src="filename.ext"
+              title={undefined} />
+            <div
+              className="caption">
+              Video: 
+              Overview
+            </div>
+            <noscript />
+          </div>
+        </div>
+        <div
+          className="content">
+          <p
+            className="paragraph">
+            In this introductory episode of HTM School, Matt walks you through the high-level theory of
+             
+             
+            <strong
+              className="strong">
+              Hierarchical Temporal Memory
+            </strong>
+             
+             
+            in less than 15 minutes.
+          </p>
+          <p
+            className="paragraph">
+            Hierarchical Temporal Memory is a theory of intelligence based upon neuroscience research. The neocortex is the seat of intelligence in the brain, and it is structurally homogeneous throughout. This means a common algorithm is processing all your sensory input, no matter which sense. We believe we have discovered some of the foundational algorithms of the neocortex, and we\'ve implemented them in software.
+          </p>
+        </div>
+      </div>
+      <span
+        className="anchor"
+        id="sdrs" />
+      <h2
+        className="h2">
+        SDRs
+      </h2>
+      <div
+        className="columns">
+        <div
+          className="content">
+          <p
+            className="paragraph">
+            <strong
+              className="strong">
+              Sparse Distributed Representations (SDRs)
+            </strong>
+             
+             
+            are a fundamental aspect of HTM systems. Before we talk about neurons and dendrites, we need to establish the communications medium of the brain. Each neuron could be connected to thousands of other neurons, and each of those synapses could activate at any time. In the brain, only about 2% of your neurons are in an active state right at any time. Watch the videos below to better understand why this is important, and why this type of medium lends the brain so much flexibility.
+          </p>
+        </div>
+      </div>
+      <span
+        className="anchor"
+        id="bit-arrays" />
+      <h3
+        className="h3">
+        Bit Arrays
+      </h3>
+      <div
+        className="columns">
+        <div
+          className="aside">
+          <div
+            className="video">
+            <img
+              alt="SDR Bit Arrays youtube video screenshot"
+              className="image border mw shadow"
+              onClick={[Function]}
+              src="filename.ext"
+              title={undefined} />
+            <div
+              className="caption">
+              Video: 
+              SDR Bit Arrays
+            </div>
+            <noscript />
+          </div>
+        </div>
+        <div
+          className="content">
+          <p
+            className="paragraph">
+            An SDR is simply a list of bits, each bit being
+             
+             
+            <code>
+              0
+            </code>
+             
+             
+            or
+             
+             
+            <code>
+              1
+            </code>
+            . The brain performs a lot of binary operations on these long bit arrays as it is trying to predict future input. This episode introduces bit arrays and some basic binary operations like OR and AND. We will also introduce the idea of semantic data storage within SDRs.
+          </p>
+        </div>
+      </div>
+      <span
+        className="anchor"
+        id="capacity-and-comparison" />
+      <h3
+        className="h3">
+        Capacity and Comparison
+      </h3>
+      <div
+        className="columns">
+        <div
+          className="aside">
+          <div
+            className="video">
+            <img
+              alt="SDR Capacity and Comparison youtube video screenshot"
+              className="image border mw shadow"
+              onClick={[Function]}
+              src="filename.ext"
+              title={undefined} />
+            <div
+              className="caption">
+              Video: 
+              SDR Capacity and Comparison
+            </div>
+            <noscript />
+          </div>
+        </div>
+        <div
+          className="content">
+          <p
+            className="paragraph">
+            In this episode, we talk about the massive amount of data that can be represented in typical SDR structures. We also show how different SDRs can be compared to identify how similar they are. Of particular interest is the
+             
+            <em>
+              overlap score
+            </em>
+             
+             
+            between two SDRs as a measure of their similarity.
+          </p>
+        </div>
+      </div>
+      <span
+        className="anchor"
+        id="overlap-sets-and-sampling" />
+      <h3
+        className="h3">
+        Overlap Sets and Sampling
+      </h3>
+      <div
+        className="columns">
+        <div
+          className="aside">
+          <div
+            className="video">
+            <img
+              alt="SDR Overlap Sets and Sampling youtube video screenshot"
+              className="image border mw shadow"
+              onClick={[Function]}
+              src="filename.ext"
+              title={undefined} />
+            <div
+              className="caption">
+              Video: 
+              SDR Overlap Sets and Sampling
+            </div>
+            <noscript />
+          </div>
+        </div>
+        <div
+          className="content">
+          <p
+            className="paragraph">
+            How many SDRs can be expressed in different input spaces? What are the chances of false positive collisions? What happens if we only compare a sample of the on bits in different SDRs? Believe it or not, HTM systems prove to be extremely fault-tolerant. This is expressed in this episode as Matt talks about sampling SDRs instead of storing every on bit.
+          </p>
+        </div>
+      </div>
+      <span
+        className="anchor"
+        id="sets-and-unions" />
+      <h3
+        className="h3">
+        Sets and Unions
+      </h3>
+      <div
+        className="columns">
+        <div
+          className="aside">
+          <div
+            className="video">
+            <img
+              alt="SDR Sets and Unions youtube video screenshot"
+              className="image border mw shadow"
+              onClick={[Function]}
+              src="filename.ext"
+              title={undefined} />
+            <div
+              className="caption">
+              Video: 
+              SDR Sets and Unions
+            </div>
+            <noscript />
+          </div>
+        </div>
+        <div
+          className="content">
+          <p
+            className="paragraph">
+            We can collect sets of SDRs over time. As we see new SDRs, we can compare them to our sets using the binary comparison operations described earlier. Even in the presence of large amounts of noise, Matt shows how SDRs can still be dependably classified. If we squash the sets into unions, we can still tell if we’ve seen it before while performing exponentially fewer operations.
+          </p>
+        </div>
+      </div>
+      <span
+        className="anchor"
+        id="more-sdr-resources" />
+      <h3
+        className="h3">
+        More SDR Resources
+      </h3>
+      <ul
+        className="ul">
+        <li
+          className="li copy markerDisc">
+          <a
+            className="textlink"
+            href="https://www.youtube.com/watch?v=iNMbsvK8Q8Y"
+            onClick={[Function]}
+            target={undefined}>
+            Modeling Data Streams Using Sparse Distributed Representations
+          </a>
+        </li>
+        <li
+          className="li copy markerDisc">
+          <a
+            className="textlink"
+            href="http://numenta.com/papers-videos-and-more/resources/sparse-distributed-representations/"
+            onClick={[Function]}
+            target={undefined}>
+            Sparse Distributed Representations: Our Brain\'s Data Structure
+          </a>
+        </li>
+        <li
+          className="li copy markerDisc">
+          <a
+            className="textlink"
+            href="http://arxiv.org/abs/1601.00720"
+            onClick={[Function]}
+            target={undefined}>
+            How Do Neurons Operate on Sparse Distributed Representations? A Mathematical Theory of Sparsity, Neurons and Active Dendrites
+          </a>
+        </li>
+        <li
+          className="li copy markerDisc">
+          <a
+            className="textlink"
+            href="http://arxiv.org/abs/1503.07469"
+            onClick={[Function]}
+            target={undefined}>
+            Properties of Sparse Distributed Representations and their Application To Hierarchical Temporal Memory
+          </a>
+        </li>
+      </ul>
+      <span
+        className="anchor"
+        id="encoders" />
+      <h2
+        className="h2">
+        Encoders
+      </h2>
+      <div
+        className="columns">
+        <div
+          className="content">
+          <p
+            className="paragraph">
+            Encoding real-world data into SDRs is a very important process to understand in HTM. Semantic meaning within the input data must be encoded into a binary representation. These videos show some examples of encoding data into binary arrays so they can be processed by the Spatial Pooler.
+          </p>
+        </div>
+      </div>
+      <span
+        className="anchor"
+        id="scalar-encoding" />
+      <h3
+        className="h3">
+        Scalar Encoding
+      </h3>
+      <div
+        className="columns">
+        <div
+          className="aside">
+          <div
+            className="video">
+            <img
+              alt="Scalar Encoding youtube video screenshot"
+              className="image border mw shadow"
+              onClick={[Function]}
+              src="filename.ext"
+              title={undefined} />
+            <div
+              className="caption">
+              Video: 
+              Scalar Encoding
+            </div>
+            <noscript />
+          </div>
+        </div>
+        <div
+          className="content">
+          <p
+            className="paragraph">
+            So how can data be translated into Sparse Distributed Representations? In this episode, Matt introduces some encoding concepts and talks about encoding scalar values. These examples are very simple, but widely used in HTM systems.
+          </p>
+          <p
+            className="paragraph">
+            How many ways can scalar data be encoded into a binary input space? You\'ll find out two ways we do it, but there are countless other ways to semantically encode data.
+          </p>
+        </div>
+      </div>
+      <span
+        className="anchor"
+        id="datetime-encoding" />
+      <h3
+        className="h3">
+        Datetime Encoding
+      </h3>
+      <div
+        className="columns">
+        <div
+          className="aside">
+          <div
+            className="video">
+            <img
+              alt="DateTime Encoding youtube video screenshot"
+              className="image border mw shadow"
+              onClick={[Function]}
+              src="filename.ext"
+              title={undefined} />
+            <div
+              className="caption">
+              Video: 
+              DateTime Encoding
+            </div>
+            <noscript />
+          </div>
+        </div>
+        <div
+          className="content">
+          <p
+            className="paragraph">
+            If we want an HTM system to comprehend the passage of time as we humans have (minutes, hours, days, months), that data should be encoded into a semantic representation and included along with any data in an input row. In this episode, Matt explains how a Date-Time Encoder works by joining together several periodic scalar encodings.
+          </p>
+          <p
+            className="paragraph">
+            After this episode, you might have some ideas about your own encoders. This space has endless potential. If you\'re interested in writing your own encoder, be sure to check out the extra resources below.
+          </p>
+        </div>
+      </div>
+      <span
+        className="anchor"
+        id="more-encoder-resources" />
+      <h3
+        className="h3">
+        More Encoder Resources
+      </h3>
+      <ul
+        className="ul">
+        <li
+          className="li copy markerDisc">
+          <a
+            className="textlink"
+            href="http://arxiv.org/abs/1602.05925"
+            onClick={[Function]}
+            target={undefined}>
+            Encoding Data for HTM Systems
+          </a>
+        </li>
+        <li
+          className="li copy markerDisc">
+          <a
+            className="textlink"
+            href="https://www.youtube.com/watch?v=KxxHo-FtKRo"
+            onClick={[Function]}
+            target={undefined}>
+            Geospatial Coordinate Encoder
+          </a>
+        </li>
+        <li
+          className="li copy markerDisc">
+          <a
+            className="textlink"
+            href="https://www.youtube.com/watch?v=_q5W2Ov6C9E"
+            onClick={[Function]}
+            target={undefined}>
+            Random Distributed Scalar Encoder
+          </a>
+        </li>
+        <li
+          className="li copy markerDisc">
+          <a
+            className="textlink"
+            href="https://www.youtube.com/watch?v=BCwOgbSSDM4"
+            onClick={[Function]}
+            target={undefined}>
+            Beginner\'s Guide to NuPIC
+          </a>
+        </li>
+        <li
+          className="li copy markerDisc">
+          <a
+            className="textlink"
+            href="https://discourse.numenta.org/search?q=sdrs"
+            onClick={[Function]}
+            target={undefined}>
+            SDR Forum Discussions
+          </a>
+        </li>
+      </ul>
+      <span
+        className="anchor"
+        id="spatial-pooling" />
+      <h2
+        className="h2">
+        Spatial Pooling
+      </h2>
+      <p
+        className="paragraph">
+        Input coming from the senses or other parts of the brain are messy and irregular. The Spatial Pooler\'s job is to normalize the sparsity of the input while retaining semantically encoded information.
+      </p>
+      <span
+        className="anchor"
+        id="input-space-and-connections" />
+      <h3
+        className="h3">
+        Input Space and Connections
+      </h3>
+      <div
+        className="columns">
+        <div
+          className="aside">
+          <div
+            className="video">
+            <img
+              alt="Input Space and Connections youtube video screenshot"
+              className="image border mw shadow"
+              onClick={[Function]}
+              src="filename.ext"
+              title={undefined} />
+            <div
+              className="caption">
+              Video: 
+              Input Space and Connections
+            </div>
+            <noscript />
+          </div>
+        </div>
+        <div
+          className="content">
+          <p
+            className="paragraph">
+            An input space is like a fiber optics cable. The Spatial Pooler needs to map its cells to the input space in a way that they will be able to learn once patterns in the space start to change. Watch this video to find out how the Spatial Pooler\'s columns are initialized onto the input space, and how random connections are established.
+          </p>
+        </div>
+      </div>
+      <span
+        className="anchor"
+        id="learning" />
+      <h3
+        className="h3">
+        Learning
+      </h3>
+      <div
+        className="columns">
+        <div
+          className="aside">
+          <div
+            className="video">
+            <img
+              alt="Learning youtube video screenshot"
+              className="image border mw shadow"
+              onClick={[Function]}
+              src="filename.ext"
+              title={undefined} />
+            <div
+              className="caption">
+              Video: 
+              Learning
+            </div>
+            <noscript />
+          </div>
+        </div>
+        <div
+          className="content">
+          <p
+            className="paragraph">
+            Now we are going to start feeding real data into the Spatial Pooler and watching as different columns learn to recognize different characteristics of the input space.
+          </p>
+          <p
+            className="paragraph">
+            Matt will show you how each column becomes active depending on its connections to the input space, and he\'ll show you some learning rules columns use. You will also see how a \"random\" Spatial Pooler compares to an SP with learning turned on.
+          </p>
+        </div>
+      </div>
+      <span
+        className="anchor"
+        id="boosting-and-inhibition" />
+      <h3
+        className="h3">
+        Boosting and Inhibition
+      </h3>
+      <div
+        className="columns">
+        <div
+          className="aside">
+          <div
+            className="video">
+            <img
+              alt="Boosting and Inhibition youtube video screenshot"
+              className="image border mw shadow"
+              onClick={[Function]}
+              src="filename.ext"
+              title={undefined} />
+            <div
+              className="caption">
+              Video: 
+              Boosting and Inhibition
+            </div>
+            <noscript />
+          </div>
+        </div>
+        <div
+          className="content">
+          <p
+            className="paragraph">
+            Today\'s topic is \"Homeostatic Regulation of Neuronal Excitability\", or 
+            <em>
+              boosting
+            </em>
+            . Learn about what this is, why it\'s necessary, and how it works by watching this episode of HTM School.
+          </p>
+          <p
+            className="paragraph">
+            You\'ll learn about active duty cycles and see how some columns can become much more active than others, limiting the total capacity and efficiency of the Spatial Pooler. After boost factors are calculated, watch as cellular activity spreads more evenly.
+          </p>
+        </div>
+      </div>
+      <span
+        className="anchor"
+        id="more-sp-resources" />
+      <h3
+        className="h3">
+        More Spatial Pooling Resources
+      </h3>
+      <ul
+        className="ul">
+        <li
+          className="li copy markerDisc">
+          <a
+            className="textlink"
+            href="https://discourse.numenta.org/search?q=spatial+pooling"
+            onClick={[Function]}
+            target={undefined}>
+            Spatial Pooling Forum Discussions
+          </a>
+        </li>
+      </ul>
+      <span
+        className="anchor"
+        id="temporal-memory" />
+      <h2
+        className="h2">
+        Temporal Memory
+      </h2>
+      <div
+        className="columns">
+        <div
+          className="aside">
+          <div
+            className="icon">
+            <svg
+              fill="currentColor"
+              height="1em"
+              preserveAspectRatio="xMidYMid meet"
+              style={
+                Object {
+                  "color": "inherit",
+                  "verticalAlign": "middle",
+                }
+              }
+              viewBox="0 0 40 40"
+              width="1em">
+              <g>
+                <path
+                  d="m17.3 30.7c4.4-4.3 11-10.7 11-10.7s-6.6-6.4-11-10.7c-0.6-0.6-1.4-1-2.3-1-1.8 0-3.3 1.5-3.3 3.4v16.6c0 1.9 1.5 3.4 3.3 3.4 0.9 0 1.7-0.4 2.3-1z" />
+              </g>
+            </svg>
+          </div>
+        </div>
+        <div
+          className="content">
+          <p
+            className="paragraph">
+            Coming Soon.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+</article>
+`;
