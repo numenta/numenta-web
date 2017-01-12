@@ -32,7 +32,6 @@ company = 'Numenta'
   [links.in]  # internal paths
     # main/home pseudo-single page
     home = '/'
-    research = '/research-and-publications/'
     community = '/community/'
     htm = '/hierarchical-temporal-memory/'
     code = '/code/'

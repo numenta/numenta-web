@@ -8,4 +8,5 @@ link: http://www.biorxiv.org/content/early/2016/11/02/085035.abstract?%3Fcollect
 org: "Preprint of journal submission"
 sort: e
 title: "The HTM Spatial Pooler: A Neocortical Algorithm for Online Sparse Distributed Coding"
+type: link
 ---

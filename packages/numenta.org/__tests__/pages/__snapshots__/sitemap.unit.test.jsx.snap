@@ -41,17 +41,6 @@ exports[`Sitemap Page React component Renders correctly 1`] = `
                 onClick={[Function]}
                 style={Object {}}
                 target={undefined}>
-                Research & Publications
-              </a>
-            </li>
-            <li
-              className="li copy markerDisc">
-              <a
-                className="textlink"
-                href={undefined}
-                onClick={[Function]}
-                style={Object {}}
-                target={undefined}>
                 Hierarchical Temporal Memory (HTM)
               </a>
             </li>
