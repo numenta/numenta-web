@@ -59,8 +59,10 @@ const SchoolPage = (props, {config}) => {
           <div className={styles.content}>
             <Paragraph lead={true}>
               HTM School is a series of educational videos hosted by Numenta
-              <em>Open Source Community Flag-Bearer</em>
-              {' '} <Strong>
+              {' '}<em>
+                Open Source Community Flag-Bearer
+              </em> {' '}
+              <Strong>
                 Matt Taylor
               </Strong>. Watch these
               videos to see detailed visualizations of HTM systems running,
@@ -163,7 +165,7 @@ const SchoolPage = (props, {config}) => {
               An SDR is simply a list of bits, each bit being
               {' '} <code>0</code> {' '}
               or
-              <code>1</code>.
+              {' '} <code>1</code>.
               The brain performs a lot of binary operations on
               these long bit arrays as it is trying to predict future input.
               This episode introduces bit arrays and some basic binary
