@@ -2,7 +2,7 @@
 author: "Yuwei Cui, Subutai Ahmad & Jeff Hawkins"
 brief: "Analysis of HTM sequence memory applied to various sequence learning and prediction problems. Written with a machine learning perspective, the paper contains some comparisons to statistical and Deep Learning techniques."
 category: machine-learning
-date: 2015/12/17
+date: 2016/11/01
 hideImage: true
 image: ../images/continuous-online-sequence-learning.png
 link: http://www.mitpressjournals.org/doi/abs/10.1162/NECO_a_00893#.WCEj8uErI18
