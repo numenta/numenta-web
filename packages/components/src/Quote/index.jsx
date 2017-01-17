@@ -35,7 +35,7 @@ const Quote = ({children, citation}) => {
 }
 
 Quote.propTypes = {
-  children: React.PropTypes.string.isRequired,
+  children: React.PropTypes.node.isRequired,
   citation: React.PropTypes.string,
 }
 
