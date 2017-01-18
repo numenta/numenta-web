@@ -45,7 +45,7 @@ const SectionHtm = (props, {config}) => {
             If you’re interested in learning more about HTM, visit our
             educational series {' '}
             <TextLink to={links.in.school}>
-              HTM School.
+              HTM School
             </TextLink> {' '}
             or browse through the topics on {' '}
             <TextLink to={links.out.forum}>
@@ -54,6 +54,11 @@ const SectionHtm = (props, {config}) => {
             . You can also find a collection of research papers at {' '}
             <TextLink to={links.out.papers}>
               numenta.com/papers
+            </TextLink> {' '}
+            and a living book authored by Numenta researchers and engineers that
+            documents HTM called {' '}
+            <TextLink to={links.out.bami}>
+              Biological and Machine Intelligence (BAMI)
             </TextLink>
             .
           </Paragraph>
