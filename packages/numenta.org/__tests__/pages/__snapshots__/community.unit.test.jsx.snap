@@ -312,7 +312,7 @@ exports[`Community Page React component Renders correctly 1`] = `
                   onClick={[Function]}
                   style={Object {}}
                   target={undefined}>
-                  HTM School.
+                  HTM School
                 </a>
                  
                  
@@ -333,6 +333,17 @@ exports[`Community Page React component Renders correctly 1`] = `
                   onClick={[Function]}
                   target={undefined}>
                   numenta.com/papers
+                </a>
+                 
+                 
+                and a living book authored by Numenta researchers and engineers that documents HTM called 
+                 
+                <a
+                  className="textlink"
+                  href="http://numenta.com/biological-and-machine-intelligence/"
+                  onClick={[Function]}
+                  target={undefined}>
+                  Biological and Machine Intelligence (BAMI)
                 </a>
                 .
               </p>
