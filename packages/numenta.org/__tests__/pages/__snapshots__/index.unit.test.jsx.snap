@@ -667,7 +667,7 @@ exports[`Index Page React component Renders correctly 1`] = `
                 </a>
                  
                  
-                in languages like Python, C++, Java, Closure, Go, and JavaScript.
+                in languages like Python, C++, Java, Clojure, Go, and JavaScript.
               </p>
               <p
                 className="paragraph">
