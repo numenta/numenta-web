@@ -55,7 +55,7 @@ const SectionCode = (props, {config}) => {
             <TextLink to={links.in.implement}>
               HTM implementations
             </TextLink> {' '}
-            in languages like Python, C++, Java, Closure, Go, and JavaScript.
+            in languages like Python, C++, Java, Clojure, Go, and JavaScript.
           </Paragraph>
           <Paragraph>
             We are always looking for community members that can help others
