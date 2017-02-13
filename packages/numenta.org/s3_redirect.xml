@@ -1,0 +1,96 @@
+<RoutingRules>
+    <!-- old pages -->
+    <RoutingRule>
+        <Condition>
+            <KeyPrefixEquals>nupic.html</KeyPrefixEquals>
+        </Condition>
+        <Redirect>
+            <ReplaceKeyWith>implementations/</ReplaceKeyWith>
+            <HttpRedirectCode>301</HttpRedirectCode>
+        </Redirect>
+    </RoutingRule>
+    <RoutingRule>
+        <Condition>
+            <KeyPrefixEquals>cla.html</KeyPrefixEquals>
+        </Condition>
+        <Redirect>
+            <ReplaceKeyWith>hierarchical-temporal-memory/</ReplaceKeyWith>
+            <HttpRedirectCode>301</HttpRedirectCode>
+        </Redirect>
+    </RoutingRule>
+    <RoutingRule>
+        <Condition>
+            <KeyPrefixEquals>cla-white-paper.html</KeyPrefixEquals>
+        </Condition>
+        <Redirect>
+            <HostName>numenta.com</HostName>
+            <ReplaceKeyWith>papers/</ReplaceKeyWith>
+            <HttpRedirectCode>301</HttpRedirectCode>
+        </Redirect>
+    </RoutingRule>
+    <RoutingRule>
+        <Condition>
+            <KeyPrefixEquals>events/</KeyPrefixEquals>
+        </Condition>
+        <Redirect>
+            <HostName>numenta.com</HostName>
+            <ReplaceKeyWith>events/</ReplaceKeyWith>
+            <HttpRedirectCode>301</HttpRedirectCode>
+        </Redirect>
+    </RoutingRule>
+
+    <!-- Old news -->
+    <RoutingRule>
+        <Condition>
+            <KeyPrefixEquals>news/</KeyPrefixEquals>
+        </Condition>
+        <Redirect>
+            <ReplaceKeyWith>blog/</ReplaceKeyWith>
+            <HttpRedirectCode>301</HttpRedirectCode>
+        </Redirect>
+    </RoutingRule>
+
+    <!-- Old media page -->
+    <RoutingRule>
+        <Condition>
+            <KeyPrefixEquals>media.html</KeyPrefixEquals>
+        </Condition>
+        <Redirect>
+            <HostName>youtube.com</HostName>
+            <ReplaceKeyWith>c/NumentaOrg/</ReplaceKeyWith>
+            <HttpRedirectCode>301</HttpRedirectCode>
+        </Redirect>
+    </RoutingRule>
+
+    <!-- API Docs -->
+    <RoutingRule>
+        <Condition>
+            <KeyPrefixEquals>docs/nupic/</KeyPrefixEquals>
+        </Condition>
+        <Redirect>
+            <HostName>numenta.github.io</HostName>
+            <ReplaceKeyPrefixWith>nupic/</ReplaceKeyPrefixWith>
+            <HttpRedirectCode>301</HttpRedirectCode>
+        </Redirect>
+    </RoutingRule>
+    <RoutingRule>
+        <Condition>
+            <KeyPrefixEquals>docs/nupic.core/</KeyPrefixEquals>
+        </Condition>
+        <Redirect>
+            <HostName>numenta.github.io</HostName>
+            <ReplaceKeyPrefixWith>nupic.core/</ReplaceKeyPrefixWith>
+            <HttpRedirectCode>301</HttpRedirectCode>
+        </Redirect>
+    </RoutingRule>
+    <RoutingRule>
+        <Condition>
+            <KeyPrefixEquals>docs/htm.java/</KeyPrefixEquals>
+        </Condition>
+        <Redirect>
+            <HostName>numenta.github.io</HostName>
+            <ReplaceKeyPrefixWith>htm.java/</ReplaceKeyPrefixWith>
+            <HttpRedirectCode>301</HttpRedirectCode>
+        </Redirect>
+    </RoutingRule>
+</RoutingRules>
