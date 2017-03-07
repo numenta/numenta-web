@@ -1,8 +1,0 @@
---ignore-dir=node_modules/
---ignore-dir=public/
-
---ignore-file=is:tags
-
---type-set=js=javascript=.js,.jsx,.json
---type-set=jsx=react=.jsx
---type-set=json=.json
