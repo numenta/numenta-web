@@ -58,6 +58,11 @@ const BamiPage = (props, {config}) => {
                   </TextLink>
                 </ListItem>
                 <ListItem>
+                  <TextLink to={links.in.sp}>
+                    Spatial Pooling Algorithm
+                  </TextLink>
+                </ListItem>
+                <ListItem>
                   <TextLink to="/assets/pdf/biological-and-machine-intelligence/0.4/BaMI-Other-Content.pdf" target="_new">
                     Content to be Incorporated
                   </TextLink>
