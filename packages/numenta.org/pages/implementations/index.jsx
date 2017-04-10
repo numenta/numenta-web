@@ -57,6 +57,7 @@ const ImplementPage = (props, {config}) => {
               <TextLink to="http://numenta.com/assets/pdf/biological-and-machine-intelligence/BaMI-Spatial-Pooler.pdf">
                 spatial pooling
               </TextLink> and {' '}
+              {/* eslint-disable max-len */}
               <TextLink to="http://numenta.com/assets/pdf/biological-and-machine-intelligence/BaMI-Temporal-Memory.pdf">
                 temporal memory
               </TextLink> algorithms (PDFs).
@@ -128,6 +129,7 @@ const ImplementPage = (props, {config}) => {
             <Paragraph>
               In addition to providing Python bindings to the {' '}
               <Strong>nupic.core</Strong> {' '}
+              {/* eslint-disable max-len */}
               <TextLink to="https://numenta.github.io/nupic/guides/network.html">
                 Network API,
               </TextLink> {' '}
