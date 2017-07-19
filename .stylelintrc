@@ -16,6 +16,7 @@
     "property-no-unknown": [true, {
       "ignoreProperties": ["composes"]
     }],
+    "rule-non-nested-empty-line-before": null,
     "selector-pseudo-class-no-unknown": [true, {
       "ignorePseudoClasses": ["global"]
     }]
