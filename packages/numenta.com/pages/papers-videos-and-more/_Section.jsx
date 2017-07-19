@@ -186,6 +186,14 @@ const SectionPapers = (props, {config, route}) => {
           <ListOrder>
             {videos}
           </ListOrder>
+
+          <Anchor name="more" />
+          <SubTitle>
+            More
+          </SubTitle>
+          <ListOrder>
+            {mores}
+          </ListOrder>
         </div>
         <div className={styles.aside}>
           <Anchor name="posters" />
@@ -194,15 +202,6 @@ const SectionPapers = (props, {config, route}) => {
           </SubTitle>
           <ListOrder>
             {posters}
-          </ListOrder>
-        </div>
-        <div className={styles.aside}>
-          <Anchor name="more" />
-          <SubTitle>
-            More
-          </SubTitle>
-          <ListOrder>
-            {mores}
           </ListOrder>
         </div>
       </div>
