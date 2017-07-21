@@ -1,3 +1,6 @@
+---
+---
+
 ### Who We Are
 
 Numenta is a small team of scientists and engineers working on one of science’s
