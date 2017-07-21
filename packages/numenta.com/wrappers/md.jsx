@@ -13,7 +13,7 @@ import Avatar from 'numenta-web-shared-components/lib/Avatar'
 import Disqus from 'numenta-web-shared-components/lib/Disqus'
 import IconMarker from 'numenta-web-shared-components/lib/IconMarker'
 import Image from 'numenta-web-shared-components/lib/Image'
-import Markdown from 'numenta-web-shared-components/lib/Markdown'
+import MarkdownBody from 'numenta-web-shared-components/lib/MarkdownBody'
 import Section from 'numenta-web-shared-components/lib/Section'
 import Sound from 'numenta-web-shared-components/lib/Sound'
 import Spacer from 'numenta-web-shared-components/lib/Spacer'
@@ -279,9 +279,7 @@ class MarkdownWrapper extends React.Component {
           {media}
           {event}
           <div className={styles.content}>
-            <Markdown>
-              <div dangerouslySetInnerHTML={{__html: data.body}} />
-            </Markdown>
+            <MarkdownBody markdown={data} />
           </div>
           {author}
           {comments}

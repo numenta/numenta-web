@@ -1,11 +1,11 @@
-exports[`MarkdownMedia React component Renders correctly 1`] = `
+exports[`MarkdownBody React component Renders correctly 1`] = `
 <div
-  className="markdownMedia">
-  <img
-    alt="Test"
-    className="image border mw shadow"
-    onClick={undefined}
-    src="test.png"
-    title={undefined} />
+  className="markdown">
+  <div
+    dangerouslySetInnerHTML={
+      Object {
+        "__html": "# Hello world  ## Whadup",
+      }
+    } />
 </div>
 `;
