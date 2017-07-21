@@ -35,6 +35,3 @@
 .aside {
   composes: layout-aside from '../../static/assets/css/theme.css';
 }
-.media {
-  composes: tc from 'tachyons';
-}

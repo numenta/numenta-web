@@ -20,9 +20,9 @@ principles.
 
 We have made several fundamental discoveries so far. These include:
 
-- How neurons make predictions and detect anomalies. How layers of neurons learn
-- sequences of patterns. How multiple layers of neurons learn to recognize
-- objects via movement.
+- How neurons make predictions and detect anomalies.
+- How layers of neurons learn sequences of patterns.
+- How multiple layers of neurons learn to recognize objects via movement.
 
 ### Our Latest Discovery: Sensorimotor Integration
 

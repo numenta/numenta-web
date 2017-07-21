@@ -1,6 +1,4 @@
 ---
-image: ../images/numenta-brains.jpg
-title: Right Title
+image: images/numenta-brains.jpg
+title: Numenta in a Nutshell
 ---
-
-
