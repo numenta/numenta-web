@@ -2,10 +2,9 @@
 // MIT License (see LICENSE.txt)
 // Copyright © 2005—2017 Numenta <http://numenta.com>
 
-import React from 'react'
-
 import MarkdownBody from 'numenta-web-shared-components/lib/MarkdownBody'
 import MarkdownMedia from 'numenta-web-shared-components/lib/MarkdownMedia'
+import React from 'react'
 
 import ContentLeft from './_content/_left.md'
 import ContentRight from './_content/_right.md'

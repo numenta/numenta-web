@@ -15,8 +15,8 @@ import styles from './index.css'
  * Markdown Media item wrapper for lone Markdown images, sound, video, etc. -
  *  React view component.
  */
-const MarkdownMedia = ({markdown}) => {
-  const {hideImage, image, sound, title, video} = markdown
+const MarkdownMedia = ({border, markdown, shadow}) => {
+  const {hideImage, image, sound, time, title, video} = markdown
   const heading = title || 'Numenta Media'
   let media
 
@@ -24,10 +24,11 @@ const MarkdownMedia = ({markdown}) => {
     if (video) {
       media = (
         <Video
-          border={true}
+          border={border}
           image={image}
           respond="mw"
           shadow={true}
+          time={time}
           title={heading}
           type="youtube"
           videoId={getVideoIdFromUrl(video)}
@@ -37,7 +38,7 @@ const MarkdownMedia = ({markdown}) => {
     else if (sound) {
       media = (
         <Sound
-          border={true}
+          border={border}
           image={image}
           respond="mw"
           shadow={true}
@@ -51,9 +52,9 @@ const MarkdownMedia = ({markdown}) => {
       media = (
         <Image
           alt={heading}
-          border={true}
+          border={border}
           respond="mw"
-          shadow={true}
+          shadow={shadow}
           src={image}
         />
       )
@@ -68,7 +69,14 @@ const MarkdownMedia = ({markdown}) => {
 }
 
 MarkdownMedia.propTypes = {
+  border: React.PropTypes.bool,
+  shadow: React.PropTypes.bool,
   markdown: React.PropTypes.object.isRequired,
+}
+
+MarkdownMedia.defaultProps = {
+  border: true,
+  shadow: true,
 }
 
 export default MarkdownMedia

@@ -1,8 +1,6 @@
 ---
 ---
 
-### Who We Are
-
 Numenta is a small team of scientists and engineers working on one of science’s
 grand challenges: how the brain works and how brain principles will be used in
 Machine Intelligence.
