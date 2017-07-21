@@ -169,39 +169,18 @@ exports[`Index Page React component Renders correctly 1`] = `
           </div>
           <div
             className="content">
-            <p
-              className="paragraph lead">
-              Welcome to 
-              <strong
-                className="strong">
-                Numenta.com
-              </strong>
-              . Here you’ll find information about the company Numenta. If you would like to learn about Numenta’s HTM community and open source project visit 
-              <a
-                className="textlink"
-                href="http://numenta.org"
-                onClick={[Function]}
-                target={undefined}>
-                <strong
-                  className="strong">
-                  Numenta.org
-                </strong>
-              </a>
-              .
-            </p>
-            <hr />
-            <p
-              className="paragraph">
-              <strong
-                className="strong">
-                Numenta
-              </strong>
-               is tackling one of the most important scientific challenges of all time: reverse engineering the neocortex. Studying how the brain works helps us understand the principles of intelligence and build machines that work on the same principles. We believe that understanding how the neocortex works is the fastest path to machine intelligence, and creating intelligent machines is important for the continued success of humankind.
-            </p>
-            <p
-              className="paragraph">
-              We are at the beginning of a thrilling new era of computing that will unfold over the coming decades, and we invite you to learn about how our approach is helping to advance the state of brain theory and machine intelligence.
-            </p>
+            <div
+              className="markdown">
+              <div
+                className="markdownBody">
+                <div
+                  dangerouslySetInnerHTML={
+                    Object {
+                      "__html": "Markdown Test Body Example",
+                    }
+                  } />
+              </div>
+            </div>
           </div>
         </article>
       </div>
@@ -250,11 +229,14 @@ exports[`Index Page React component Renders correctly 1`] = `
             <div
               className="markdown">
               <div
-                dangerouslySetInnerHTML={
-                  Object {
-                    "__html": "Markdown Test Body Example",
-                  }
-                } />
+                className="markdownBody">
+                <div
+                  dangerouslySetInnerHTML={
+                    Object {
+                      "__html": "Markdown Test Body Example",
+                    }
+                  } />
+              </div>
             </div>
           </div>
         </article>
@@ -484,100 +466,24 @@ exports[`Index Page React component Renders correctly 1`] = `
               className="aside">
               <div
                 className="brain">
-                <img
-                  alt="Stylized Brain Artwork"
-                  className="image mw"
-                  onClick={undefined}
-                  src="filename.ext"
-                  title={undefined} />
+                <div
+                  className="markdownMedia" />
               </div>
             </div>
             <div
               className="content">
-              <p
-                className="paragraph lead">
-                Reverse engineering the neocortex to figure out how the brain works is one of humanity\'s grand scientific challenges. We are fortunate to be living in an era when neuroscience techniques are advancing at an amazing pace, giving rise to a wealth of data on everything from synapses, to neurons, to entire cortical regions. Our research team focuses on theory. We work with experimentalists and published results to derive an understanding of what the neocortex does and how the detailed architecture of the neocortex implements this. We test our theories via simulation, mathematical analysis, and experimental partnerships. While there are many experimental neuroscience laboratories, Numenta is unique in its focus on large-scale cortical theory and simulation.
-              </p>
-              <p
-                className="paragraph">
-                Although there is much to do, we have made significant progress on several key aspects of cortical theory. Our first focus was on how the neocortex learns the structure in streams of sensory data. This led to a comprehensive theory of why neurons in the neocortex have thousands of synapses and active dendrites, and why they are arranged in minicolumns as observed in the neocortex. We have taken this theoretical advance and applied it to commercially valuable problems in anomaly detection and prediction in streaming data. To further that goal we created a 
-                 
-                <a
-                  className="textlink"
-                  href={undefined}
-                  onClick={[Function]}
-                  style={Object {}}
-                  target={undefined}>
-                  benchmark for anomaly detection in streaming data
-                </a>
-                 
-                 
-                that for the first time provided a means for comparing the results of different algorithms for anomaly detection. Our current research focus is developing a comprehensive theory of how the neocortex learns through movement — what is often called “sensorimotor” learning.
-              </p>
-              <p
-                className="paragraph">
-                We document our research in several ways, including 
-                 
-                <a
-                  className="textlink"
-                  href={undefined}
-                  onClick={[Function]}
-                  style={Object {}}
-                  target={undefined}>
-                  peer-reviewed journal papers,
-                </a>
-                 
-                 
-                conference proceedings, research reports, 
-                 
-                <a
-                  className="textlink"
-                  href={undefined}
-                  onClick={[Function]}
-                  style={Object {}}
-                  target={undefined}>
-                  invited talks,
-                </a>
-                 
-                 
-                and a living book titled 
-                 
-                <a
-                  className="textlink"
-                  href={undefined}
-                  onClick={[Function]}
-                  style={Object {}}
-                  target={undefined}>
-                  BAMI
-                </a>
-                 
-                 
-                (for biological and machine intelligence). In addition, we place all of our software, from our commercial grade applications to our daily research commits, in our open source project, 
-                 
-                <a
-                  className="textlink"
-                  href="http://numenta.org"
-                  onClick={[Function]}
-                  target={undefined}>
-                  NuPIC.
-                </a>
-                 
-                 
-                We strive to be completely open in everything we do.
-              </p>
-              <p
-                className="paragraph">
-                We welcome collaborations with both neuroscientists and machine learning researchers. We also encourage you to apply to our 
-                 
-                <a
-                  className="textlink"
-                  href={undefined}
-                  onClick={[Function]}
-                  style={Object {}}
-                  target={undefined}>
-                  Visiting Scholar Program.
-                </a>
-              </p>
+              <div
+                className="markdown">
+                <div
+                  className="markdownBody">
+                  <div
+                    dangerouslySetInnerHTML={
+                      Object {
+                        "__html": "Markdown Test Body Example",
+                      }
+                    } />
+                </div>
+              </div>
             </div>
           </div>
         </article>
@@ -644,86 +550,22 @@ exports[`Index Page React component Renders correctly 1`] = `
           <div
             className="aside">
             <div
-              className="video">
-              <img
-                alt="Intro to our Technology youtube video screenshot"
-                className="image border mw shadow"
-                onClick={[Function]}
-                src="filename.ext"
-                title={undefined} />
-              <div
-                className="caption">
-                Video: 
-                Intro to our Technology (02:23)
-              </div>
-              <noscript />
-            </div>
+              className="markdownMedia" />
           </div>
           <article
             className="content">
-            <p
-              className="paragraph lead">
-              Based on a wealth of 
-               
-              <a
-                className="textlink"
-                href={undefined}
-                onClick={[Function]}
-                style={Object {}}
-                target={undefined}>
-                neuroscience evidence,
-              </a>
-               
-               
-              we have created HTM (Hierarchical Temporal Memory), a theoretical framework for both biological and machine intelligence. Our HTM technology is not just biologically inspired. It’s biologically constrained. When applied to computers, HTM is well suited for prediction, anomaly detection, classification and ultimately sensorimotor applications. We believe this technology will be the foundation for the next wave of computing.
-            </p>
-            <p
-              className="paragraph">
-              At the core of HTM are learning algorithms that can store, learn, infer and recall high-order sequences. Unlike most other machine learning methods, HTM learns time-based patterns in unlabeled data on a continuous basis. HTM is robust to noise, and high capacity, meaning that it can learn multiple patterns simultaneously.
-            </p>
-            <p
-              className="paragraph">
-              HTM works best with data that meets the following characteristics:
-            </p>
-            <ul
-              className="ul">
-              <li
-                className="li copy markerDisc">
-                Streaming data rather than batch data files
-              </li>
-              <li
-                className="li copy markerDisc">
-                Data with time-based patterns
-              </li>
-              <li
-                className="li copy markerDisc">
-                Many individual data sources where hand crafting separate models is impractical
-              </li>
-              <li
-                className="li copy markerDisc">
-                Subtle patterns that can’t always be seen by humans
-              </li>
-              <li
-                className="li copy markerDisc">
-                Data for which simple techniques such as thresholds yield substantial false positives and false negatives
-              </li>
-            </ul>
-            <p
-              className="paragraph">
-              Our technology has been 
-               
-              <a
-                className="textlink"
-                href={undefined}
-                onClick={[Function]}
-                style={Object {}}
-                target={undefined}>
-                tested and implemented in software,
-              </a>
-               
-               
-              all of which is developed with best practices and suitable for deploying in commercial applications.
-            </p>
+            <div
+              className="markdown">
+              <div
+                className="markdownBody">
+                <div
+                  dangerouslySetInnerHTML={
+                    Object {
+                      "__html": "Markdown Test Body Example",
+                    }
+                  } />
+              </div>
+            </div>
           </article>
         </article>
         <div
@@ -788,70 +630,23 @@ exports[`Index Page React component Renders correctly 1`] = `
           className="columns">
           <div
             className="aside">
-            <img
-              alt="Numenta Open Source Hackathon Event"
-              className="image mw shadow"
-              onClick={undefined}
-              src="filename.ext"
-              title={undefined} />
+            <div
+              className="markdownMedia" />
           </div>
           <div
             className="content">
-            <p
-              className="paragraph lead">
-              Because we want our technology to be broadly adopted, we make it widely accessible in an open source community. There you’ll find our algorithms, daily research, source code, and an active discussion forum with HTM community members covering a variety of topics.
-            </p>
-            <p
-              className="paragraph">
-              You’ll also find our implementation of HTM theory, called NuPIC (Numenta Platform for Intelligent Computing), which is written in C++ and Python. Other implementations have been ported from NuPIC into other languages by community members.
-            </p>
-            <p
-              className="paragraph">
-              If you are interested in seeing, developing or working with our technology, we invite you to participate at 
-               
-              <a
-                className="textlink"
-                href="http://numenta.org"
-                onClick={[Function]}
-                target={undefined}>
-                http://numenta.org
-              </a>
-              . Anyone is welcome to use our technology for free, under the 
-               
-              <a
-                className="textlink"
-                href="http://numenta.com/assets/pdf/apps/licensing-guide.pdf"
-                onClick={[Function]}
-                target={undefined}>
-                AGPLv3 open source license.
-              </a>
-               
-               
-              In addition, we have created a separate, 
-               
-              <a
-                className="textlink"
-                href="http://numenta.org/licenses/trial/"
-                onClick={[Function]}
-                target={undefined}>
-                trial license without commercial rights
-              </a>
-               
-               
-              for those individuals or organizations who are unable to use the AGPLv3 license. For more on our licenses, see the 
-               
-              <a
-                className="textlink"
-                href={undefined}
-                onClick={[Function]}
-                style={Object {}}
-                target={undefined}>
-                Business Strategy & IP
-              </a>
-               
-               
-              section.
-            </p>
+            <div
+              className="markdown">
+              <div
+                className="markdownBody">
+                <div
+                  dangerouslySetInnerHTML={
+                    Object {
+                      "__html": "Markdown Test Body Example",
+                    }
+                  } />
+              </div>
+            </div>
           </div>
         </article>
         <div
@@ -2120,88 +1915,23 @@ exports[`Index Page React component Renders correctly 1`] = `
           className="columns">
           <div
             className="aside">
-            <a
-              className="imagelink"
-              href={undefined}
-              onClick={[Function]}
-              style={Object {}}
-              title={undefined}>
-              <img
-                alt="Numenta Anomaly Benchmark (NAB) screenshot"
-                className="image border mw shadow"
-                onClick={undefined}
-                src="filename.ext"
-                title={undefined} />
-            </a>
+            <div
+              className="markdownMedia" />
           </div>
           <div
             className="content">
-            <p
-              className="paragraph lead">
-              Sensors and data streams are proliferating as the Internet of Things vision becomes realized. However, using the data from these sensors is not so easy. Specifically, being able to identify anomalies in streaming data is surprisingly difficult. Most techniques are a form of thresholds, i.e. predetermined limits that must be set to notify abnormalities. However, thresholds have some glaring weaknesses, including often finding a problem after it has happened, not before, and not adapting to new states, such that false positives can crowd out the important signal.
-            </p>
-            <p
-              className="paragraph">
-              We created the 
-              <strong
-                className="strong">
-                Numenta Anomaly Benchmark (NAB)
-              </strong>
-               in order to be able to measure and compare results from algorithms designed to find anomalies in streaming data. NAB is an open source framework consisting of:
-            </p>
-            <ul
-              className="ul">
-              <li
-                className="li copy markerDisc">
-                A dataset with real-world, labeled data files
-              </li>
-              <li
-                className="li copy markerDisc">
-                A scoring mechanism that rewards early detection and on-line learning
-              </li>
-            </ul>
-            <h3
-              className="h3">
-              Resources
-            </h3>
-            <ul
-              className="ul">
-              <li
-                className="li copy markerDisc">
-                Business Paper: 
-                 
-                <a
-                  className="textlink"
-                  href="/assets/pdf/numenta-anomaly-benchmark/NAB-Business-Paper.pdf"
-                  onClick={[Function]}
-                  target={undefined}>
-                  The Numenta Anomaly Benchmark
-                </a>
-              </li>
-              <li
-                className="li copy markerDisc">
-                Technical Peer-Reviewed Paper: 
-                 
-                <a
-                  className="textlink"
-                  href="http://arxiv.org/abs/1510.03336"
-                  onClick={[Function]}
-                  target={undefined}>
-                  Evaluating Real-time Anomaly Detection Algorithms – the Numenta Anomaly Benchmark
-                </a>
-              </li>
-              <li
-                className="li copy markerDisc">
-                <a
-                  className="textlink"
-                  href={undefined}
-                  onClick={[Function]}
-                  style={Object {}}
-                  target={undefined}>
-                  More Information
-                </a>
-              </li>
-            </ul>
+            <div
+              className="markdown">
+              <div
+                className="markdownBody">
+                <div
+                  dangerouslySetInnerHTML={
+                    Object {
+                      "__html": "Markdown Test Body Example",
+                    }
+                  } />
+              </div>
+            </div>
           </div>
         </article>
         <div
