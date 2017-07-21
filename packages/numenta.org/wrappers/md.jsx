@@ -11,7 +11,7 @@ import React from 'react'
 import Avatar from 'numenta-web-shared-components/lib/Avatar'
 import IconMarker from 'numenta-web-shared-components/lib/IconMarker'
 import Image from 'numenta-web-shared-components/lib/Image'
-import MarkdownBody from 'numenta-web-shared-components/lib/MarkdownBody'
+import Markdown from 'numenta-web-shared-components/lib/Markdown'
 import Section from 'numenta-web-shared-components/lib/Section'
 import Sound from 'numenta-web-shared-components/lib/Sound'
 import Spacer from 'numenta-web-shared-components/lib/Spacer'
@@ -140,7 +140,9 @@ const MarkdownWrapper = ({route}, {config}) => {
         {author}
         {media}
         <div className={styles.content}>
-          <MarkdownBody markdown={data} />
+          <Markdown>
+            <div dangerouslySetInnerHTML={{__html: data.body}} />
+          </Markdown>
         </div>
         {author}
         {back}
