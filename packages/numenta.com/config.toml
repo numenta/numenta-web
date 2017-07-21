@@ -48,6 +48,7 @@ company = 'Numenta'
   [links.in]  # internal paths
     # main/home pseudo-single page
     home = '/'
+    nutshell = '/numenta-in-a-nutshell/'
     mission = '/mission-and-history/'
     neuro = '/neuroscience-research/'
     technology = '/machine-intelligence-technology/'

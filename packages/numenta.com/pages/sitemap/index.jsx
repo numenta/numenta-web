@@ -88,6 +88,11 @@ const SitemapPage = (props, {config, route}) => {
                 </TextLink>
               </ListItem>
               <ListItem>
+                <TextLink to={links.in.nutshell}>
+                  Numenta in a Nutshell
+                </TextLink>
+              </ListItem>
+              <ListItem>
                 <TextLink to={links.in.mission}>
                   Mission &amp; History
                 </TextLink>
