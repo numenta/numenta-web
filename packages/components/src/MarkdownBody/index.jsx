@@ -6,6 +6,8 @@ import React from 'react'
 
 import Markdown from '../Markdown'
 
+import styles from './index.css'
+
 
 /**
  * Markdown Body item text wrapper for lone Markdown text columns.
@@ -15,7 +17,9 @@ const MarkdownBody = ({markdown}) => {
 
   return (
     <Markdown>
-      <div dangerouslySetInnerHTML={{__html: body}} />
+      <div className={styles.markdownBody}>
+        <div dangerouslySetInnerHTML={{__html: body}} />
+      </div>
     </Markdown>
   )
 }
