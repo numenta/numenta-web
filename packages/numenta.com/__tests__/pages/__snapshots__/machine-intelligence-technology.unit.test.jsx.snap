@@ -149,11 +149,12 @@ exports[`Machine Intelligence Technology Page React component Renders correctly 
                   className="defineItem horizontal">
                   <a
                     className="textlink"
-                    href={undefined}
+                    href="http://www.biorxiv.org/content/early/2017/07/12/162263"
                     onClick={[Function]}
-                    style={Object {}}
                     target={undefined}>
-                    BAMI adds 2 chapters
+                    HTM Sensorimotor Theory paper 
+                    <br />
+                     and video now on bioRxiv
                      
                      
                     <span
@@ -202,6 +203,84 @@ exports[`Machine Intelligence Technology Page React component Renders correctly 
             </p>
           </div>
         </article>
+      </div>
+    </section>
+    <section
+      className="section"
+      id="sectionNutshell">
+      <nav
+        className="title"
+        onClick={[Function]}
+        title="Open Section: Numenta in a Nutshell">
+        <svg
+          className="toggle"
+          fill="currentColor"
+          height="1em"
+          preserveAspectRatio="xMidYMid meet"
+          style={
+            Object {
+              "color": undefined,
+              "verticalAlign": "middle",
+            }
+          }
+          viewBox="0 0 40 40"
+          width="1em">
+          <g>
+            <path
+              d="m31 16.4q0 0.3-0.2 0.5l-10.4 10.4q-0.3 0.3-0.5 0.3t-0.6-0.3l-10.4-10.4q-0.2-0.2-0.2-0.5t0.2-0.5l1.2-1.1q0.2-0.2 0.5-0.2t0.5 0.2l8.8 8.8 8.7-8.8q0.3-0.2 0.5-0.2t0.6 0.2l1.1 1.1q0.2 0.2 0.2 0.5z" />
+          </g>
+        </svg>
+        <h1
+          className="title">
+          Numenta in a Nutshell
+        </h1>
+      </nav>
+      <div
+        className="article closed">
+        <article
+          className="columns">
+          <div
+            className="aside">
+            <div
+              className="markdownMedia" />
+          </div>
+          <div
+            className="content">
+            <div
+              className="markdown">
+              <div
+                dangerouslySetInnerHTML={
+                  Object {
+                    "__html": "Markdown Test Body Example",
+                  }
+                } />
+            </div>
+          </div>
+        </article>
+        <div
+          className="closeButton"
+          onClick={[Function]}
+          title="Close Section: Numenta in a Nutshell">
+          <svg
+            className="closeIcon"
+            fill="currentColor"
+            height="1em"
+            preserveAspectRatio="xMidYMid meet"
+            style={
+              Object {
+                "color": "inherit",
+                "verticalAlign": "middle",
+              }
+            }
+            viewBox="0 0 40 40"
+            width="1em">
+            <g>
+              <path
+                d="m31 26.4q0 0.3-0.2 0.5l-1.1 1.2q-0.3 0.2-0.6 0.2t-0.5-0.2l-8.7-8.8-8.8 8.8q-0.2 0.2-0.5 0.2t-0.5-0.2l-1.2-1.2q-0.2-0.2-0.2-0.5t0.2-0.5l10.4-10.4q0.3-0.2 0.6-0.2t0.5 0.2l10.4 10.4q0.2 0.2 0.2 0.5z" />
+            </g>
+          </svg>
+          Close Section
+        </div>
       </div>
     </section>
     <section
@@ -975,150 +1054,6 @@ exports[`Machine Intelligence Technology Page React component Renders correctly 
           </div>
           <span
             className="anchor"
-            id="htmstocks" />
-          <h2
-            className="h2">
-            HTM for Stocks
-          </h2>
-          <div
-            className="columns">
-            <div
-              className="aside">
-              <a
-                className="imagelink"
-                href={undefined}
-                onClick={[Function]}
-                style={Object {}}
-                title={undefined}>
-                <img
-                  alt="HTM for Stocks screenshot"
-                  className="image mw shadow"
-                  onClick={undefined}
-                  src="filename.ext"
-                  title={undefined} />
-              </a>
-            </div>
-            <div
-              className="content">
-              <p
-                className="paragraph">
-                HTM for Stocks is an example application that detects anomalies in publicly traded companies. It continuously models stock price, stock volume, and Twitter volume for top publicly traded companies and alerts you in real time when something unusual is happening. HTM for Stocks is available for free via the 
-                 
-                <a
-                  className="textlink"
-                  href="https://itunes.apple.com/us/app/htm-for-stocks/id1049429350?mt=8"
-                  onClick={[Function]}
-                  target={undefined}>
-                  App Store
-                </a>
-                 
-                 or 
-                 
-                <a
-                  className="textlink"
-                  href="https://play.google.com/store/apps/details?id=com.numenta.taurus"
-                  onClick={[Function]}
-                  target={undefined}>
-                  Google Play Store.
-                </a>
-              </p>
-              <ul
-                className="ul">
-                <li
-                  className="li copy markerDisc">
-                  <a
-                    className="textlink"
-                    href={undefined}
-                    onClick={[Function]}
-                    style={Object {}}
-                    target={undefined}>
-                    More Information
-                  </a>
-                </li>
-                <li
-                  className="li copy markerDisc">
-                  <a
-                    className="textlink"
-                    href={undefined}
-                    onClick={[Function]}
-                    style={Object {}}
-                    target={undefined}>
-                    Register to Give Feedback
-                  </a>
-                </li>
-              </ul>
-            </div>
-          </div>
-          <span
-            className="anchor"
-            id="grokit" />
-          <h2
-            className="h2">
-            Grok
-          </h2>
-          <div
-            className="columns">
-            <div
-              className="aside">
-              <a
-                className="imagelink"
-                href="https://grokstream.com/"
-                onClick={[Function]}
-                title={undefined}>
-                <img
-                  alt="Grok for IT Analytics screenshot"
-                  className="image mw shadow"
-                  onClick={undefined}
-                  src="filename.ext"
-                  title={undefined} />
-              </a>
-            </div>
-            <div
-              className="content">
-              <p
-                className="paragraph">
-                Grok is a commercial application offered by one of our strategic partners that detects anomalies in servers and applications. It learns continuously, automatically discovers time-based patterns in data, and generalizes from experience.
-              </p>
-              <p
-                className="paragraph">
-                Grok is now available at 
-                 
-                <a
-                  className="textlink"
-                  href="https://grokstream.com/"
-                  onClick={[Function]}
-                  target={undefined}>
-                  https://grokstream.com/
-                  .
-                </a>
-              </p>
-              <ul
-                className="ul">
-                <li
-                  className="li copy markerDisc">
-                  <a
-                    className="textlink"
-                    href="https://grokstream.com//#pricing"
-                    onClick={[Function]}
-                    target={undefined}>
-                    Sign Up
-                  </a>
-                </li>
-                <li
-                  className="li copy markerDisc">
-                  <a
-                    className="textlink"
-                    href="https://grokstream.com/"
-                    onClick={[Function]}
-                    target={undefined}>
-                    More Information
-                  </a>
-                </li>
-              </ul>
-            </div>
-          </div>
-          <span
-            className="anchor"
             id="rogue" />
           <h2
             className="h2">
@@ -1222,6 +1157,119 @@ exports[`Machine Intelligence Technology Page React component Renders correctly 
                     onClick={[Function]}
                     target={undefined}>
                     Download Application Code
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <span
+            className="anchor"
+            id="htmstocks" />
+          <h2
+            className="h2">
+            HTM for Stocks
+          </h2>
+          <div
+            className="columns">
+            <div
+              className="aside">
+              <a
+                className="imagelink"
+                href="https://github.com/numenta/numenta-apps"
+                onClick={[Function]}
+                title={undefined}>
+                <img
+                  alt="HTM for Stocks screenshot"
+                  className="image mw shadow"
+                  onClick={undefined}
+                  src="filename.ext"
+                  title={undefined} />
+              </a>
+            </div>
+            <div
+              className="content">
+              <p
+                className="paragraph">
+                HTM for Stocks is an example application that detects anomalies in publicly traded companies. It continuously models stock price, stock volume, and Twitter volume for publicly traded companies and alerts you in real time when something unusual is happening. You can experiment with this application by downloading our sample application code below and connecting it to Twitter and metric collectors.
+              </p>
+              <ul
+                className="ul">
+                <li
+                  className="li copy markerDisc">
+                  <a
+                    className="textlink"
+                    href="https://github.com/numenta/numenta-apps"
+                    onClick={[Function]}
+                    target={undefined}>
+                    Download Application Code
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <span
+            className="anchor"
+            id="grokit" />
+          <h2
+            className="h2">
+            Grok
+          </h2>
+          <div
+            className="columns">
+            <div
+              className="aside">
+              <a
+                className="imagelink"
+                href="https://grokstream.com/"
+                onClick={[Function]}
+                title={undefined}>
+                <img
+                  alt="Grok for IT Analytics screenshot"
+                  className="image mw shadow"
+                  onClick={undefined}
+                  src="filename.ext"
+                  title={undefined} />
+              </a>
+            </div>
+            <div
+              className="content">
+              <p
+                className="paragraph">
+                Grok is a commercial application offered by one of our strategic partners that detects anomalies in servers and applications. It learns continuously, automatically discovers time-based patterns in data, and generalizes from experience.
+              </p>
+              <p
+                className="paragraph">
+                Grok is now available at 
+                 
+                <a
+                  className="textlink"
+                  href="https://grokstream.com/"
+                  onClick={[Function]}
+                  target={undefined}>
+                  https://grokstream.com/
+                  .
+                </a>
+              </p>
+              <ul
+                className="ul">
+                <li
+                  className="li copy markerDisc">
+                  <a
+                    className="textlink"
+                    href="https://grokstream.com//#pricing"
+                    onClick={[Function]}
+                    target={undefined}>
+                    Sign Up
+                  </a>
+                </li>
+                <li
+                  className="li copy markerDisc">
+                  <a
+                    className="textlink"
+                    href="https://grokstream.com/"
+                    onClick={[Function]}
+                    target={undefined}>
+                    More Information
                   </a>
                 </li>
               </ul>
@@ -2319,6 +2367,15 @@ exports[`Machine Intelligence Technology Page React component Renders correctly 
               </h2>
               <ol
                 className="ol" />
+              <span
+                className="anchor"
+                id="more" />
+              <h2
+                className="h2">
+                More
+              </h2>
+              <ol
+                className="ol" />
             </div>
             <div
               className="aside">
@@ -2328,18 +2385,6 @@ exports[`Machine Intelligence Technology Page React component Renders correctly 
               <h2
                 className="h2">
                 Posters
-              </h2>
-              <ol
-                className="ol" />
-            </div>
-            <div
-              className="aside">
-              <span
-                className="anchor"
-                id="more" />
-              <h2
-                className="h2">
-                More
               </h2>
               <ol
                 className="ol" />
