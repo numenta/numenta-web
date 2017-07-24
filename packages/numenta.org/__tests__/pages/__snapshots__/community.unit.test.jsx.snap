@@ -165,84 +165,18 @@ exports[`Community Page React component Renders correctly 1`] = `
           </div>
           <div
             className="content">
-            <p
-              className="paragraph lead">
-              Welcome to 
-              <strong
-                className="strong">
-                Numenta.org
-              </strong>
-              , home of Numenta’s HTM community and open source projects. If you want to learn about Numenta the company visit 
-               
-              <a
-                className="textlink"
-                href="http://numenta.com/"
-                onClick={[Function]}
-                target={undefined}>
-                Numenta.com
-              </a>
-               
-               
-              .
-            </p>
-            <h2
-              className="h2">
-              Machine Intelligence Starts Here
-            </h2>
-            <p
-              className="paragraph">
-              <strong
-                className="strong">
-                Hierarchical Temporal Memory
-              </strong>
-               is a foundational technology for the future of machine intelligence based upon the biology of the neocortex. Because Numenta is committed to making this technology accessible to everyone, all HTM software and ongoing research is open source. This allows you to work with our technology in whatever way works best for you ‒ learn about the theory, dive into the source code, or start your own implementation. Some of our community members have written their own versions of HTM systems in other languages and platforms. Others have created detailed visualizations, experiments, and applications.
-            </p>
-            <p
-              className="paragraph">
-              The neocortex is a logical system that we\'ll understand fully in time. HTM theory reflects our current understanding of how the neocortex works, and HTM code reduces that theory to practice. HTM is continually being updated as we learn more about the brain. We believe HTM will play a critical role in the creation of truly intelligent machines.
-            </p>
-            <h2
-              className="h2">
-              Join us!
-            </h2>
-            <p
-              className="paragraph">
-              There are many ways for you to get involved. Come discuss HTM theory with us 
-               
-              <a
-                className="textlink"
-                href="https://discourse.numenta.org/categories"
-                onClick={[Function]}
-                target={undefined}>
-                on our forums
-              </a>
-               
-               
-              , or share your HTM application on our 
-               
-              <a
-                className="textlink"
-                href="https://github.com/numenta"
-                onClick={[Function]}
-                target={undefined}>
-                Github organization
-              </a>
-               
-               
-              . If you\'re new to HTM, a great place to learn is in 
-               
-              <a
-                className="textlink"
-                href={undefined}
-                onClick={[Function]}
-                style={Object {}}
-                target={undefined}>
-                HTM School
-              </a>
-               
-               
-              . We hope you’ll join our community and help us discover the future of machine intelligence.
-            </p>
+            <div
+              className="markdown">
+              <div
+                className="markdownBody">
+                <div
+                  dangerouslySetInnerHTML={
+                    Object {
+                      "__html": "Markdown Test Body Example",
+                    }
+                  } />
+              </div>
+            </div>
           </div>
         </article>
       </div>
@@ -284,73 +218,23 @@ exports[`Community Page React component Renders correctly 1`] = `
             className="columns">
             <div
               className="aside">
-              <img
-                alt="HTM Image"
-                className="image border mw shadow"
-                onClick={undefined}
-                src="filename.ext"
-                title={undefined} />
+              <div
+                className="markdownMedia" />
             </div>
             <div
               className="content">
-              <p
-                className="paragraph lead">
-                Hierarchical Temporal Memory (HTM) is a biologically-constrained theory of intelligence originally described in the book 
-                 
-                <a
-                  className="textlink"
-                  href="http://numenta.com/papers-videos-and-more/resources/on-intelligence/"
-                  onClick={[Function]}
-                  target={undefined}>
-                  On Intelligence
-                </a>
-                . HTM is not a Deep Learning or Machine Learning technology. It is a machine intelligence framework strictly based on neuroscience and the physiology and interaction of pyramidal neurons in the neocortex of the mammalian brain.
-              </p>
-              <p
-                className="paragraph">
-                If you’re interested in learning more about HTM, visit our educational series 
-                 
-                <a
-                  className="textlink"
-                  href={undefined}
-                  onClick={[Function]}
-                  style={Object {}}
-                  target={undefined}>
-                  HTM School
-                </a>
-                 
-                 
-                or browse through the topics on 
-                 
-                <a
-                  className="textlink"
-                  href="https://discourse.numenta.org/categories"
-                  onClick={[Function]}
-                  target={undefined}>
-                  HTM Forum
-                </a>
-                . You can also find a collection of research papers at 
-                 
-                <a
-                  className="textlink"
-                  href="http://numenta.com/papers/"
-                  onClick={[Function]}
-                  target={undefined}>
-                  numenta.com/papers
-                </a>
-                 
-                 
-                and a living book authored by Numenta researchers and engineers that documents HTM called 
-                 
-                <a
-                  className="textlink"
-                  href="http://numenta.com/biological-and-machine-intelligence/"
-                  onClick={[Function]}
-                  target={undefined}>
-                  Biological and Machine Intelligence (BAMI)
-                </a>
-                .
-              </p>
+              <div
+                className="markdown">
+                <div
+                  className="markdownBody">
+                  <div
+                    dangerouslySetInnerHTML={
+                      Object {
+                        "__html": "Markdown Test Body Example",
+                      }
+                    } />
+                </div>
+              </div>
             </div>
           </div>
         </article>
@@ -599,90 +483,23 @@ exports[`Community Page React component Renders correctly 1`] = `
             className="columns">
             <div
               className="aside">
-              <img
-                alt="HTM Coding"
-                className="image border mw shadow"
-                onClick={undefined}
-                src="filename.ext"
-                title={undefined} />
+              <div
+                className="markdownMedia" />
             </div>
             <div
               className="content">
-              <p
-                className="paragraph lead">
-                In addition to making all of Numenta\'s 
-                 
-                <a
-                  className="textlink"
-                  href="https://github.com/numenta"
-                  onClick={[Function]}
-                  target={undefined}>
-                  production
-                </a>
-                 
-                 
-                and 
-                 
-                <a
-                  className="textlink"
-                  href="https://github.com/numenta/nupic.research"
-                  onClick={[Function]}
-                  target={undefined}>
-                  research
-                </a>
-                 
-                 
-                code open source, our community produces and shares HTM implementations and applications, commonly posting their projects on 
-                 
-                <a
-                  className="textlink"
-                  href="https://discourse.numenta.org/categories"
-                  onClick={[Function]}
-                  target={undefined}>
-                  HTM Forum.
-                </a>
-                 
-                 
-                Our community hosts many of these projects on the 
-                 
-                <a
-                  className="textlink"
-                  href="https://github.com/htm-community"
-                  onClick={[Function]}
-                  target={undefined}>
-                  HTM Community
-                </a>
-                 
-                 
-                Github organization. We have 
-                 
-                <a
-                  className="textlink"
-                  href={undefined}
-                  onClick={[Function]}
-                  style={Object {}}
-                  target={undefined}>
-                  HTM implementations
-                </a>
-                 
-                 
-                in languages like Python, C++, Java, Clojure, Go, and JavaScript.
-              </p>
-              <p
-                className="paragraph">
-                We are always looking for community members that can help others build out HTM applications and experiments. If you are interested in helping or providing consulting services, please leave us a note on the 
-                 
-                <a
-                  className="textlink"
-                  href="https://discourse.numenta.org/c/htm-hackers"
-                  onClick={[Function]}
-                  target={undefined}>
-                  HTM Hackers Forum
-                </a>
-                 
-                 
-                and introduce yourself.
-              </p>
+              <div
+                className="markdown">
+                <div
+                  className="markdownBody">
+                  <div
+                    dangerouslySetInnerHTML={
+                      Object {
+                        "__html": "Markdown Test Body Example",
+                      }
+                    } />
+                </div>
+              </div>
             </div>
           </div>
         </article>
