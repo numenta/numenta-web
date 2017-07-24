@@ -41,6 +41,17 @@ exports[`Sitemap Page React component Renders correctly 1`] = `
                 onClick={[Function]}
                 style={Object {}}
                 target={undefined}>
+                Numenta in a Nutshell
+              </a>
+            </li>
+            <li
+              className="li copy markerDisc">
+              <a
+                className="textlink"
+                href={undefined}
+                onClick={[Function]}
+                style={Object {}}
+                target={undefined}>
                 Mission & History
               </a>
             </li>
@@ -235,17 +246,6 @@ exports[`Sitemap Page React component Renders correctly 1`] = `
                 style={Object {}}
                 target={undefined}>
                 Biological and Machine Intelligence
-              </a>
-            </li>
-            <li
-              className="li copy markerDisc">
-              <a
-                className="textlink"
-                href={undefined}
-                onClick={[Function]}
-                style={Object {}}
-                target={undefined}>
-                HTM for Stocks
               </a>
             </li>
             <li

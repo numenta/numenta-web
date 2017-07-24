@@ -1,0 +1,14 @@
+exports[`MarkdownBody React component Renders correctly 1`] = `
+<div
+  className="markdown">
+  <div
+    className="markdownBody">
+    <div
+      dangerouslySetInnerHTML={
+        Object {
+          "__html": "# Hello world  ## Whadup",
+        }
+      } />
+  </div>
+</div>
+`;

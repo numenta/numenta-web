@@ -8,11 +8,12 @@ import DefineItem from 'numenta-web-shared-components/lib/DefineItem'
 import DefineTitle from 'numenta-web-shared-components/lib/DefineTitle'
 import Glance from 'numenta-web-shared-components/lib/Glance'
 import Logo from 'numenta-web-shared-components/lib/Logo'
-import Paragraph from 'numenta-web-shared-components/lib/Paragraph'
+import MarkdownBody from 'numenta-web-shared-components/lib/MarkdownBody'
 import Spacer from 'numenta-web-shared-components/lib/Spacer'
-import Strong from 'numenta-web-shared-components/lib/Strong'
 import Tag from 'numenta-web-shared-components/lib/Tag'
 import TextLink from 'numenta-web-shared-components/lib/TextLink'
+
+import ContentLeft from './_content/_left.md'
 
 import styles from './index.css'
 
@@ -109,30 +110,7 @@ const SectionHome = (props, {config}) => {
 
       </div>
       <div className={styles.content}>
-
-        <Paragraph lead={true}>
-          Welcome to <Strong>Numenta.com</Strong>. Here you’ll find information
-          about the company Numenta. If you would like to learn about Numenta’s
-          HTM community and open source project visit&nbsp;
-          <TextLink to={links.out.org}><Strong>Numenta.org</Strong></TextLink>.
-        </Paragraph>
-        <hr />
-        <Paragraph>
-          <Strong>Numenta</Strong> is tackling one of the most important
-          scientific challenges of all time: reverse engineering the neocortex.
-          Studying how the brain works helps us understand the principles of
-          intelligence and build machines that work on the same principles. We
-          believe that understanding how the neocortex works is the fastest path
-          to machine intelligence, and creating intelligent machines is
-          important for the continued success of humankind.
-        </Paragraph>
-        <Paragraph>
-          We are at the beginning of a thrilling new era of computing that will
-          unfold over the coming decades, and we invite you to learn about how
-          our approach is helping to advance the state of brain theory and
-          machine intelligence.
-        </Paragraph>
-
+        <MarkdownBody markdown={ContentLeft} />
       </div>
     </article>
   )

@@ -1,0 +1,34 @@
+/**
+ * Numenta Web Platform and Sites source code
+ * MIT License (see LICENSE.txt)
+ * Copyright © 2005—2017 Numenta <http://numenta.com>
+ */
+
+._dropcap > div > p:first-of-type {
+  margin-top: 0;
+  padding-top: 0;
+}
+
+/* dropcap - sync with wrappers/md/md.css */
+._dropcap > div > p:first-of-type::first-letter {
+  background-color: #fff;
+  color: #1aa0db;
+  float: left;
+  font-weight: 500;
+  line-height: 0.85;
+  margin: 0 0 -1rem 0;
+  /* -s (<= mobile) */
+  font-size: 6.8rem;
+  padding: 0.5rem 0.3rem 0.3rem 0;
+}
+@media screen and (min-width: 48em) {
+  ._dropcap > div > p:first-of-type::first-letter {
+    /* -ns (> mobile) */
+    font-size: 5.4rem;
+    padding: 0.4rem 0.3rem 0.3rem 0;
+  }
+}
+
+.markdownBody {
+  composes: _dropcap;
+}
