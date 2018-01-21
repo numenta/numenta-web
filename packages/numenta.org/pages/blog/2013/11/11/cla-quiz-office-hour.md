@@ -12,8 +12,8 @@ type: post
 
 Tomorrow at 4PM Pacific, we're holding an Office Hour for anyone interested to
 join in and talk about
-[Hierarchical Temporal Memory](/papers-videos-and-more/resources/hierarchical-temporal-memory-white-paper/),
-as implemented by Numenta within [NuPIC](/). Jeff Hawkins and Numenta VP of
+Hierarchical Temporal Memory,
+as implemented by Numenta within NuPIC. Jeff Hawkins and Numenta VP of
 Engineering Subutai Ahmad will be at this event to go through the _CLA Quiz_, a
 serious of challenging questions about how NuPIC algorithms work. These
 questions were originally created for new employees and interns to research in
@@ -54,14 +54,5 @@ invite you. If you can't make it, the video will be
 1. What are disadvantages of SDR's?
 1. How does online learning happen in the SP?
 
-
-#### Whoa! That's Deep
-
-These questions a bit over your head? Looking for a primer on these technologies
-before you attend? Here are some resources:
-
-* [HTM White Paper](/papers-videos-and-more/resources/hierarchical-temporal-memory-white-paper/)
-* [Tutorial: CLA Basics](http://www.youtube.com/watch?v=z6r3ekreRzY)
-* [CLA Deep Dive](http://www.youtube.com/watch?v=QBs-2_wl_JM)
 
 [Comments on Reddit](http://www.reddit.com/r/MachineLearning/comments/1qdu8i/cla_quiz_office_hour/)

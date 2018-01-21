@@ -12,7 +12,7 @@ type: post
 
 Numenta recently open-sourced a bunch of product code at:
 <https://github.com/numenta/numenta-apps>. This includes the code for our most
-recent product, [HTM for Stocks](/htm-for-stocks), and it
+recent product, HTM for Stocks, and it
 also includes an extremely useful utility for running many anomaly detection
 models simultaneously called
 **[HTM Engine](https://github.com/numenta/numenta-apps/tree/master/htmengine)**.

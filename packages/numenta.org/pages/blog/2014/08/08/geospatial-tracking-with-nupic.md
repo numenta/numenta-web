@@ -45,11 +45,6 @@ files in this video:
 
 [![NuPIC Geospatial Tracking Application Tutorial](http://img.youtube.com/vi/M4dD9wCQLkA/hqdefault.jpg)](http://www.youtube.com/watch?v=M4dD9wCQLkA)
 
-Numenta has also authored a white paper entitled
-[Geospatial Tracking: Learning the Patterns in Movement and Detecting Anomalies](/assets/pdf/whitepapers/Geospatial%20Tracking%20White%20Paper.pdf),
-which provides details about our motivation, potential use-cases, and underlying
-technologies.
-
 At the heart of this new capability is the `GeospatialCoordinateEncoder`, which
 converts geospatial coordinate information into a format that is compatible with
 NuPIC, exposing the characteristics of location information that allows the
