@@ -20,8 +20,3 @@
   composes: tc from 'tachyons';
   composes: layout-aside from '../../../../static/assets/css/theme.css';
 }
-
-table {
-  border-spacing: 0;
-  width: 600px;
-}
