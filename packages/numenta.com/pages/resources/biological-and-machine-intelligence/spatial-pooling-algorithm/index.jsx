@@ -46,7 +46,7 @@ const SpDetailsPage = (props, {config}) => {
               such as small clarifications or formatting changes are not noted.
           </Paragraph>
 
-          <Table>
+          <Table border="true">
             <TableBody>
               <TableRow>
                 <TableCell>
