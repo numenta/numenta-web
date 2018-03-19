@@ -63,11 +63,11 @@ const BamiPage = (props, {config}) => {
                 </ListItem>
                 <ListItem>
                   Spatial Pooling: {' '}
-                  <TextLink to={links.in.spweb}>
-                    HTML
-                  </TextLink> {' '} | {' '}
                   <TextLink to={links.in.sppdf}>
                     PDF
+                  </TextLink> {' '} | {' '}
+                  <TextLink to={links.in.spweb}>
+                    HTML
                   </TextLink> {' '}
                 </ListItem>
                 <ListItem>
