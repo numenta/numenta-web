@@ -1,6 +1,6 @@
 ---
 author: Matthew Taylor
-description: "Grid cells are cool"
+description: "Explore how grid cells map space with these interactive visualizations."
 date: 2018/05/17
 hideImage: true
 org: Open Source Community Manager
@@ -8,13 +8,11 @@ keywords: "grid cells"
 title: "How Grid Cells Map Space"
 header: "How Grid Cells Map Space"
 type: post
-scripts: 
+scripts:
  - https://code.jquery.com/jquery-3.3.1.slim.min.js
  - https://d3js.org/d3.v5.min.js
- - https://htm-community.github.io/building-htm-systems/bhtms-how-do-grid-cells-work-0.2.2.js
+ - /assets/js/bhtms-how-do-grid-cells-work-0.2.3.js
 ---
-
-<h1>How Grid Cells Map Space</h1>
 
 <blockquote>
     This blog post contains interactive visualizations that may not work on older web browsers.
@@ -125,5 +123,3 @@ scripts:
 </p>
 
 <iframe width="445" height="250" src="https://www.youtube.com/embed/mP7neeymcUY?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-
-
