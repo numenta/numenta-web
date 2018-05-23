@@ -9,6 +9,7 @@ keywords: "neuromorphic chips"
 title: "Neuromorphic Chip Modeling Dendritic Spikes Debuts at NICE"
 header: "Neuromorphic Chip Modeling Dendritic Spikes Debuts at NICE"
 type: post
+script: /assets/js/bhtms-how-do-grid-cells-work-0.2.2.js
 ---
 
 As AI continues to progress, one thing we know for sure is that software demands will quickly outpace hardware capabilities. That’s why the neuromorphic community is as active as ever, with a growing number of neuromorphic computing events and conferences, many of which Numenta has attended in the past.  Several public and private groups are dedicated to building chips designed to work more like the human brain. These chips, which emulate neurons in silicon, are essentially the hardware for the future of AI.
@@ -31,3 +32,4 @@ The Human Brain Project is a 10-year project funded by the European Union that f
 For those interested in the details about the BrainScaleS-2 chip, you can read this paper, “[An Accelerated Analog Neuromorphic Hardware System Emulating NMDA- and Calcium-Based Non-Linear Dendrites](https://arxiv.org/pdf/1703.07286.pdf)” by Johannes Schemmel, Laura Kriener, Paul Muller and Karlheinz Meier.
 
 To read a paper our VP of Research, Subutai Ahmad, co-authored in 2015 with a member of the Human Brain Project about porting HTM algorithms to a neuromorphic computing platform, click [here](https://arxiv.org/abs/1505.02142).
+
