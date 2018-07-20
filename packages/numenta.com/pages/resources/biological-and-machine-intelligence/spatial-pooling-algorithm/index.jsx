@@ -460,7 +460,7 @@ inhibitionRadius = averageReceptiveFieldSize()
             duty cycles of neighboring columns, then its internal boost factor
             (boost(c)) will increase above one. If a column's active duty cycle
             arises above the active duty cycles of neighboring columns, its
-            boost factor will decrease below one This helps drive the
+            boost factor will decrease below one. This helps drive the
             competition amongst columns and achieve the spatial pooling goal of
             using all the columns. Before inhibition, if a column’s overlap duty
             cycle is below its minimum acceptable value calculated dynamically
