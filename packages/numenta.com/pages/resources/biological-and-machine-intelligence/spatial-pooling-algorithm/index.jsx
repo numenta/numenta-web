@@ -463,7 +463,7 @@ inhibitionRadius = averageReceptiveFieldSize()
             boost factor will decrease below one. This helps drive the
             competition amongst columns and achieve the spatial pooling goal of
             using all the columns. Before inhibition, if a column’s overlap duty
-            cycle is below its minimum acceptable value calculated dynamically
+            cycle is below its minimum acceptable value (calculated dynamically
             as a function of minPctOverlapDutyCycle and the overlap duty cycle
             of neighboring columns), then all its permanence values are boosted
             by the increment amount. A subpar duty cycle implies either a
