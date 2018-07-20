@@ -284,9 +284,9 @@ const SpDetailsPage = (props, {config}) => {
           <pre>{`
 for c in columns
     overlap(c) = 0
-        for s in connectedSynapses(c)
-            overlap(c) = overlap(c) + input(t, s.sourceInput)
-        overlap(c) = overlap(c) * boost(c)
+    for s in connectedSynapses(c)
+        overlap(c) = overlap(c) + input(t, s.sourceInput)
+    overlap(c) = overlap(c) * boost(c)
           `}</pre>
 
           <SubTitle level={3}>
