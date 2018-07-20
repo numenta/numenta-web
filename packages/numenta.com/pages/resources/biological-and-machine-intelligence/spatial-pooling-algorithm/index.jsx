@@ -455,7 +455,7 @@ inhibitionRadius = averageReceptiveFieldSize()
             Boosting can be helpful in driving columns to compete for
             activation. Boosting is monitored by both the activity and overlap
             duty cycles
-            activeDutyCycle(c) and overlapDutyCycle(c), respectively). Following
+            (activeDutyCycle(c) and overlapDutyCycle(c), respectively). Following
             inhibition, if a column’s active duty cycle falls below the active
             duty cycles of neighboring columns, then its internal boost factor
             (boost(c)) will increase above one. If a column's active duty cycle
