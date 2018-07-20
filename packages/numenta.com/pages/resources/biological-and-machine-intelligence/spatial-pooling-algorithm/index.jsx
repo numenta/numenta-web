@@ -288,7 +288,9 @@ for c in columns
         overlap(c) = overlap(c) + input(t, s.sourceInput)
     overlap(c) = overlap(c) * boost(c)
           `}</pre>
-
+          
+          where input(t, s.sourceInput) is 1 if the s.sourceInput input (at time t) is on.
+          
           <SubTitle level={3}>
             <Strong>
               Phase 3 – Compute the winning columns after inhibition
