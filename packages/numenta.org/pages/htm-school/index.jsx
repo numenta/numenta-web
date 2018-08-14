@@ -31,6 +31,8 @@ import ImageEpisode9 from './images/ep9.png'
 import ImageEpisode10 from './images/ep10.png'
 import ImageEpisode11 from './images/ep11.png'
 import ImageEpisode12 from './images/ep12.png'
+import ImageEpisode13 from './images/ep13.png'
+import ImageEpisode14 from './images/ep14.jpg'
 import ImageMain from './images/image.png'
 import styles from './index.css'
 
@@ -654,7 +656,68 @@ const SchoolPage = (props, {config}) => {
           </ListItem>
         </List>
 
+        <Anchor name="cortical-circuitry" />
+        <SubTitle>
+          Cortical Circuitry
+        </SubTitle>
+
+        <div className={styles.columns}>
+          <div className={styles.aside}>
+            <Video
+              border={true}
+              image={ImageEpisode13}
+              respond="mw"
+              shadow={true}
+              title="Cortical Circuitry"
+              type="youtube"
+              videoId="mPFx9yuV1Os"
+            />
+          </div>
+          <div className={styles.content}>
+            <Paragraph>
+              In this episode, we'll walk through concepts introduced in A
+              <TextLink
+                to={links.out.papers.columns}
+              >
+                A Theory of How Columns in the Neocortex Enable Learning the
+                Structure of the World.
+              </TextLink>.
+              We talk about larger structures in the cortex that contain
+              neurons, like layers and columns.
+            </Paragraph>
+          </div>
+        </div>
+
+        <Anchor name="grid-cells" />
+        <SubTitle>
+          Grid Cells
+        </SubTitle>
+
+        <div className={styles.columns}>
+          <div className={styles.aside}>
+            <Video
+              border={true}
+              image={ImageEpisode14}
+              respond="mw"
+              shadow={true}
+              title="Grid Cells"
+              type="youtube"
+              videoId="mP7neeymcUY"
+            />
+          </div>
+          <div className={styles.content}>
+            <Paragraph>
+              In this video, we explore the discovery of grid cells. We go over
+              the discovery of these and other location cells in the brain, how
+              they project onto space to represent locations, and how they can
+              be interpreted as SDRs within HTM systems.
+            </Paragraph>
+          </div>
+        </div>
+
+
       </Section>
+
     </article>
   )
 }
