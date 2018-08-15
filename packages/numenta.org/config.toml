@@ -17,6 +17,7 @@ company = 'Numenta'
 [links]
   [links.out]  # external links
     papers = 'https://numenta.com/resources/papers/'
+    columnsPaper = 'https://numenta.com/neuroscience-research/research-publications/papers/a-theory-of-how-columns-in-the-neocortex-enable-learning-the-structure-of-the-world/'
     bami = 'https://numenta.com/resources/biological-and-machine-intelligence/'
     com = 'https://numenta.com/'
     cortical = 'https://cortical.io/'

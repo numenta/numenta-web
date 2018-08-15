@@ -677,7 +677,7 @@ const SchoolPage = (props, {config}) => {
             <Paragraph>
               In this episode, we'll walk through concepts introduced in A
               <TextLink
-                to={links.out.papers.columns}
+                to={links.out.columnsPaper}
               >
                 A Theory of How Columns in the Neocortex Enable Learning the
                 Structure of the World.
