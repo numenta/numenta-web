@@ -4,6 +4,8 @@
  * Copyright © 2005—2017 Numenta <http://numenta.com>
  */
 
+/* stylelint-disable selector-type-no-unknown */
+
 /* dropcap - sync with component/Paragraph/index.css */
 ._dropcap > div > div > p:first-of-type::first-letter {
   background-color: #fff;
@@ -24,7 +26,23 @@
   }
 }
 
-
+dropcap {
+  background-color: #fff;
+  color: #1aa0db;
+  float: left;
+  font-weight: 500;
+  line-height: 0.85;
+  margin: 0 0 -1rem 0;
+  /* -s (<= mobile) */
+  font-size: 6.8rem;
+  padding: 0.5rem 0.3rem 0.3rem 0;
+}
+@media screen and (min-width: 48em) {
+  dropcap {
+    font-size: 5.4rem;
+    padding: 0.4rem 0.3rem 0.3rem 0;
+  }
+}
 .md {
   composes: center from 'tachyons';
   composes: lh-copy from 'tachyons';
