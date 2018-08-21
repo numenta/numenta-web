@@ -1,6 +1,6 @@
 ---
 author: Subutai Ahmad
-description: "How an overlooked part of the brain may be essential to understanding intelligence. Admit it, you’ve been ignoring the thalamus, haven’t you? Turns out you’re not alone. Even many neuroscientists have a very simplistic notion of thalamic function and tend to ignore it. As a result, although there has been significant computational work on various aspects of the neocortex, there are almost no computational models of the thalamus. Fortunately, that may be changing."
+description: "The thalamus is an often overlooked part of the brain, but over the last few decades, scientists have discovered a wealth of information about it. This blog post will cover how the thalamus works and the surprising but critical role it plays in intelligent function."
 date: 2018/08/17
 hideImage: true
 org: VP of Research
@@ -12,7 +12,7 @@ type: post
 dropcap: false
 ---
 
-Admit it, you’ve been ignoring the thalamus, haven’t you? Turns out you’re not alone. Even many neuroscientists have a very simplistic notion of thalamic function and tend to ignore it. As a result, although there has been significant computational work on various aspects of the neocortex, there are almost no computational models of the thalamus. Fortunately, that may be changing. Over the last few decades scientists have discovered a wealth of information about this oft-neglected region of the brain. In this post I’ll give you an overview of the thalamus and these findings. The details are fascinating, and have been impacting [Numenta’s theories of cortical function](/neuroscience-research/). Perhaps most important, I’m going to try and convince you that the thalamus is not only an integral part of the neocortex, but of intelligent function in general.
+<dropcap>A</dropcap>dmit it, you’ve been ignoring the thalamus, haven’t you? Turns out you’re not alone. Even many neuroscientists have a very simplistic notion of thalamic function and tend to ignore it. As a result, although there has been significant computational work on various aspects of the neocortex, there are almost no computational models of the thalamus. Fortunately, that may be changing. Over the last few decades scientists have discovered a wealth of information about this oft-neglected region of the brain. In this post I’ll give you an overview of the thalamus and these findings. The details are fascinating, and have been impacting [Numenta’s theories of cortical function](/neuroscience-research/). Perhaps most important, I’m going to try and convince you that the thalamus is not only an integral part of the neocortex, but of intelligent function in general.
 
 ### <u>What is the thalamus?</u>
 <img src="../images/thalamus.gif" align="right" style="border:none; box-shadow:none">
