@@ -33,6 +33,7 @@ import ImageEpisode11 from './images/ep11.png'
 import ImageEpisode12 from './images/ep12.png'
 import ImageEpisode13 from './images/ep13.png'
 import ImageEpisode14 from './images/ep14.jpg'
+import ImageEpisode15 from './images/ep15.png'
 import ImageMain from './images/image.png'
 import styles from './index.css'
 
@@ -711,6 +712,33 @@ const SchoolPage = (props, {config}) => {
               the discovery of these and other location cells in the brain, how
               they project onto space to represent locations, and how they can
               be interpreted as SDRs within HTM systems.
+            </Paragraph>
+          </div>
+        </div>
+
+        <Anchor name="framework-intelligence" />
+        <SubTitle>
+          A Framework for Intelligence
+        </SubTitle>
+
+        <div className={styles.columns}>
+          <div className={styles.aside}>
+            <Video
+              border={true}
+              image={ImageEpisode15}
+              respond="mw"
+              shadow={true}
+              title="A Framework for Intelligence"
+              type="youtube"
+              videoId="LNRZD9YJCdI"
+            />
+          </div>
+          <div className={styles.content}>
+            <Paragraph>
+              Get ready for a breakthrough new framework for intelligence
+              based on grid cells in the neocortex! We understand more
+              about how your brain models reality than ever before. Watch
+              as we explain how your brain represents objects in space.
             </Paragraph>
           </div>
         </div>
