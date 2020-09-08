@@ -16,7 +16,7 @@ const JsonWrapper = ({route}, {config}) => {
 
   return (
     <div className="json">
-      <Helmet tilte={data.title}>
+      <Helmet title={data.title}>
         {getMetadataTags(data, config.baseUrl)}
       </Helmet>
       <h1>
