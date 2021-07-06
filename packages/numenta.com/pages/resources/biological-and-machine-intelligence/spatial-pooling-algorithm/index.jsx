@@ -284,11 +284,13 @@ const SpDetailsPage = (props, {config}) => {
           <pre>{`
 for c in columns
     overlap(c) = 0
-        for s in connectedSynapses(c)
-            overlap(c) = overlap(c) + input(t, s.sourceInput)
-        overlap(c) = overlap(c) * boost(c)
+    for s in connectedSynapses(c)
+        overlap(c) = overlap(c) + input(t, s.sourceInput)
+    overlap(c) = overlap(c) * boost(c)
           `}</pre>
-
+          
+          where input(t, s.sourceInput) is 1 if the s.sourceInput input (at time t) is on.
+          
           <SubTitle level={3}>
             <Strong>
               Phase 3 – Compute the winning columns after inhibition
@@ -455,15 +457,15 @@ inhibitionRadius = averageReceptiveFieldSize()
             Boosting can be helpful in driving columns to compete for
             activation. Boosting is monitored by both the activity and overlap
             duty cycles
-            activeDutyCycle(c) and overlapDutyCycle(c), respectively). Following
+            (activeDutyCycle(c) and overlapDutyCycle(c), respectively). Following
             inhibition, if a column’s active duty cycle falls below the active
             duty cycles of neighboring columns, then its internal boost factor
             (boost(c)) will increase above one. If a column's active duty cycle
             arises above the active duty cycles of neighboring columns, its
-            boost factor will decrease below one This helps drive the
+            boost factor will decrease below one. This helps drive the
             competition amongst columns and achieve the spatial pooling goal of
             using all the columns. Before inhibition, if a column’s overlap duty
-            cycle is below its minimum acceptable value calculated dynamically
+            cycle is below its minimum acceptable value (calculated dynamically
             as a function of minPctOverlapDutyCycle and the overlap duty cycle
             of neighboring columns), then all its permanence values are boosted
             by the increment amount. A subpar duty cycle implies either a
